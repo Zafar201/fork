@@ -1,0 +1,398 @@
+.changePlanBox
+{
+  max-width: 1548px;
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 300px;
+  position: relative;
+}
+.changePlanBox > div
+{
+  padding-left: 80px;
+  margin-top: 70px;
+}
+.changePlanBox::after
+{
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/signupBG.svg") !important;
+  width:1756px;
+  height:1210px;
+  left: -10%;
+  top: -20%;
+  opacity: .5;
+  z-index: -1;
+  
+}
+.backArrow {
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 500!important;
+  font-size: 16px!important;
+  line-height: 21px!important;
+  text-align: left;
+  letter-spacing: 0.1px;
+  margin-top: 70px!important;
+  color: #ffffff;
+}
+.backArrow img {
+  position: relative;
+  top: 1px!important;
+  margin-right: 5px!important;
+  width: 13px;
+}
+.changePlanBox h1
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.changePlanBox h3
+{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.changePlanBox hr
+{
+  border: 1px solid rgba(255, 255, 255, 0.26) !important;
+  width: 329px;
+  margin: 0px!important;
+}
+.YearSelection 
+{
+  margin-bottom: 40px;
+}
+.YearSelection label
+{
+  margin-right: 5px;
+  position: relative;
+}
+.YearSelection label:last-child::after
+{
+  display: none;
+}
+.YearSelection label::after
+{
+  width: 85px;
+  height: 30px;
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0px;
+  z-index: 9999;
+}
+.YearSelection label > span[class*="label"]
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #A9A9A9;
+}
+.YearSelection label > span[class*="checked"] + span[class*="label"]
+{
+  color: #fff;
+}
+.YearSelection div > span[class*="label"]
+{
+  color: #FFD705;
+  letter-spacing: 0.1px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  height: 19px;
+  padding-right: 8px;
+  padding-left: 8px;
+  line-height: 20px;
+  border: 0.5px solid #FFD705;
+  filter: drop-shadow(0px 0px 196.56px rgba(255, 160, 5, 0.3)) drop-shadow(0px 0px 112.32px rgba(255, 160, 5, 0.3)) drop-shadow(0px 0px 65.52px rgba(255, 160, 5, 0.3)) drop-shadow(0px 0px 32.76px rgba(255, 160, 5, 0.3)) drop-shadow(0px 0px 9.36px rgba(255, 160, 5, 0.3)) drop-shadow(0px 0px 4.68px rgba(255, 160, 5, 0.3));
+  border-radius: 38px;
+  position: relative;
+  top: 0px;
+  text-shadow: 0px 0px 166.32px rgba(255, 160, 5, 0.3), 0px 0px 95.04px rgba(255, 160, 5, 0.3), 0px 0px 55.44px rgba(255, 160, 5, 0.3), 0px 0px 27.72px rgba(255, 160, 5, 0.3), 0px 0px 7.92px rgba(255, 160, 5, 0.3), 0px 0px 3.96px rgba(255, 160, 5, 0.3);
+}
+.YearSelection div[class*="colorDefault"]
+{
+  margin-right: 25px;
+}
+.YearSelection label span svg
+{
+  display: none;
+}
+.YearSelection label span
+{
+  padding: 0px;
+}
+.YearSelection label span >input
+{
+  width: 15px;
+  margin-left: 10px;
+}
+.YearSelection label span input + span
+{
+  position: relative;
+  width: 14px;
+  height: 14px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 7px;
+}
+.YearSelection label span input:checked + span::after
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width:14px;
+  height: 14px;
+  content:"";
+  background-image: url("../../assets/images/planRadio.svg") !important;
+  background-repeat: no-repeat;
+}
+.YearSelection label span input + span::after
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width:14px;
+  height: 14px;
+  content:"";
+  background-image: url("../../assets/images/planRadios.svg") !important;
+  background-repeat: no-repeat;
+}
+.plans
+{
+  display: flex;
+}
+.plans div
+{
+  background: #DADADA;
+  border-radius: 10px;
+  width: 175px;
+  padding: 25px;
+  padding-top: 20px;
+  margin-right: 35px;
+  margin-top: 15px;
+  height: 160px
+}
+.plans div.selected
+{
+  background: #FFFFFF;
+  border: 3px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  width: 175px;
+  padding: 17px 22px;
+  height: 165px
+}
+.plans div.selected button, .plans div.selected button:active
+{
+  background: #E4E4E7;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  color: #8E8E98;
+}
+.plans div h4
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.plans div h2
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.plans div p
+{
+  margin-top: 0px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-bottom: 18px;
+}
+.plans div p span
+{
+  font-weight: 700;
+}
+.plans div p br
+{
+  display: none;
+}
+.plans div button
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #3E4151;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 109px;
+  height: 35px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 4px;
+  margin-top: 20px;
+}
+.changePlanBox .yBtn
+{
+  display: block;
+  max-width: 329px;
+  min-width: auto !important;
+  width: 100%;
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 600!important;
+  font-size: 22px!important;
+  line-height: 23px;
+  font-family: 'Chakra Petch' !important;
+  height: 64px;
+  margin-top: 65px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+@media screen and (max-width:768px)
+{
+  .changePlanBox .backArrow
+  {
+    margin-top: 50px !important;
+    font-size: 16px !important;
+    font-weight: 500;
+    padding-left: 0px !important;
+  }
+  .changePlanBox > div
+  {
+    padding-left:0px;
+  }
+  .changePlanBox
+  {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-bottom: 100px;
+  }
+  .changePlanBox h1{
+    margin-top: 40px;
+  }
+  .changePlanBox h3
+  {
+    margin-top: 35px;
+  }
+  .plans
+  {
+    display: inline-block;
+  }
+  .plans div
+  {
+    width: calc(50% - 62px);
+    display: inline-block;
+    text-align: center;
+    margin-right: 16px;
+    padding: 20px;
+    height: 167px;
+  }
+  .plans div.selected
+  {
+    width: calc(50% - 62px);
+    display: inline-block;
+    padding: 20px 17px;
+    height: 161px;
+  }
+  .plans div:nth-child(even)
+  {
+    margin-right: 0px;
+  }
+  .plans div p
+  {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .plans div p br
+  {
+    display: none;
+  }
+  .plans div h2
+  {
+    color: #AAAAAA;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .changePlanBox .yBtn
+  {
+    width: calc(100% - 15px);
+    max-width:calc(100% - 30px);
+    margin-top: 40px;
+  }
+  .YearSelection div > span[class*="label"]
+  {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+  .YearSelection label:first-child + div
+  {
+    margin-right: 45px;
+  }
+  .YearSelection label::after {
+    width: 72px;
+    height: 30px;
+    content: "";
+    position: absolute;
+    left: 105%;
+    top: 0px;
+    z-index: 9999;
+  }
+}
+@media screen and (max-width:1200px)
+{
+  .plans div {
+    padding: 15px;
+    margin-right: 25px;
+    margin-top: 15px;
+    height: 180px;
+  }
+  .plans div.selected
+  {
+    height: 180px;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,310 @@
+.CommunityProfile, .CommunityProfileFinish
+{
+  background:#FFFFFF ;
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  padding: 55px;
+  max-width: 488px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 110px;
+  margin-bottom: 200px;
+}
+.CommunityProfileFinish
+{
+  margin-top: 250px;
+  margin-bottom: 390px;
+}
+#root
+{
+  overflow: hidden;
+  min-height: 300px;
+  /* position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top:0px;
+  overflow-y: auto; */
+}
+.CommunityProfile::after
+{
+  content: "";
+  position: absolute;
+  background-image: url("../../../assets/images/signupBG.svg") !important;
+  width:1756px;
+  height:1210px;
+  left: -99%;
+  top: -32%;
+  opacity: .7;
+  z-index: -1;
+  background-repeat: no-repeat;
+  
+}
+.CommunityProfile p span
+{
+  color: #ff4f4f;
+}
+.CommunityProfileFinish::after
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../../assets/images/signupBG.svg") !important; */
+  width: 719.7px;
+  height: 840.05px;
+  left: 22%;
+  top: -120%;
+  opacity: .7;
+  z-index: -1;
+  background: rgba(254, 209, 6, 0.27);
+  opacity: 0.4;
+  filter: blur(150px);
+  transform: matrix(1, -0.06, 0.08, 1, 0, 0);
+  
+}
+.CommunityProfileFinish::before
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../../assets/images/signupBG.svg") !important; */
+  width: 556.08px;
+  height: 873.76px;
+  left: -51%;
+  top: -28%;
+  opacity: .7;
+  z-index: -1;
+  background: rgba(0, 255, 255, 0.3);
+  opacity: 0.3;
+  filter: blur(175px);
+  transform: matrix(-0.19, 0.98, 0.99, 0.13, 0, 0);
+  
+}
+.CommunityProfile h3, .CommunityProfileFinish h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+
+color: #3E3E4E;
+}
+.CommunityProfileFinish h6
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #3E3E4E;
+}
+.CommunityProfile p
+{
+  color: #3E3E4E;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Chakra Petch';
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+}
+.CommunityProfile p + div
+{
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.CommunityProfile p + div div[class*="Avatar"]
+{
+  width: 68px;
+  height: 68px;
+  background: linear-gradient(180deg, #E7E7E7 0%, rgba(231, 231, 231, 0) 100%);
+  border: 2px solid #3E3E4E;
+  border-radius: 50%;
+}
+.CommunityProfile p + div div[class*="Avatar"] img
+{
+  object-position: center center;
+}
+.CommunityProfile p + div label input
+{
+  opacity: 0;
+}
+.CommunityProfile p + div label
+{
+  color: #3E4151;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: 'Chakra Petch';
+  background: #D9D9D9 !important;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  box-shadow: none;
+  min-width: 111px;
+  height: 35px;
+  width: 111px;
+  display: inline-block;
+  padding: 0px;
+  text-transform: none;
+  text-align: center;
+  margin-left: 20px;
+  box-shadow: none!important;
+}
+.CommunityProfile h6
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  margin-bottom:  15px;
+  margin-top: 10px;
+  color: rgba(62, 62, 78, 0.59);
+  display: inline-block;
+}
+.CommunityProfile h6 + hr + p
+{
+  margin-top:40px;
+}
+.CommunityProfile h5
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: #3E3E4E;
+}
+.CommunityProfile > div, .CommunityProfileFinish > div
+{
+  box-shadow: none;
+  min-width: 100%;
+  overflow: visible;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  padding: 0px !important;
+}
+.CommunityProfile  form > div, .CommunityProfile  form > div > div
+{
+  box-shadow: none;
+  min-width: 100%;
+  overflow: visible;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  padding: 0px !important;
+}
+.CommunityProfile > div input
+{
+  background: #FFFFFF;
+  border: 2px solid #EEEEEE;
+  /* border: 2px solid #000; */
+  border-radius: 3px;
+  display: block;
+  width: calc(100% - 45px);
+  height: 61px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0px;
+  padding-left: 42px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
+  color: #C1C1C1;
+}
+.CommunityProfile > div input:focus
+{
+
+}
+.CommunityProfile > div input + fieldset
+{
+  display: none;
+}
+.error {
+  margin-top: 0px!important;
+  margin-bottom: -20px!important;
+  font-style: italic!important;
+  color: #FF0000!important;
+  font-size: 14px!important;
+}
+.CommunityProfile .yBtn
+{
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 700!important;
+  font-size: 22px!important;
+  line-height: 23px;
+  font-family: 'Chakra Petch' !important;
+  height: 55px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.CommunityProfileFinish .yBtn
+{
+  margin-bottom: 0px;
+  font-family: 'Chakra Petch'!important;
+  font-size: 22px!important;
+  font-weight: 600!important;
+}
+@media screen and (max-width:768px)
+{
+  .CommunityProfile, .CommunityProfileFinish
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 65px;
+    margin-bottom: 80px;
+  }
+  .CommunityProfileFinish h6
+  {
+    margin-top: 30px;
+  }
+  .CommunityProfileFinish
+  {
+    margin-bottom: 450px !important;
+  }
+  .CommunityProfile h4, .CommunityProfile h3, .CommunityProfileFinish h3 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 10px;
+  }
+  .CommunityProfile > div input
+  {
+    width: calc(100% - 25px);
+    padding-left: 22px;
+  }
+  .CommunityProfileFinish h6 br
+  {
+    display: none;
+  }
+  .CommunityProfile:after
+  {
+    top:-88%;
+  }
+}

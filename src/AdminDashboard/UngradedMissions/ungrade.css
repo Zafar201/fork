@@ -1,0 +1,169 @@
+.ungrade
+{
+  max-width: 1548px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 150px;
+  margin-bottom: 200px;
+}
+.ungrade > p
+{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 28px;
+  font-family: 'Chakra Petch';
+  color: #F8F8F8;
+  margin-bottom: 25px;
+}
+.ungrade > p span
+{
+  color: #8D8D8D;
+  margin-right: 15px;
+}
+.UngradeTable 
+{
+  position: relative;
+  background: #1E1E23;
+}
+.UngradeTable::after
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../assets/images/ungradeBG.svg") !important; */
+  width:620px;
+  height: 370px;
+  left: 37%;
+  top: -60%;
+  opacity: .4;
+  z-index: -1;
+  background: rgba(254, 209, 6, 0.25);
+  opacity: 0.15;
+  filter: blur(100px);
+   -webkit-filter: blur(100px);
+  transform: rotate(-3.84deg);
+  
+}
+.UngradeTable::before
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../assets/images/ungradeBG.svg") !important; */
+  width:388px;
+  height: 257px;
+  left: 0%;
+  top: -23%;
+  z-index: -1;
+  background: rgba(254, 209, 6, 0.3);
+  opacity: 0.3;
+  filter: blur(150px); 
+  -webkit-filter: blur(150px);
+  transform: rotate(10.63deg);
+  
+}
+.UngradeTable div table
+{
+  width: 100%;
+}
+.UngradeTable div table thead tr
+{
+  background: #3E3E4E;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+.UngradeTable div table thead tr th
+{
+  color: #FFD705;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+.UngradeTable div table tbody tr td:nth-child(2) img
+{
+  margin-left:-25px;
+}
+.UngradeTable div table tbody tr td
+{
+  border-bottom: 1px solid #39393D;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.UngradeTable div table tbody tr
+{
+  background: #1E1E23;
+}
+.UngradeTable div table tbody tr td:first-child > div, .UngradeTable div table tbody tr td:last-child > div
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #F8F8F8;
+  min-height: auto;
+}
+.UngradeTable div table tbody tr td:first-child > div button, .UngradeTable div table tbody tr td:first-child > div button div
+{
+  padding: 0px;
+  width: 25px;
+  height: 25px;
+}
+.UngradeTable div table tbody tr td:last-child > div button, .UngradeTable div table tbody tr td:last-child > div button div
+{
+  padding: 0px;
+  width: 25px;
+  height: 25px;
+}
+.UngradeTable div table tbody tr td:first-child > div button, .UngradeTable div table tbody tr td:last-child > div button
+{
+  margin-right: 7px;
+}
+.pending-grade-btns .pending
+{
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 88px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1A1A20;
+  border: none;
+  margin-right: 7px;
+  font-family: 'Chakra Petch';
+}
+.pending-grade-btns .grade
+{
+  background: #FFD705;
+  border-radius: 5px;
+  width: 88px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1A1A20;
+  border: none;
+  margin-right: 7px;
+  font-family: 'Chakra Petch';
+}
+.noresult
+{
+  color: #ADADAD;
+  padding-left:100px;
+  line-height:35px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Chakra Petch';
+}
+@media screen and (max-width:768px)
+{
+  .pending-grade-btns .pending
+  {
+    margin-bottom:10px;
+  }
+}

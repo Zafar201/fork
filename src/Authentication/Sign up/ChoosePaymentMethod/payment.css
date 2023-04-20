@@ -1,0 +1,297 @@
+.paymentBox
+{
+  background: #fff;
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  padding: 55px;
+  max-width: 484px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+}
+.paymentBox::after
+{
+  content: "";
+  position: absolute;
+  background-image: url("../../../assets/images/signupBG.svg") !important;
+  width:1756px;
+  height:1210px;
+  left: -70%;
+  top: -70%;
+  opacity: .8;
+  z-index: -1;
+  
+}
+hr
+{
+  margin-top: 20px !important;
+  margin-bottom: 30px!important;
+  border: 1px solid #D0D0D0 !important;
+}
+.paymentBox h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.paymentBox h3 + p
+{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #838383;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.paymentBox div
+{
+  box-shadow: none;
+  min-width: 100%;
+  overflow: visible;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  padding: 0px;
+}
+.paymentBox div >label
+{
+  color: #A8A8A8 !important;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Chakra Petch';
+  transform: translate(14px,-9px);
+  background: #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 8px;
+}
+.paymentBox form > div input
+{
+  background: #FFFFFF;
+  border: 2px solid #A8A8A8;
+  border-radius: 3px;
+  /* border: 2px solid #000; */
+  display: block;
+  width: calc(100% - 33px);
+  height: 61px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  padding: 0px;
+  padding-left: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  color: #A8A8A8;
+}
+.cardDetailsRow > div
+{
+  min-width: calc(50% + 3px) !important;
+  margin-right: 7px;
+} 
+.paymentBox form > div input[name="cardnumber"]
+{
+  background-image:url("../../../assets/images/card.svg") !important;
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 22px);
+  background-position-y: 16px;
+}
+.cardDetailsRow > div:first-child input
+{
+  background-image:url("../../../assets/images/cardCalender.svg") !important;
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 18px);
+  background-position-y: 16px;
+}
+.cardDetailsRow > div:last-child input
+{
+  background-image:url("../../../assets/images/ccv.svg") !important;
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 17px);
+  background-position-y: 16px;
+}
+.cardDetailsRow > div:last-child
+{
+  margin-right: 0px;
+}
+.cardDetailsRow div input
+{
+  width: calc(100% - 46px)!important;
+}
+.paymentBox form > div input::-moz-placeholder, .paymentBox form > div input::placeholder
+{
+  opacity: 1!important;
+  display: block!important;
+  visibility: visible!important;
+}
+.paymentBox form > div input + button
+{
+  position: absolute;
+  top: 23px;
+  right: 17px;
+  padding: 0px;
+  height: 18px;
+  width: auto;
+  min-width: auto;
+  margin: 0px;
+}
+.paymentBox form > div input +  button
+{
+  padding:0px;
+  margin: 0px;
+}
+.paymentBox form > div input[type="text"] + button
+{
+  top:24px;
+}
+.paymentBox form > div input + fieldset, .paymentBox form > div input + button + fieldset
+{
+  display: none;
+}
+.paymentBox .yBtn
+{
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 600 !important;
+  font-size: 22px;
+  line-height: 29px;
+  font-family: 'Chakra Petch' !important;
+  height: 55px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.agree label span svg
+{
+  opacity: 0;
+}
+.agree label > span[class*="Checkbox"]
+{
+  /* background-image: url("../../assets/images/check.svg") !important; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0px;
+}
+.agree label > span[class*="checked"]
+{
+  /* background-image: url("../../assets/images/checked.svg") !important; */
+}
+.agree label > span:last-child
+{
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Chakra Petch';
+  padding-left: 8px;
+}
+.agree
+{
+  display: flex !important; 
+  overflow: hidden!important;
+  margin-top: 25px !important;
+}
+.agree > label:first-child
+{
+  margin-left: -5px;
+  margin-right: 0px;
+}
+.agree > label:last-child
+{
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.agree >  label a
+{
+  text-decoration-line: underline;
+  text-decoration-color: #3E3E4E;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-family: 'Chakra Petch';
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.agree > div
+{
+  min-width: 50%;
+  display: inline-flex;
+}
+.agree > div:last-child
+{
+  justify-content: end;
+}
+.agree > div:last-child button
+{
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  text-decoration-color: #3E3E4E;
+}
+.signUpBox form + p
+{
+  font-family: 'Chakra Petch';
+  color: #3E3E4E;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+@media screen and (max-width:768px)
+{
+  .paymentBox
+  {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 100px;
+    margin-bottom: 160px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .paymentBox h3
+  {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 10px;
+  }
+  .paymentBox form > div input
+  {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .paymentBox h3 + p br
+  {
+    display: none;
+  }
+  .paymentBox h3 + p
+  {
+    font-weight: 700;
+    font-size: 14px;
+  }
+}

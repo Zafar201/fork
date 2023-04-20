@@ -1,0 +1,5782 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap");
+
+body {
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0px;
+    background: #0a101b;
+    color: #b6b6b6;
+}
+/* iOS redraw fix */
+
+button,a
+{
+    cursor: pointer;
+}
+
+#root header {
+    width: 100% !important;
+    background: #0f1520;
+    /* background: transparent; */
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: none!important; */
+    height: 80px;
+    padding-top: 20px;
+}
+#root .my-account-row + header {
+    margin-top: 20px;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+.sm-logo {
+    display: none;
+}
+header > div,
+.slider,
+.contentSection1 .xp,.AlphalandingPage,
+.MoreXp,
+.jackpotRaffle,
+.DiscardBot,
+.FAQ,
+.backArrow,
+.footer > div {
+    padding: 0px;
+    max-width: 1548px;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.backArrow {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 700!important;
+    font-size: 20px!important;
+    line-height: 26px;
+    text-align: left;
+    letter-spacing: 0.1px;
+    margin-top: 35px !important;
+    color: #ffffff;
+    margin-bottom: 0px !important;
+    position:relative;
+    z-index:9;
+}
+div[role="tooltip"] div[data-foo="bar"]
+{
+    padding: 10px;
+    background: #0A141F;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 153px;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+div[role="tooltip"] div[data-foo="bar"] span::before
+{
+    box-shadow: 1px 1px 1px #fff;
+}
+.backArrow span
+{
+    cursor: pointer;    
+}
+.backArrow img {
+    position: relative;
+    top: 3px!important;
+    margin-right: 15px!important;
+    width:auto!important;
+}
+nav.brand {
+    float: left;
+    position: relative;
+    top: -10px;
+}
+.navBtns {
+    position: relative;
+}
+nav.brand img {
+    width: 203px;
+    cursor: pointer;
+}
+nav.brand::after {
+    position: absolute;
+    width: 292.39px;
+    height: 214.12px;
+    left: 0px;
+    top: -142.44px;
+    content: "";
+    background: rgba(254, 209, 6, 0.5);
+    opacity: 0.35;
+    filter: blur(150px);
+    transform: rotate(-3.84deg);
+    z-index: 0;
+    cursor: pointer;
+}
+.navBtns::before {
+    position: absolute;
+    width: 227.86px;
+    height: 226.72px;
+    right: 0px;
+    top: -142.44px;
+    content: "";
+    background: rgba(254, 209, 6, 0.6);
+    opacity: 0.2;
+    filter: blur(150px);
+    transform: rotate(-3.84deg);
+    z-index: -1;
+}
+.navBtns {
+    float: right;
+}
+.navBtns a {
+    margin-right: 30px;
+    position: relative;
+    top: 3px;
+}
+.navBtns a:hover img
+{
+    filter: invert(59%) sepia(99%) saturate(3474%) hue-rotate(179deg) brightness(98%) contrast(93%);
+}
+.navBtns a:first-child:hover img
+{
+    filter: invert(56%) sepia(78%) saturate(6598%) hue-rotate(225deg) brightness(100%) contrast(90%);
+}
+.navBtns a:first-child img
+{
+    width:21px;
+    height: 16px;
+}
+.navBtns a:last-child img
+{
+    width:19px;
+    height: 15px;
+}
+header > div ul {
+    float: left;
+    margin-left: 44px;
+    margin-top: 10px;
+}
+header > div ul li {
+    display: inline-block;
+    margin-left: 44px;
+    margin-right: 44px;
+    position: relative;
+}
+header > div ul li.selected a {
+    color: #fff;
+}
+header > div ul li.selected::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    bottom: -25px;
+    background: #fff;
+    height: 4px;
+    border-radius: 3px 3px 0px 0px;
+}
+header > div ul li a {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #b6b6b6;
+    text-decoration: none;
+}
+header > div ul li a:hover
+{
+    color:#fff;
+}
+.menuPop div[data-testid="sentinelStart"] + div li:hover {
+    background-color: transparent !important;
+}
+.MyactBtn
+{
+    background: #3E4151;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 17.9432px rgba(62, 65, 81, 0.2), 0px 0px 10.2533px rgba(62, 65, 81, 0.2), 0px 0px 5.98106px rgba(62, 65, 81, 0.2), 0px 0px 2.99053px rgba(62, 65, 81, 0.2), 0px 0px 0.854437px rgba(62, 65, 81, 0.2), 0px 0px 0.427219px rgba(62, 65, 81, 0.2);
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    height: 45px;
+    width: 141px;
+    cursor: pointer;
+    font-family: "Chakra Petch";
+    transition: all .25s;
+}
+.SettingBtn
+{
+    background: #1B222E;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 17.9432px rgba(62, 65, 81, 0.2), 0px 0px 10.2533px rgba(62, 65, 81, 0.2), 0px 0px 5.98106px rgba(62, 65, 81, 0.2), 0px 0px 2.99053px rgba(62, 65, 81, 0.2), 0px 0px 0.854437px rgba(62, 65, 81, 0.2), 0px 0px 0.427219px rgba(62, 65, 81, 0.2);
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    height: 45px;
+    width: 141px;
+    cursor: pointer;
+    font-family: "Chakra Petch";
+    transition: all .25s;
+    margin-right:15px;
+}
+.MyactBtn:hover
+{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), #3E4151;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 17.9432px rgba(62, 65, 81, 0.2), 0px 0px 10.2533px rgba(62, 65, 81, 0.2), 0px 0px 5.98106px rgba(62, 65, 81, 0.2), 0px 0px 2.99053px rgba(62, 65, 81, 0.2), 0px 0px 0.854437px rgba(62, 65, 81, 0.2), 0px 0px 0.427219px rgba(62, 65, 81, 0.2);
+}
+.whiteBtn {
+    background: #e2e2e2 !important;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 17.9432px rgba(226, 226, 226, 0.2),
+        0px 0px 10.2533px rgba(226, 226, 226, 0.2),
+        0px 0px 5.98106px rgba(226, 226, 226, 0.2),
+        0px 0px 2.99053px rgba(226, 226, 226, 0.2),
+        0px 0px 0.854437px rgba(226, 226, 226, 0.2),
+        0px 0px 0.427219px rgba(226, 226, 226, 0.2);
+    border-radius: 3px;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 21px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #393939 !important;
+    text-transform: none;
+    width: 115px;
+    height: 45px;
+    cursor: pointer;
+    font-family: "Chakra Petch";
+    transition: all .25s;
+}
+.darkBtn
+{
+    background: #3E4151;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 17.9432px rgba(62, 65, 81, 0.2), 0px 0px 10.2533px rgba(62, 65, 81, 0.2), 0px 0px 5.98106px rgba(62, 65, 81, 0.2), 0px 0px 2.99053px rgba(62, 65, 81, 0.2), 0px 0px 0.854437px rgba(62, 65, 81, 0.2), 0px 0px 0.427219px rgba(62, 65, 81, 0.2);
+    border-radius: 3px;
+    font-family: "Chakra Petch";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    height:29px;
+    min-width:141px;
+}
+.darkBtn:hover
+{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), #3E4151;
+}
+.whiteBtn:hover
+{
+    background: #9B9B9B!important;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 17.9432px rgba(226, 226, 226, 0.2), 0px 0px 10.2533px rgba(226, 226, 226, 0.2), 0px 0px 5.98106px rgba(226, 226, 226, 0.2), 0px 0px 2.99053px rgba(226, 226, 226, 0.2), 0px 0px 0.854437px rgba(226, 226, 226, 0.2), 0px 0px 0.427219px rgba(226, 226, 226, 0.2);
+    border-radius: 3px;
+}
+.slider.home .whiteBtn {
+    min-width: 171px;
+    background: #ffffff !important;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 17.9432px rgba(255, 150, 5, 0.4),
+        0px 0px 10.2533px rgba(255, 150, 5, 0.4),
+        0px 0px 5.98106px rgba(255, 150, 5, 0.4),
+        0px 0px 2.99053px rgba(255, 150, 5, 0.4),
+        0px 0px 0.854437px rgba(255, 150, 5, 0.4),
+        0px 0px 0.427219px rgba(255, 150, 5, 0.4);
+    border-radius: 3px;
+    font-family: "Chakra Petch";
+    margin-top: 15px;
+    white-space:nowrap;
+    padding-left:15px;
+    padding-right:15px;
+    width:auto;
+}
+.slider.home .whiteBtn:hover
+{
+    background: linear-gradient(0deg, rgba(255, 215, 5, 0.22), rgba(255, 215, 5, 0.22)), #FFFFFF!important;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 17.9432px rgba(255, 150, 5, 0.4), 0px 0px 10.2533px rgba(255, 150, 5, 0.4), 0px 0px 5.98106px rgba(255, 150, 5, 0.4), 0px 0px 2.99053px rgba(255, 150, 5, 0.4), 0px 0px 0.854437px rgba(255, 150, 5, 0.4), 0px 0px 0.427219px rgba(255, 150, 5, 0.4);
+    border-radius: 3px;
+}
+.slider.home > div {
+    width: 50%;
+    display: inline-block;
+}
+a.yellowBtn
+{
+    line-height:45px;
+    text-decoration: none;
+    top:0px;
+    margin-right: 0px;
+}
+.yellowBtn {
+    background: #ffd705 !important;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 17.9432px rgba(255, 150, 5, 0.4),
+        0px 0px 10.2533px rgba(255, 150, 5, 0.4),
+        0px 0px 5.98106px rgba(255, 150, 5, 0.4),
+        0px 0px 2.99053px rgba(255, 150, 5, 0.4),
+        0px 0px 0.854437px rgba(255, 150, 5, 0.4),
+        0px 0px 0.427219px rgba(255, 150, 5, 0.4);
+    border-radius: 3px;
+    width: 175px;
+    height: 45px;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 21px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #393939 !important;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: "Chakra Petch";
+    transition: all .25s;
+}
+.yellowBtn:hover
+{
+    background: linear-gradient(0deg, rgba(62, 62, 78, 0.35), rgba(62, 62, 78, 0.35)), #FFD705!important;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 17.9432px rgba(255, 150, 5, 0.4), 0px 0px 10.2533px rgba(255, 150, 5, 0.4), 0px 0px 5.98106px rgba(255, 150, 5, 0.4), 0px 0px 2.99053px rgba(255, 150, 5, 0.4), 0px 0px 0.854437px rgba(255, 150, 5, 0.4), 0px 0px 0.427219px rgba(255, 150, 5, 0.4);
+    border-radius: 3px;
+}
+.slider.demo
+{
+    margin-top: 130px;
+}
+.tableContent.demo > h4
+{
+    margin-top: 130px;
+}
+.slider.home > div:first-child {
+    position: relative;
+}
+.slider.home > div:first-child::after {
+    position: absolute;
+    content: "";
+    width: 473.9px;
+    height: 629.23px;
+    left: 1%;
+    top: 20%;
+    background-color: rgba(254, 209, 6, 0.3);
+    opacity: 0.28;
+    filter: blur(150px);
+    transform: rotate(-3.84deg);
+    z-index: -1;
+}
+.slider.home > div:first-child::before {
+    position: absolute;
+    content: "";
+    width: 254.96px;
+    height: 198.23px;
+    left: 10%;
+    top: 20%;
+    background: rgba(0, 255, 255, 0.4);
+    opacity: 0.4;
+    filter: blur(175px);
+    transform: matrix(-0.25, 0.97, 0.97, 0.25, 0, 0);
+}
+.timer {
+    text-align: center;
+}
+.timer {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    position: relative;
+}
+.tableContenthome {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    position: relative;
+    margin-top: 186px;
+}
+.tableContent::after,
+.tableContenthome::after {
+    background: rgba(0, 255, 255, 0.4);
+    opacity: 0.4;
+    filter: blur(150px);
+    transform: matrix(-0.25, 0.97, 0.97, 0.25, 0, 0);
+    width: 254.96px;
+    height: 198.23px;
+    position: absolute;
+    content: "";
+    left: 30%;
+    bottom: -6%;
+    z-index: -1;
+}
+.tableContenthome {
+    max-width: 613px;
+    border: 1px solid #ffffff;
+    background: #19191f;
+    border-radius: 3px;
+    box-shadow: 0px 0px 59.0471px rgba(120, 118, 127, 0.2),
+        0px 0px 33.7412px rgba(120, 118, 127, 0.2),
+        0px 0px 19.6824px rgba(120, 118, 127, 0.2),
+        0px 0px 9.84119px rgba(120, 118, 127, 0.2),
+        0px 0px 2.81177px rgba(120, 118, 127, 0.2),
+        0px 0px 1.40588px rgba(120, 118, 127, 0.2);
+}
+.tableContenthome table {
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.timer > div {
+    display: inline-block;
+    /* width: 33.33%; */
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+.timer > div:nth-child(1) {
+    max-width: 270px;
+    width: 100%;
+    white-space: nowrap;
+}
+.timer > div:nth-child(2) {
+    max-width: 421px;
+    width: 100%;
+    white-space: nowrap;
+    margin-right: 114px;
+    margin-left: 118px;
+}
+.timer > div:nth-child(3) {
+    max-width: 260px;
+    width: 100%;
+    white-space: nowrap;
+}
+.timer > div:nth-child(even)::after {
+    position: absolute;
+    content: "";
+    width: 620.73px;
+    height: 370.87px;
+    background: rgba(254, 209, 6, 0.25);
+    opacity: 0.15;
+    filter: blur(100px);
+    transform: rotate(-3.84deg);
+    left: -14px;
+    top: 28px;
+}
+.timeCounter,
+.timeCounter > div {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.timer > div h5 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.timer > div:first-child h5,
+.timer > div:last-child h5 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 5px;
+}
+.timer > div:first-child h2,
+.timer > div:last-child h2 {
+    color: #ffea88;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    margin-bottom: -80px;
+    text-shadow: 0px 0px 13.4633px rgba(255, 154, 6, 0.6),
+        0px 0px 7.69331px rgba(255, 154, 6, 0.6),
+        0px 0px 4.48777px rgba(255, 154, 6, 0.6),
+        0px 0px 2.24388px rgba(255, 154, 6, 0.6),
+        0px 0px 0.641109px rgba(255, 154, 6, 0.6),
+        0px 0px 0.320555px rgba(255, 154, 6, 0.6);
+}
+.timeCounter > div span {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 72px;
+    color: #ffea88;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 70px;
+    text-align: center;
+    text-shadow: 0px 0px 22.0224px rgba(255, 160, 5, 0.6),
+        0px 0px 12.5843px rgba(255, 160, 5, 0.6),
+        0px 0px 7.34081px rgba(255, 160, 5, 0.6),
+        0px 0px 3.67041px rgba(255, 160, 5, 0.6),
+        0px 0px 1.04869px rgba(255, 160, 5, 0.6),
+        0px 0px 0.524344px rgba(255, 160, 5, 0.6);
+}
+.timeCounter > div span:last-child::after {
+    display: none;
+}
+.timeCounter > div span::after {
+    position: absolute;
+    content: ":";
+    color: #fff;
+    font-size: 75px;
+    right: -26px;
+    top: -7px;
+    text-shadow: none;
+}
+.timeCounter > div span p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-shadow: none;
+    margin-top: 0px;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+}
+.timer button {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 17.9432px rgba(255, 150, 5, 0.4),
+        0px 0px 10.2533px rgba(255, 150, 5, 0.4),
+        0px 0px 5.98106px rgba(255, 150, 5, 0.4),
+        0px 0px 2.99053px rgba(255, 150, 5, 0.4),
+        0px 0px 0.854437px rgba(255, 150, 5, 0.4),
+        0px 0px 0.427219px rgba(255, 150, 5, 0.4);
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #393939;
+    width: 171px;
+    height: 45px;
+    cursor: pointer;
+}
+.slider {
+    padding-bottom: 260px !important;
+    margin-top: 50px;
+}
+/* .slider.alpha {
+    padding-bottom: 0px !important;
+    margin-top: 50px;
+} */
+.slider h3 {
+    margin-top: 190px;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #999999;
+    margin-bottom: 40px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase
+}
+.slider h3 span {
+    color: #c8c8c8;
+}
+.slider h1 {
+    margin-top: 0px;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 56px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase
+}
+.slider h2 {
+    margin-top: 0px;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 56px;
+    color: #ffd705;
+    margin-bottom: 40px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase
+}
+.slider h4 {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 20px;
+    letter-spacing: 0.1px;
+    color: #F8F8F8;
+}
+.slider h4.alpha {
+    margin-bottom: 0px;
+}
+.slider h5 {
+    margin-top: -10px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    letter-spacing: 0.1px;
+    color: #9A9DA1;
+    max-width: 650px;
+}
+.slider h4 span
+{
+   display: inline-block;
+   margin-left: 10px;   
+   color: rgba(248, 248, 248, 0.76);  
+   font-size: 18px;
+}
+.slider h4 a
+{
+    cursor: pointer;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(248, 248, 248, 0.47);
+    padding-left: 5px;
+}
+.slider.home h4 {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1px;
+    color: #9a9da1;
+}
+.announcementVideo, .announcementTable
+{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.announcementVideo::after {
+    /* background-image: url("../../assets/images/annoncementVideoBG.svg") !important; */
+    position: absolute;
+    content: "";
+    width: 620.73px;
+    height: 370.87px;
+    left: 30%;
+    top: 10%;
+    background: rgba(254, 209, 6, 0.25);
+    opacity: 0.3;
+    filter: blur(100px);
+    transform: rotate(-3.84deg);
+    z-index: -1;
+}
+.announcementVideo::before {
+    /* background-image: url("../../assets/images/annoncementVideoBG.svg") !important; */
+    position: absolute;
+    content: "";
+    width: 353.44px;
+    height: 300px;
+    left: 0;
+    top: 30%;
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.3;
+    filter: blur(150px);
+    transform: rotate(-3.84deg);
+    z-index: -1;
+}
+.announcementTable::after {
+    position: absolute;
+    content: "";
+    width: 944.29px;
+    height: 730.58px;
+    left: 30%;
+    top: 10%;
+    background: rgba(254, 209, 6, 0.25);
+    opacity: 0.3;
+    filter: blur(100px);
+    transform: rotate(-3.84deg);
+    z-index: -1;
+}
+.announcementTable::before {
+    /* background-image: url("../../assets/images/annoncementVideoBG.svg") !important; */
+    position: absolute;
+    content: "";
+    width: 353.44px;
+    height: 300px;
+    left: 0;
+    top: 30%;
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.3;
+    filter: blur(150px);
+    transform: rotate(-3.84deg);
+    z-index: -1;
+}
+.announcementTable .videoplay > div:last-child
+{
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 5px;
+    max-width: 764px;
+    width: 100%;
+    padding:27px 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+svg[data-testid="RefreshIcon"]
+{
+    cursor: pointer;
+}
+.previousWinners
+{
+    background: #1E2324;
+    border-radius: 5px;
+    max-width: 764px;
+    width: 100%;
+    padding:27px 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.previousWinners::after {
+    background-image: url("../../assets/images/annoncementTableBG.svg") !important;
+    opacity: 0.6;
+    width: 1920px;
+    height: 1444px;
+    position: absolute;
+    content: "";
+    left: -50%;
+    bottom: -90%;
+    z-index: -1;
+}
+.previousWinners::before
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    left:0px;
+    top:130px;
+    background: rgba(208, 208, 208, 0.17);     
+}
+.previousWinners tr:first-child td
+{
+    padding-top: 40px;
+}
+.previousWinners th
+{
+    border: none;
+    padding-left: 15px;
+    height: 75px;
+}
+.previousWinners th:first-child
+{
+    color: #FFEA88;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 22.0224px rgba(255, 160, 5, 0.6), 0px 0px 12.5843px rgba(255, 160, 5, 0.6), 0px 0px 7.34081px rgba(255, 160, 5, 0.6), 0px 0px 3.67041px rgba(255, 160, 5, 0.6), 0px 0px 1.04869px rgba(255, 160, 5, 0.6), 0px 0px 0.524344px rgba(255, 160, 5, 0.6);
+}
+.previousWinners th:last-child 
+{
+    text-align: right
+}
+.previousWinners th:last-child  button
+{
+    background: #3E3E4E;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    width: 261px;
+    height: 45px;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: none;
+}
+.previousWinners > div
+{
+    background: transparent;
+    box-shadow: none;
+}
+.announcementTable .videoplay > div table
+{
+    /* min-width:890px; */
+}
+.announcementTable .videoplay > div table td, .previousWinners > div table td
+{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 0.42);
+    border-bottom: 1px solid rgba(208, 208, 208, 0.17);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.announcementTable > div table td img, .previousWinners > div table td img
+{
+    margin-right: 15px;
+    position: relative;
+    top:5px;
+}
+.announcementTable .videoplay > div > p 
+{
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.announcementTable .videoplay > div > p button
+{
+    color: rgba(255, 255, 255, 0.63);
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    cursor: pointer;
+    text-decoration: underline;
+    background:transparent;
+    border:none;
+}
+.announcementTable > div table tr:last-child td,.previousWinners > div table tr:last-child td
+{
+    border: 0px;
+}
+.announcementTable > div table td:nth-child(2), .previousWinners > div table td:nth-child(2)
+{
+    color: #FFEA88;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: right;
+    padding-right: 45px;
+    text-shadow: 0px 0px 10.708px rgba(255, 160, 5, 0.4), 0px 0px 6.11888px rgba(255, 160, 5, 0.4), 0px 0px 3.56934px rgba(255, 160, 5, 0.4), 0px 0px 1.78467px rgba(255, 160, 5, 0.4), 0px 0px 0.509906px rgba(255, 160, 5, 0.4), 0px 0px 0.254953px rgba(255, 160, 5, 0.4);
+}
+.announcementTable > div table tr td:last-child, .previousWinners > div table tr td:last-child
+{
+    text-align: right;
+}
+.announcementTable > div table tr td:last-child a,.previousWinners > div table tr td:last-child a
+{
+    color: rgba(255, 255, 255, 0.29);
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.announcementTable > div table td b, .previousWinners > div table td b
+{
+    font-weight: 700;
+    color: #fff;
+}
+.announcementVideo video{
+    margin-top: 70px;
+    width: 600px;
+    height: 350px;
+    margin-bottom: 0px;
+}
+.announcementTable .timeCounter
+{
+    margin-bottom: 70px;
+}
+.announcementVideo .timeCounter p, .announcementTable .timeCounter p
+{
+    display: none;
+}
+.announcementVideo .timeCounter > div span, .announcementTable .timeCounter > div span
+{
+    line-height: 55px;
+}
+.MedalPopups > div[aria-hidden="true"]
+{
+    background: rgba(10, 16, 27, 0.72);
+    border: none;
+    box-shadow: none;
+    outline: none;
+    height: 100%;
+    width:100%;
+}
+.MedalPopups > div
+{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.MedalPopup
+{
+    max-width:625px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 15%;
+}
+.MedalPopup > button
+{
+    position: absolute;
+    right:22px;
+    top:20px;
+    padding: 0px;
+    margin: 0px;
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+}
+.MedalPopup > div h5
+{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    font-family: 'Chakra Petch';
+}
+.MedalPopup > div h5 img
+{
+    width: 62px;
+    height: 62px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.MedalPopup > div h5 span
+{
+    margin-right: 10px;
+}
+.MedalPopup div[class*="medallion"], .MedalPopup div[class*="ribbon"]
+{
+    padding: 47px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+}
+.MedalPopup > div hr
+{
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.MedalPopup > div p
+{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+.MedalPopup > div h6
+{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.MedalPopup div[class*="medallion1"], .MedalPopup div[class*="ribbon1"]
+{
+    background: linear-gradient(180deg, rgba(63, 98, 91, 0.61) 0%, rgba(27, 37, 35, 0.63) 100%);
+    box-shadow: 0px 0px 37.7772px rgba(255, 255, 255, 0.2), 0px 0px 21.587px rgba(255, 255, 255, 0.2), 0px 0px 12.5924px rgba(255, 255, 255, 0.2), 0px 0px 6.29619px rgba(255, 255, 255, 0.2), 0px 0px 1.79891px rgba(255, 255, 255, 0.2), 0px 0px 0.899456px rgba(255, 255, 255, 0.2);
+    background-color: rgb(177 186 184);
+}
+.MedalPopup div[class*="medallion2"], .MedalPopup div[class*="ribbon2"]
+{
+    background: linear-gradient(180deg, rgba(95, 66, 155, 0.58) 0%, rgba(37, 30, 52, 0.77) 100%);
+    box-shadow: 0px 0px 32.6257px rgba(255, 255, 255, 0.2), 0px 0px 18.6433px rgba(255, 255, 255, 0.2), 0px 0px 10.8752px rgba(255, 255, 255, 0.2), 0px 0px 5.43762px rgba(255, 255, 255, 0.2), 0px 0px 1.55361px rgba(255, 255, 255, 0.2), 0px 0px 0.776803px rgba(255, 255, 255, 0.2);
+    background-color: rgb(210 192 243);
+}
+.MedalPopup div[class*="medallion3"],.MedalPopup div[class*="ribbon3"]
+{
+    background: linear-gradient(180deg, rgba(65, 102, 122, 0.72) 0%, rgba(38, 47, 52, 0.63) 100%);
+    box-shadow: 0px 0px 25.2665px rgba(255, 255, 255, 0.2), 0px 0px 14.438px rgba(255, 255, 255, 0.2), 0px 0px 8.42218px rgba(255, 255, 255, 0.2), 0px 0px 4.21109px rgba(255, 255, 255, 0.2), 0px 0px 1.20317px rgba(255, 255, 255, 0.2), 0px 0px 0.601584px rgba(255, 255, 255, 0.2);
+    background-color: rgb(189 174 185);
+}
+.MedalPopup div[class*="medallion4"], .MedalPopup div[class*="ribbon4"]
+{
+    background: linear-gradient(180deg, rgba(153, 92, 155, 0.66) 0%, rgba(72, 45, 73, 0.65) 100%);
+    box-shadow: 0px 0px 39.3717px rgba(255, 255, 255, 0.2), 0px 0px 22.4981px rgba(255, 255, 255, 0.2), 0px 0px 13.1239px rgba(255, 255, 255, 0.2), 0px 0px 6.56194px rgba(255, 255, 255, 0.2), 0px 0px 1.87484px rgba(255, 255, 255, 0.2), 0px 0px 0.93742px rgba(255, 255, 255, 0.2);
+    background-color: rgb(189 174 185);
+}
+.MedalPopup div[class*="medallion5"], .MedalPopup div[class*="ribbon5"]
+{
+    background: linear-gradient(180deg, rgba(122, 19, 8, 0.7) 0%, rgba(104, 71, 70, 0.65) 100%);
+    box-shadow: 0px 0px 32.9937px rgba(255, 255, 255, 0.2), 0px 0px 18.8535px rgba(255, 255, 255, 0.2), 0px 0px 10.9979px rgba(255, 255, 255, 0.2), 0px 0px 5.49895px rgba(255, 255, 255, 0.2), 0px 0px 1.57113px rgba(255, 255, 255, 0.2), 0px 0px 0.785564px rgba(255, 255, 255, 0.2);
+    background-color: rgb(227 176 174);
+}
+.MedalPopup div[class*="medallion6"], .MedalPopup div[class*="ribbon6"]
+{
+    box-shadow: 0px 0px 41.7021px rgba(255, 255, 255, 0.2), 0px 0px 23.8298px rgba(255, 255, 255, 0.2), 0px 0px 13.9007px rgba(255, 255, 255, 0.2), 0px 0px 6.95034px rgba(255, 255, 255, 0.2), 0px 0px 1.98581px rgba(255, 255, 255, 0.2), 0px 0px 0.992906px rgba(255, 255, 255, 0.2);
+    background: linear-gradient(180deg, rgba(84, 87, 96, 0.63) 0%, rgba(138, 142, 157, 0.63) 100%);
+    background-color: rgb(211 211 211);
+}
+.MedalPopup div[class*="medallion7"], .MedalPopup div[class*="ribbon7"]
+{
+    background: linear-gradient(180deg, rgba(66, 172, 75, 0.65) 0.01%, rgba(71, 81, 73, 0.52) 100%);
+    box-shadow: 0px 0px 44.891px rgba(255, 255, 255, 0.2), 0px 0px 25.652px rgba(255, 255, 255, 0.2), 0px 0px 14.9637px rgba(255, 255, 255, 0.2), 0px 0px 7.48184px rgba(255, 255, 255, 0.2), 0px 0px 2.13767px rgba(255, 255, 255, 0.2), 0px 0px 1.06883px rgba(255, 255, 255, 0.2);
+    background-color: rgb(189 174 185);
+}
+.MedalPopup div[class*="medallion8"], .MedalPopup div[class*="ribbon8"]
+{
+    background: linear-gradient(180deg, rgba(147, 130, 17, 0.63) 0%, rgba(85, 81, 68, 0.62) 100%);
+    box-shadow: 0px 0px 37.8998px rgba(255, 255, 255, 0.2), 0px 0px 21.657px rgba(255, 255, 255, 0.2), 0px 0px 12.6333px rgba(255, 255, 255, 0.2), 0px 0px 6.31664px rgba(255, 255, 255, 0.2), 0px 0px 1.80475px rgba(255, 255, 255, 0.2), 0px 0px 0.902377px rgba(255, 255, 255, 0.2);
+    background-color: rgb(207 197 167);
+}
+.rank1,
+.rank2,
+.rank3 {
+    display: inline-block;
+    margin: 0px;
+    width: 45px;
+    height: 45px;
+    font-weight: 700;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: "Chakra Petch", sans-serif !important;
+    font-size: 22px;
+    color: #3e3e4e;
+    text-shadow: 0px 0px 74.35px #d6d6d6, 0px 0px 42.4857px #d6d6d6,
+        0px 0px 24.7833px #d6d6d6, 0px 0px 12.3917px #d6d6d6,
+        0px 0px 3.54048px #d6d6d6, 0px 0px 1.77024px #d6d6d6;
+}
+.scrollBadge
+{
+    width:115px;
+    float: none !important;
+    display: inline-block !important;
+    top: 5px;
+}
+.scrollBadge .slick-slide
+{
+   max-width: 27px !important;
+   min-width: auto !important;
+    display: inline-block !important;
+    float: none !important;
+    text-align: center;
+    margin-right: 2px;
+}
+.scrollBadge .slick-dots, .slick-prev
+{
+    display: none!important;
+}
+.scrollBadge .slick-next:before
+{
+    background-image: url("../images/next.png");
+    content: " "!important;
+    width: 6px;
+    position: absolute;
+    height: 13px;
+    opacity: 1;
+}
+.scrollBadge .slick-next {
+    right: -18px;
+    top: 8px;
+}
+.scrollBadge .slick-track
+{
+    margin: 0px;
+}
+.rank1 {
+    background-image: url("../images/rank1.png");
+}
+.rank2 {
+    background-image: url("../images/rank2.png");
+}
+.rank3 {
+    background-image: url("../images/rank3.png");
+}
+.tableHead {
+    height: 56px;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    border-radius: 4px 4px 0px 0px;
+}
+.tableHead > div {
+    overflow: hidden;
+}
+.tableControlls {
+    width: 100%;
+    display: inline-flex;
+}
+.tableControlls.alpha {
+    width: auto;
+    display: block;
+    position:absolute;
+    right: 121px;
+    top: -20px;
+}
+.tableControlls + div {
+    display: none;
+}
+.tableContent
+{
+    position:relative;
+}
+.tableControlls > div {
+    display: flex;
+    background: #3e3e4e;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    margin-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0px 0px 9.66026px rgba(112, 112, 112, 0.2),
+        0px 0px 5.52015px rgba(112, 112, 112, 0.2),
+        0px 0px 3.22009px rgba(112, 112, 112, 0.2),
+        0px 0px 1.61004px rgba(112, 112, 112, 0.2),
+        0px 0px 0.460012px rgba(112, 112, 112, 0.2),
+        0px 0px 0.230006px rgba(112, 112, 112, 0.2);
+}
+.tableControlls > div:last-child {
+    max-width: 482px;
+    width: 100%;
+    margin-right: 0px !important;
+    position: relative;
+    margin-left: 90px;
+}
+.tableControlls > div:last-child input {
+    background: transparent;
+    border: none !important;
+    height: 44px;
+    width: 100%;
+    outline: none;
+    color: #fff!important;
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: "Chakra Petch", sans-serif !important;
+}
+.tableControlls > div:last-child button {
+    height: 48px;
+    background: #9a9da1;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1a1a20;
+    min-width: 119px;
+    position: relative;
+    right: -17px;
+    font-family: "Chakra Petch", sans-serif !important;
+    top: 1px;
+    margin-top: -2px;
+    cursor: pointer;
+    transition: all .25s;
+}
+.tableControlls > div:last-child button:hover
+{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), #9A9DA1;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+}
+.tableControlls > div:last-child svg {
+    position: absolute;
+    top: 12px;
+}
+.communityList {
+    min-width: 160px;
+}
+.communityList > div > button, .badgeList > div > button
+{
+    background: transparent;
+    border: none;
+    height: 45px;
+    color: #FFF3C8;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+}
+.communityList > div > button span, .badgeList > div > button span
+{
+    position: absolute;
+    right: -16px;
+    background: #9A9DA1;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    width: 52px;
+    height: 45px;
+    top: -1px;
+    line-height: 44px;
+}
+.communityList > div > button span:hover, .badgeList > div > button span:hover
+{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), #9A9DA1;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+}
+.communityList > div > button + div,.badgeList > div > button + div 
+{
+    width:158px;
+    background: #3F3F4F !important;
+    border: 0.5px solid #FFFFFF;
+    box-shadow: 0px 0px 9.66026px rgba(112, 112, 112, 0.2), 0px 0px 5.52015px rgba(112, 112, 112, 0.2), 0px 0px 3.22009px rgba(112, 112, 112, 0.2), 0px 0px 1.61004px rgba(112, 112, 112, 0.2), 0px 0px 0.460012px rgba(112, 112, 112, 0.2), 0px 0px 0.230006px rgba(112, 112, 112, 0.2);
+    border-radius: 3px;
+    right: -15px!important;
+    padding: 15px;
+    margin-top: 5px !important;
+}
+.communityList > div > button + div span[aria-live="polite"] + div, .badgeList > div > button + div span[aria-live="polite"] + div
+{
+    background-color: #5D5D6F !important;
+    min-width: 100%;
+    margin: 0px;
+    border: 0.5px solid #FFFFFF!important;
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position: 8px 6px;
+    background-size: 9px;
+    min-height: 22px;
+}
+
+.communityList > div > button + div span[aria-live="polite"] + div div, .badgeList > div > button + div span[aria-live="polite"] + div div
+{
+    color: #FFFFFF !important;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    min-width: 100%;
+    padding: 0px;
+}
+.communityList > div > button + div span[aria-live="polite"] + div > div input, .badgeList > div > button + div span[aria-live="polite"] + div > div input
+{
+    border: none!important;
+    width: 120px !important;
+    min-width: 120px !important;
+    background: transparent;
+    color: #FFFFFF !important;
+}
+.communityList > div > button + div span[aria-live="polite"] + div > div:last-child, .badgeList > div > button + div span[aria-live="polite"] + div > div:last-child
+{
+    display: none;
+}
+.communityList div[id*="listbox"], .badgeList div[id*="listbox"]
+{
+    margin-top: 12px;
+    box-shadow: none;
+}
+.communityList div[id*="listbox"] div,.badgeList div[id*="listbox"] div
+{
+    padding: 0px;
+}
+.communityList div[id*="listbox"] div div,.badgeList div[id*="listbox"] div div
+{
+    height: 28px;
+    padding: 0px 10px;
+    background: transparent;
+    line-height: 28px;
+    cursor: pointer;
+    background-image: url("../images/untick.svg");
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position: -9px center;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Chakra Petch';
+}
+.communityList div[id*="listbox"] div div.optionActive,.badgeList div[id*="listbox"] div div.optionActive
+{
+    background-image: url("../images/tick.svg");
+    color: #FFD705;
+    font-weight: 700;
+}
+.communityList span.arrow,
+.badgeList span.arrow {
+    background: #9a9da1;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    min-width: 52px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    position: relative;
+    right: -16px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.badgeList {
+    min-width: 120px;
+}
+.demoLB
+{
+    margin-right: 345px !important;
+}
+.loaderRows {
+    background: rgba(129, 129, 129, 0.01);
+    height: 75px;
+    /* border-bottom: 5px solid #151519; */
+    text-align: center;
+}
+.loaderRows p
+{
+    margin-bottom:0px;
+    padding-left: 100px;
+    margin-top:0px;
+    color:#b6b6b6;
+}
+.tableDiv .loaderRows td
+{
+    /* text-align: center; */
+}
+.tableDiv .loaderRows td:first-child
+{
+    padding-left: 85px;
+}
+.loaderCol img
+{
+    width: 100px;
+}
+.loaderRows td:last-child img
+{
+    display: none;
+}
+.communityList label[data-shrink="true"],
+.badgeList label[data-shrink="true"] {
+    font-family: "Chakra Petch", sans-serif !important;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff3c8;
+    left: -5px;
+    top: 23px;
+    -webkit-transform: translate(14px, -9px) scale(1);
+    -moz-transform: translate(14px, -9px) scale(1);
+    -ms-transform: translate(14px, -9px) scale(1);
+    transform: translate(14px, -9px) scale(1);
+}
+.communityList label + div > svg,
+.badgeList label + div > svg {
+    height: 46px;
+    position: relative;
+    top: 3px;
+    right: -16px;
+    background: #9a9da1;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    width: 52px;
+}
+.communityList label + div > svg::before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 30px;
+    top: 50px;
+}
+.communityList label + div > div,
+.badgeList label + div > div {
+    padding-right: 5px !important;
+    position: relative;
+    overflow: visible !important;
+    color: #ffd705;
+    font-weight: 700;
+    text-align: right;
+    padding-top: 5px !important;
+    position: relative;
+    top: 2px;
+    opacity: 0;
+    z-index: 99;
+}
+.communityList label + div > div::after,
+.badgeList label + div > div::after {
+    position: absolute;
+    right: -66px;
+    content: "";
+    width: 50px;
+    top: -9px;
+    height: 42px;
+    z-index: 99;
+}
+.communityList label,
+.badgeList label {
+    font-family: "Chakra Petch", sans-serif !important;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff3c8;
+}
+.tableControlls > div.hide
+{
+    visibility:hidden;
+    min-width:120px;
+}
+.tableControlls > div fieldset {
+    display: none;
+}
+.tableControlls > div p {
+    font-family: "Chakra Petch", sans-serif !important;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #737373;
+}
+.tableControlls > div p:hover
+{
+    color: rgba(255, 243, 200, 0.54);
+}
+.tableControlls > div p.selected
+{
+    color: #fff3c8;
+}
+.tableControlls > div p.selected:hover
+{
+    color: #fff3c8;
+}
+.tableContent .tableDiv {
+    max-width: 1554px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 26px 4px rgb(248 248 248 / 25%);
+    margin-top: 20px;
+    width: 100%;
+}
+.tableContent .tableDiv.alpha > div, .tableContent .tableDiv > div
+{
+    overflow:visible!important;
+}
+.tableContent .tableDiv div table tr td:first-child span:first-child {
+    display: inline-block;
+    padding: 14px;
+    width: 15px;
+    margin-right: 40px;
+}
+.tableControlls > div p + span span[class*="thumb"] {
+    background: #fff3c8;
+    width: 23px;
+    height: 23px;
+    /* top: 11px; */
+    position: relative;
+    left: 2px;
+}
+.tableControlls > div p + span span[class*="track"] {
+    background: #3f4150 !important;
+    border: 1px solid #ffffff;
+    border-radius: 38px;
+    width: 52px;
+    height: 29px;
+    position: relative;
+    top: 7px;
+    opacity: 1 !important;
+    transition: all .25s;
+}
+.tableControlls > div p + span:hover span[class*="track"]
+{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), #3F4150 !important;
+}
+.tableControlls > div p + span span[class*="checked"] {
+    -webkit-transform: translateX(27px);
+    -moz-transform: translateX(27px);
+    -ms-transform: translateX(27px);
+    transform: translateX(27px);
+}
+.tableControlls > div p + span + p {
+    /* color: #737373; */
+    cursor: pointer;
+}
+.tableControlls > div p + span {
+    padding: 0px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.tableControlls > div p + span > span {
+    padding: 0px !important;
+    top: 11px;
+}
+.tableControlls > div p + span > span input {
+    left: -30px !important;
+    width: 101px !important;
+    height: 32px;
+    top: -4px;
+}
+#menu- div[data-testid="sentinelStart"] + div {
+    width: 188px !important;
+    min-width: 188px !important;
+    margin-left: 40px;
+    margin-top: 15px;
+    background: #3f3f4f;
+    border: 0.5px solid #ffffff;
+    box-shadow: 0px 0px 9.66026px rgba(112, 112, 112, 0.2),
+        0px 0px 5.52015px rgba(112, 112, 112, 0.2),
+        0px 0px 3.22009px rgba(112, 112, 112, 0.2),
+        0px 0px 1.61004px rgba(112, 112, 112, 0.2),
+        0px 0px 0.460012px rgba(112, 112, 112, 0.2),
+        0px 0px 0.230006px rgba(112, 112, 112, 0.2);
+    border-radius: 3px;
+    padding-top: 11px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul > li > svg {
+    fill: #fff;
+    margin-left: 11px;
+    position: relative;
+    z-index: 99;
+    height: 18px;
+    top: 1px;
+    left: -9px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul input + img {
+    left: -8px;
+    position: relative;
+}
+#menu- div[data-testid="sentinelStart"] + div ul {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul input {
+    position: absolute;
+    background: #5d5d6f;
+    border: 0.5px solid #ffffff;
+    border-radius: 3px;
+    height: 22px;
+    left: 15px;
+    padding-left: 32px;
+    width: calc(100% - 70px);
+    font-family: "Chakra Petch", sans-serif !important;
+    color: #fff;
+}
+#menu- div[data-testid="sentinelStart"] + div ul input::placeholder {
+    color: #fff;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 20px;
+    margin-bottom: 5px;
+    background: transparent;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li > span {
+    padding: 0px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li > span path {
+    background: #9a9da1;
+    fill: #ffffff;
+    box-shadow: 0px 0px 9.66026px rgba(112, 112, 112, 0.2),
+        0px 0px 5.52015px rgba(112, 112, 112, 0.2),
+        0px 0px 3.22009px rgba(112, 112, 112, 0.2),
+        0px 0px 1.61004px rgba(112, 112, 112, 0.2),
+        0px 0px 0.460012px rgba(112, 112, 112, 0.2),
+        0px 0px 0.230006px rgba(112, 112, 112, 0.2);
+    border-radius: 3px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li > div span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Chakra Petch";
+    color: #ffffff;
+    margin-left: -3px;
+}
+.tableContenthome .tableDiv div table tr td:first-child span:last-child {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+}
+.tableContent .tableDiv div table tr td:first-child span:last-child {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+}
+.tableContent table {
+    width: 100%;
+    background: #0a101b;
+    position: relative;
+}
+.tableContenthomee table {
+    width: 100%;
+    background: #0a101b;
+    position: relative;
+}
+.tableContenthome table::after {
+    background-image: url("../images/back.png");
+    position: absolute;
+    content: "";
+    width: 488px;
+    height: 308px;
+    left: 245px;
+    top: -170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* opacity: 0.8; */
+    /* filter: blur(2px); */
+    transform: rotate(10.37deg);
+    z-index: -1;
+}
+.tableContent table::after {
+    background-image: url("../images/back.png");
+    position: absolute;
+    content: "";
+    width: 488px;
+    height: 308px;
+    left: 251px;
+    top: -187px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.6;
+    filter: blur(2px);
+    transform: rotate(10.37deg);
+    z-index: -1;
+}
+.tableContenthome table::before {
+    position: absolute;
+    content: "";
+    width: 423.05px;
+    height: 388.02px;
+    left: 251px;
+    top: 250px;
+    background: rgba(254, 209, 6, 0.6);
+    opacity: 0.4;
+    filter: blur(250px);
+    transform: rotate(-3.84deg);
+    z-index: -1;
+}
+.tableContent table::before {
+    position: absolute;
+    content: "";
+    width: 423.05px;
+    height: 388.02px;
+    left: 251px;
+    top: 250px;
+    background: rgba(254, 209, 6, 0.6);
+    opacity: 0.4;
+    filter: blur(250px);
+    transform: rotate(-3.84deg);
+    z-index: -1;
+}
+.tableContenthome table thead {
+    background: #3e3e4e;
+}
+.tableContent table thead {
+    background: #3e3e4e;
+}
+.tableContent table thead svg {
+    position: relative;
+    fill: #909297;
+    left: 7px;
+    top: 5px;
+}
+.tableContenthome table td:first-child {
+    padding-left: 24px;
+}
+.tableContent table td:first-child {
+    padding-left: 24px;
+}
+.tableContent table td:first-child img[alt="loading"]
+{
+    margin-left:0px;
+    text-align:center;
+}
+.tableContent table td img[alt="loading"]
+{
+     margin-left:-20px;
+}
+.tableContenthome table th:first-child {
+    /* padding-left: 30px; */
+    text-align: center;
+    min-width: 65px;
+}
+.tableContent table th:first-child {
+    padding-left: 55px;
+    text-align: center;
+    min-width: 125px;
+    width: 100px;
+}
+.tableContent table th:nth-child(2) {
+    padding-left: 28px;
+}
+.tableContent table th:nth-child(3) {
+    padding-left: 28px;
+    min-width: 195px;
+}
+.tableContenthome table td > span {
+    margin-right: 20px;
+    color: #F8F8F8;
+}
+.tableContenthome table td > span span
+{
+    color:#A1A1A1;
+}
+.tableContenthome table td:nth-child(2) {
+    padding-left: 16px;
+    min-width: 250px;
+}
+.tableContenthome table td:nth-child(2) div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    width: 42px;
+    height: 42px;
+}
+.tableContenthome table td:nth-child(2) div img {
+    width: 42px;
+    height: 42px;
+}
+.tableContenthome table td:last-child img[alt="loading"]
+{
+    margin-left:-40px;
+}
+.tableContent table th:nth-child(4) {
+    padding-left: 27px;
+    min-width: 235px;
+}
+.tableContent table th:nth-child(5) {
+    padding-left: 28px;
+}
+.tableContent table td:last-child img {
+    margin-left: 5px;
+}
+.tableContenthome table th {
+    color: #ffd705;
+    font-weight: 700;
+    font-size: 16px;
+    background: #3e3e4e;
+    font-family: "Chakra Petch", sans-serif !important;
+    padding: 14px;
+}
+.tableContent table th {
+    color: #ffd705;
+    font-weight: 700;
+    font-size: 16px;
+    background: #3e3e4e;
+    font-family: "Chakra Petch", sans-serif !important;
+}
+.tableContent table th:last-child
+{
+    width:50px;
+}
+.tableContent table th img,
+.tableContenthome table th img {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    cursor: pointer;
+}
+.tableContenthome table tr {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tableContent table tr {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: rgba(129, 129, 129, 0.01);
+}
+.tableContenthome table td {
+    color: #f8f8f8;
+    white-space: nowrap;
+    background: rgba(129, 129, 129, 0.01);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 12px;
+    font-family: "Chakra Petch", sans-serif !important;
+    border-bottom: none;
+    height: 52px;
+    /* padding-left: 30px; */
+}
+.tableContent table td {
+    color: #f8f8f8;
+    white-space: nowrap;
+    /* background: rgba(129, 129, 129, 0.01); */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 12px;
+    font-family: "Chakra Petch", sans-serif !important;
+    border-bottom: none;
+    padding-left: 30px;
+}
+.tableContent table td img[alt="ticket"] {
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+.tableContenthome table td img[alt="ticket"] {
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+.tableContenthome table td img[alt="star"] {
+    margin-left: 3px;
+    margin-right: 3px;
+    position: relative;
+    top: 7px;
+}
+.tableContent table td img[alt="star"] {
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    top: 5px;
+    height: 23px !important;
+    cursor: pointer;
+    width: auto !important;
+}
+.tableContenthome table td img[alt="star"] + svg {
+    position: relative;
+    left: -5px;
+    top: 8px;
+}
+.tableContenthome table td span:first-child {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 15px;
+}
+.tableContent table td img[alt="star"] + svg {
+    position: relative;
+    left: -5px;
+    top: 8px;
+}
+.tableContenthome table td img[alt="link"] {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.tableContent table td img[alt="link"]:hover, .tableContent table td img[alt="link"]:hover
+{
+    /* filter: brightness(0) invert(1);  */
+    filter: invert(59%) sepia(99%) saturate(3474%) hue-rotate(179deg) brightness(98%) contrast(93%);
+}
+.slider.alpha .tableContent table td img[alt="link"]
+{
+    width: 18px;
+}
+.tableContent table td img[alt="link"] {
+    margin-left: 20px;
+    cursor: pointer;
+    position:static;
+}
+.tableContent table td span.user {
+    margin-right: 10px;
+    position: relative;
+    top: 8px;
+    float:left;
+}
+.tableContent table td span.user span
+{
+    color: rgba(161, 161, 161, 1);
+    position: relative;
+    /* left: -4px; */
+}
+.tableContent table td img.star:first-child {
+    /* margin-left: 20px; */
+}
+.tableContent table td > div {
+    float: left;
+    margin-right: 15px;
+}
+.tableContent table td > span.user + div
+{
+    margin-right: 25px;
+}
+.communityName {
+    margin-top: 9px;
+    margin-bottom: 0px;
+    float: left;
+}
+.contentSection1 {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+.titleContent {
+    width: 100%;
+    display: inline-block;
+    height: 119px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+.contentSection1 .title {
+    background: linear-gradient(
+        180deg,
+        rgba(253, 241, 199, 0.4) 0%,
+        rgba(253, 241, 199, 0.048) 100%
+    );
+    position: relative;
+    height: 119px;
+    width: 100%;
+    display: inline-block;
+    opacity: 0.3;
+}
+.titleContent h1 {
+    position: relative;
+    top: -108px;
+    width: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.titleContent h1::after {
+    position: absolute;
+    content: "//";
+    color: #ffd705;
+    right: -85px;
+    font-size: 56px;
+    font-family: "Chakra Petch", sans-serif !important;
+}
+.titleContent.alpha h1::after
+{
+   right: -125px; 
+}
+.titleContent.alpha h1::before
+{
+    left: -125px;
+}
+.titleContent h1::before {
+    position: absolute;
+    content: "//";
+    color: #ffd705;
+    left: -85px;
+    font-size: 56px;
+    font-family: "Chakra Petch", sans-serif !important;
+}
+.titleContent h1 span {
+    color: #ffd705;
+}
+.contentSection1 .title::after {
+    position: absolute;
+    content: "";
+    background: rgba(0, 255, 255, 0.4);
+    opacity: 0.3;
+    filter: blur(150px);
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    width: 168px;
+    height: 977px;
+    top: -340%;
+    z-index: 999;
+}
+.xp {
+    text-align: center;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.XpContent {
+    display: inline-block;
+    width: auto;
+    position: relative;
+}
+.XpContent h1 {
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 52px;
+    color: #ffffff;
+    letter-spacing: 0.1px;
+    margin-bottom: 25px;
+}
+.XpContent::after {
+    position: absolute;
+    content: "";
+    background: rgba(0, 255, 255, 0.32);
+    opacity: 0.3;
+    filter: blur(150px);
+    transform: matrix(0.04, 1, 1, -0.01, 0, 0);
+    width: 233.39px;
+    height: 1271.15px;
+    top: -74%;
+    z-index: -1;
+}
+.XpContent h1 span,
+.MoreXp > div h1 span,
+.jackpotRaffle h1 span,
+.DiscardBot h1 span,
+.flipContent h1 span {
+    color: #ffd705;
+}
+.XpContent p {
+    font-weight: 700;
+    font-size: 26px;
+    color: #9a9da1;
+    letter-spacing: 0.1px;
+}
+.XpBox {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 250px;
+}
+.XpBox::after {
+    position: absolute;
+    content: "";
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.2;
+    filter: blur(150px);
+    transform: matrix(1, 0.01, -0.02, 1, 0, 0);
+    width: 1649.97px;
+    height: 639.56px;
+    left: -10%;
+    top: -5%;
+    z-index: -1;
+}
+.XpBox > div {
+    background: rgba(205, 203, 190, 0.06);
+    border-radius: 5px;
+    width: 312px;
+    display: inline-block;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding: 40px;
+    vertical-align: top;
+    height: 470px;
+    padding-bottom: 15px;
+}
+.XpBox > div > div {
+    background: transparent;
+    text-align: left;
+    box-shadow: none;
+}
+.XpBox > div > div h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1px;
+    color: #e0e0e0;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.XpBox > div > div p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #9a9da1;
+    margin-bottom: 22px;
+    width:95%;
+}
+.XpBox > div > div ul {
+    padding-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.XpBox > div > div li {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+    color: #d1d1d1;
+    height: 30px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-left: 40px;
+    margin-top: 13px;
+}
+.XpBox > div > div li::after {
+    background: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    content: "";
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    border-radius: 50%;
+    top: -8px;
+}
+.XpBox > div > div li::before {
+    background-image: url("../images/1f39f1.png");
+    position: absolute;
+    content: "";
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    border-radius: 50%;
+    top: -8px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.MoreXp {
+    margin-top: 0px;
+}
+.MoreXp > div {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.MoreXp > div:first-child > img {
+    position: relative;
+    top: -180px;
+    left: -85px;
+}
+.MoreXp > div:first-child h1 {
+    font-weight: 700;
+    font-size: 44px;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.MoreXp > div:first-child h1::after {
+    position: absolute;
+    content: "";
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.25;
+    filter: blur(150px);
+    transform: matrix(1, -0.07, 0.06, 1, 0, 0);
+    width: 502.5px;
+    height: 481.81px;
+    left: 0px;
+    top: -218%;
+}
+.MoreXp > div:first-child p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1px;
+    color: #9a9da1;
+    position: relative;
+    z-index: 9;
+}
+.MoreXp > div:first-child p a {
+    color: #41494b;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+}
+.MoreXp > div:first-child p a:hover
+{
+    color: #fff;
+}
+.MoreXp > div:first-child p a:hover img
+{
+    filter: brightness(0) invert(1);
+}
+.MoreXp > div:first-child p a img {
+    width: 17px;
+}
+.MoreXPbox {
+    padding-left: 100px;
+    display: inline-block;
+    width: calc(50% - 100px);
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    margin-top: -15px;
+}
+.MoreXPbox:nth-child(2) {
+    /* top: 100px; */
+}
+.MoreXPbox:nth-child(4) {
+    /* top: 100px; */
+}
+.MoreXPbox::after {
+    background: rgba(0, 255, 255, 0.35);
+    opacity: 0.3;
+    filter: blur(150px);
+    transform: matrix(-0.24, 0.98, 0.95, 0.27, 0, 0);
+    width: 326.17px;
+    height: 237.11px;
+    position: absolute;
+    content: "";
+    left: 30%;
+    top: 55%;
+}
+.MoreXPbox::before {
+    background: rgba(0, 255, 255, 0.4);
+    opacity: 0.2;
+    filter: blur(50px);
+    transform: matrix(-0.24, 0.98, 0.95, 0.27, 0, 0);
+    width: 326.17px;
+    height: 237.11px;
+    position: absolute;
+    content: "";
+    left: 18%;
+    top: 25%;
+    border-radius: 50%;
+}
+.MoreXPbox:nth-child(1)::before {
+    /* display: none; */
+    left: 18%;
+    top: -10%;
+    background: rgba(0, 255, 255, 0.4);
+    opacity: 0.3;
+    filter: blur(80px);
+    transform: matrix(-0.24, 0.98, 0.95, 0.27, 0, 0);
+}
+.MoreXPbox:nth-child(2)::before {
+    /* opacity: 1; */
+    top: -13%;
+}
+.MoreXPbox:nth-child(3)::before {
+    opacity: 0.1;
+}
+.MoreXPbox:nth-child(4)::before {
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.1;
+    filter: blur(50px);
+    transform: matrix(1, -0.07, 0.06, 1, 0, 0);
+    top: -14%;
+}
+.MoreXPbox:nth-child(1)::after {
+    opacity: 0;
+}
+.MoreXPbox:nth-child(3)::after {
+    left: 15%;
+    border-radius: 20%;
+    opacity: 0.6;
+    top: 36%;
+    height: 200px;
+    width: 200px;
+}
+.MoreXPbox:nth-child(2)::after {
+    background: rgba(0, 255, 255, 0.4);
+    opacity: 0.3;
+    filter: blur(150px);
+    transform: matrix(-0.24, 0.98, 0.95, 0.27, 0, 0);
+}
+
+.MoreXp div:last-child .MoreXPbox h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #e0e0e0;
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+.MoreXp div:last-child .MoreXPbox p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+    color: #9a9da1;
+    text-align: start;
+    padding-left: 30px;
+}
+.jackpotRaffle {
+    text-align: center;
+    padding-bottom: 210px !important;
+    position: relative;
+}
+.jackpotRaffle::after {
+    position: absolute;
+    content: "";
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.32;
+    filter: blur(150px);
+    transform: rotate(-0.02deg);
+    width: 1283.29px;
+    height: 505.6px;
+    left: 10%;
+    z-index: -1;
+    top: 20%;
+}
+.jackpotRaffle h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    position: relative;
+    color: #ffffff;
+}
+.jackpotRaffle h1:after {
+    background: rgba(0, 255, 255, 0.4);
+    opacity: 0.3;
+    filter: blur(150px);
+    transform: matrix(0, 1, 1, 0.04, 0, 0);
+    position: absolute;
+    content: "";
+    width: 326.17px;
+    height: 638.48px;
+    left: 40%;
+    top: -394%;
+}
+.jackpotRaffle p {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #9a9da1;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.jackpotRaffle p span {
+    color: #c8c8c8;
+    font-weight: 700;
+}
+.DiscardBot {
+    text-align: center;
+    padding-bottom: 380px !important;
+}
+.DiscardBot h1 {
+    /* margin-top: 220px; */
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color: #ffffff;
+    position: relative;
+}
+.DiscardBot > h1::after {
+    position: absolute;
+    content: "";
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.38;
+    filter: blur(150px);
+    transform: matrix(1, -0.07, 0.06, 1, 0, 0);
+    width: 457.78px;
+    height: 334.44px;
+    left: 365px;
+    top: -150px;
+    z-index: -2;
+}
+.DiscardBot > h1::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 255, 255, 0.32);
+    opacity: 0.3;
+    filter: blur(150px);
+    transform: matrix(0, 1, 1, 0.04, 0, 0);
+    width: 457.78px;
+    height: 334.44px;
+    left: 565px;
+    top: -150px;
+    z-index: -2;
+}
+.DiscardBot > p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1px;
+    color: #9a9da1;
+    margin-bottom: 60px;
+    margin-top: 25px;
+}
+.DiscardBot > div {
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+}
+.DiscardBot > div > div:first-child {
+    background: rgba(205, 203, 190, 0.06);
+    border-radius: 5px;
+    position: relative;
+    max-width: 358px;
+    max-height: 100%;
+    margin: 0px;
+    width: 358px;
+    overflow: visible;
+}
+.DiscardBot > div > div:first-child > div:first-child {
+    height: 68px;
+    line-height: 68px;
+    color: #fff;
+}
+.DiscardBot > div > div:first-child > div:first-child > span {
+    overflow: visible;
+    padding: 0px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.DiscardBot > div > div:first-child > div:first-child b {
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+.DiscardBot > div > div:first-child > div:first-child > span + b {
+    color: #636363;
+}
+.DiscardBot > div > div:first-child > div:first-child > span > span:last-child {
+    height: 29px;
+    background: rgba(205, 203, 190, 0.26);
+    border-radius: 38px;
+    width: 52px;
+    min-width: 52px;
+    line-height: 29px;
+}
+.DiscardBot
+    > div
+    > div:first-child
+    > div:first-child
+    > span
+    > span:first-child {
+    top: 3px;
+    left: 5px;
+    padding: 0px;
+}
+.DiscardBot
+    > div
+    > div:first-child
+    > div:first-child
+    > span
+    > span:first-child
+    span[class*="thumb"] {
+    background: #fff;
+    width: 23px;
+    height: 23px;
+}
+.DiscardBot > div > div:first-child > div:last-child {
+    background: rgba(205, 203, 190, 0.06);
+    min-height: 97px;
+}
+.DiscardBot > div > div:first-child > div:last-child > div {
+    /* padding-top: 5px; */
+    /* transition: none; */
+}
+.DiscardBot > div > div:first-child > div:last-child > div div {
+    padding-bottom: 0px;
+    min-height: auto;
+    margin: 0px;
+    transition: none;
+    transition-delay: 0s !important;
+}
+.DiscardBot > div > div:first-child > div:last-child > div > div div p {
+    padding-left: 47px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1px;
+    color: #8f9296;
+    font-family: "Chakra Petch";
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+}
+.DiscardBot > div > div:first-child > div:last-child > div > div div p span {
+    font-weight: 700;
+}
+.DiscardBot > div div[aria-expanded="true"] p {
+    font-size: 24px !important;
+}
+.DiscardBot > div > div:first-child > div:last-child > div > div div p::after {
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-image: url("../images/lock.svg");
+    left: 56px;
+    top: 6px;
+}
+.DiscardBot
+    > div
+    > div:first-child
+    > div:last-child
+    > div
+    > div
+    div
+    p.selected::after {
+    background-image: url("../images/lock_h.svg") !important;
+}
+.DiscardBotToggle div div[aria-expanded="true"] p::after {
+    background-image: url("../images/lock_h.svg") !important;
+}
+.DiscardBot
+    > div
+    > div:first-child
+    > div:last-child
+    > div
+    > div
+    div
+    p.selected {
+    color: #c8c8c8;
+}
+.DiscardBot
+    > div
+    > div:first-child
+    > div:last-child
+    > div
+    > div
+    div
+    p.selected
+    span {
+    color: #fff;
+}
+.DiscardBot
+    > div
+    > div:first-child
+    > div:last-child
+    > div
+    > div
+    div
+    p.selected::before {
+    position: absolute;
+    content: "";
+    background: #43464d;
+    border-radius: 5px;
+    height: 48px;
+    z-index: -1;
+    width: 272px;
+    left: 16px;
+    top: -8px;
+}
+.DiscardBot
+    > div
+    > div:first-child
+    > div:last-child
+    > div
+    > div
+    div
+    p:last-child {
+    margin-bottom: 0px;
+}
+.DiscardBot > div > div:first-child::after {
+    position: absolute;
+    content: "";
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.2;
+    filter: blur(150px);
+    transform: matrix(1, -0.07, 0.06, 1, 0, 0);
+    width: 457.78px;
+    height: 571.6px;
+    left: -20%;
+    top: 55%;
+    z-index: -2;
+}
+.DiscardBot > div > div:first-child::before {
+    position: absolute;
+    content: "";
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.15;
+    filter: blur(150px);
+    transform: matrix(1, -0.07, 0.06, 1, 0, 0);
+    width: 457.78px;
+    height: 571.6px;
+    left: -20%;
+    top: -7%;
+    z-index: -2;
+}
+.DiscardBot > div > div:first-child > div:last-child > div > p {
+    color: #8f9296;
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1px;
+    padding-left: 20px !important;
+    margin-top: 20px;
+    position: relative;
+}
+.DiscardBot > div > div:first-child > div:last-child p button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    opacity: 0;
+}
+.DiscardBot > div > div:first-child > div:last-child > div:last-child {
+    text-align: left;
+}
+.DiscardBot > div > div:first-child > div:last-child > div:last-child > p {
+    padding-left: 47px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1px;
+    color: #8f9296;
+    font-family: "Chakra Petch";
+    cursor: pointer;
+}
+.DiscardBot > div > div:first-child > div:last-child > div:last-child p::after {
+    display: none;
+}
+.XpBox > div > div p br {
+    display: none;
+}
+.DiscardBot > div > div:first-child > div:last-child > div > p svg {
+    position: relative;
+    top: 5px;
+}
+.DiscardBot
+    > div
+    > div:first-child
+    > div:last-child
+    > div:last-child
+    p:last-child {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    /* min-height: 59px; */
+}
+.DiscardBot > div:last-child {
+    padding-left: 111px;
+    max-width: 490px;
+    width: 100%;
+}
+.DiscardBot > div:last-child h1 {
+    font-size: 36px;
+    position: relative;
+    text-align: left;
+    margin-top: 30px;
+}
+.DiscardBot > div:last-child h1 span {
+    margin-right: 15px;
+}
+.DiscardBot > div:last-child h1::after {
+    position: absolute;
+    content: "";
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.3;
+    filter: blur(150px);
+    transform: matrix(1, -0.07, 0.06, 1, 0, 0);
+    width: 457.78px;
+    height: 334.44px;
+    left: 6%;
+    top: -93%;
+    /* z-index: -1; */
+}
+.DiscardBot > div:last-child p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: #9a9da1;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.DiscardBot > div:last-child p span {
+    color: #c8c8c8;
+}
+.flipContent {
+    max-width: 1548px;
+    width: 100%;
+    background: rgba(205, 203, 190, 0.06);
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 140px;
+    padding-bottom: 145px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 400px;
+    margin-top: 400px;
+}
+.flipContent::after {
+    position: absolute;
+    content: "";
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.2;
+    filter: blur(150px);
+    transform: matrix(1, 0, -0.01, 1, 0, 0);
+    width: 1086.21px;
+    height: 691.78px;
+    left: 10%;
+    top: -15%;
+}
+.flipContent::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 255, 255, 0.32);
+    opacity: 0.25;
+    filter: blur(150px);
+    transform: matrix(0.07, 1, 1, -0.03, 0, 0);
+    width: 233.39px;
+    height: 878.88px;
+    left: 44%;
+    top: -44%;
+}
+.flipContent > div {
+    background: transparent;
+    text-align: center;
+    box-shadow: none;
+    overflow: visible;
+}
+.flipContent h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 68px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #c8c8c8;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.flipContent h3 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #9a9da1;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.flipContent button {
+    position: relative;
+    z-index: 99;
+    background: #ffd705;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 17.9432px rgba(255, 255, 255, 0.4),
+        0px 0px 10.2533px rgba(255, 255, 255, 0.4),
+        0px 0px 5.98106px rgba(255, 255, 255, 0.4),
+        0px 0px 2.99053px rgba(255, 255, 255, 0.4),
+        0px 0px 0.854437px rgba(255, 255, 255, 0.4),
+        0px 0px 0.427219px rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    width: 325px;
+    height: 69px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+    text-transform: none !important;
+    color: #393939;
+    font-family: "Chakra Petch";
+    cursor: pointer;
+    transition: all .25s;
+}
+.flipContent button:hover,
+.flipContent button:active {
+    background: linear-gradient(0deg, rgba(62, 62, 78, 0.35), rgba(62, 62, 78, 0.35)), #FFD705;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 17.9432px rgba(255, 255, 255, 0.4), 0px 0px 10.2533px rgba(255, 255, 255, 0.4), 0px 0px 5.98106px rgba(255, 255, 255, 0.4), 0px 0px 2.99053px rgba(255, 255, 255, 0.4), 0px 0px 0.854437px rgba(255, 255, 255, 0.4), 0px 0px 0.427219px rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    color: #393939;
+}
+.FAQ .FaqAccodn {
+    max-width: 1096px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.FAQ .FaqAccodn::after {
+    position: absolute;
+    content: "";
+    width: 400.98px;
+    height: 600.52px;
+    left: 10%;
+    top: 20%;
+    background: rgba(0, 255, 255, 0.3);
+    opacity: 0.2;
+    filter: blur(150px);
+    transform: matrix(-0.14, 1, 0.98, 0.18, 0, 0);
+    z-index: -1;
+}
+.FAQ.alpha .FaqAccodn::after
+{
+    background: rgba(0, 255, 255, 0.1);
+    top: 0%;
+}
+.FAQ {
+    position: relative;
+}
+.FAQ.alpha .FaqAccodn {
+    padding-bottom:300px;
+}
+.FAQ.alpha .FaqAccodn::before
+{
+    top: -10%;
+     opacity: 0.2;
+}
+.FAQ.alpha .FaqAccodn::before
+{
+    top: -10%;
+     opacity: 0.2;
+}
+.FAQ::after {
+    position: absolute;
+    content: "";
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.25;
+    filter: blur(150px);
+    transform: matrix(0.61, 0.79, -0.8, 0.61, 0, 0);
+    width: 457.78px;
+    height: 334.44px;
+    top: 10%;
+    right: 25%;
+    z-index: -1;
+}
+.FAQ .FaqAccodn::before {
+    position: absolute;
+    content: "";
+    width: 457.78px;
+    height: 334.44px;
+    left: -3%;
+    top: -20%;
+    background: rgba(254, 209, 6, 0.3);
+    opacity: 0.25;
+    filter: blur(150px);
+    transform: matrix(1, -0.07, 0.06, 1, 0, 0);
+}
+.FAQ .FaqAccodn > div {
+    background: transparent;
+    color: #d0d0d0;
+    margin-bottom: 20px;
+    box-shadow: none;
+    border: none;
+    padding: 0px;
+    transition: none;
+    margin-top: 0px;
+}
+.FAQ .FaqAccodn > div > div:first-child div p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.1px;
+    font-family: "Chakra Petch";
+}
+.FAQ .FaqAccodn > div > div:first-child > div:last-child {
+    color: #ffd705;
+    font-size: 52px;
+    font-weight: 200;
+    transition: none;
+    line-height: 52px;
+    position: relative;
+    top: -3px;
+    /* transition: all .25s; */
+}
+.FAQ .FaqAccodn > div > div:first-child > div:last-child:hover
+{
+    color:#fff;
+}
+.FAQ .FaqAccodn > div > div:first-child > div:last-child[class*="expanded"] {
+    top: 5px;
+    line-height: 52px;
+    font-size: 55px;
+}
+.FAQ .FaqAccodn > div > div:last-child > div:last-child p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.1px;
+    color: #b0b0b0;
+    font-family: "Chakra Petch";
+    display: inline-block;
+    width: 92%;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.FAQ .FaqAccodn > div > div:last-child > div:last-child p p
+{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 25px;
+    width:100%;
+    
+}
+.FAQ .FaqAccodn > div > div:last-child > div:last-child p p:last-child
+{
+    margin-bottom: 0px;
+}
+.FAQ .FaqAccodn > div > div {
+    /* transition: none; */
+    min-height: auto;
+}
+.FAQ .FaqAccodn > div div div {
+    transition: none;
+    padding: 0px;
+    margin: 0px 0px;
+}
+.FAQ .FaqAccodn > div::before {
+    display: none;
+}
+.footer {
+    width: 100%;
+    display: inline-block;
+}
+.footer > div p {
+    float: left;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #b6b6b6;
+    letter-spacing: 0.1px;
+    margin-bottom: 25px;
+}
+.footer > div p a
+{
+    border: none;
+    outline: none;
+}
+.footer > div div {
+    float: right;
+    position: relative;
+    top: 25px;
+}
+.footer > div p img {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -8px;
+    margin-right: 15px;
+}
+.footer > div > div a {
+    padding-left: 14px;
+    padding-right: 14px;
+    letter-spacing: 0.1px;
+    color: #b6b6b6;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .25s;
+    filter: none;
+}
+.footer > div > div img
+{
+    position:relative;
+    top:5px;
+}
+.footer > div > div a:hover
+{
+    color:#fff;
+}
+.footer > div > div a:nth-child(1):hover img
+{
+    filter: invert(56%) sepia(78%) saturate(6598%) hue-rotate(225deg) brightness(100%) contrast(90%);
+}
+.footer > div > div  a:nth-child(2):hover img, .footer > div > div  a:nth-child(2):hover img
+{
+    filter: invert(59%) sepia(99%) saturate(3474%) hue-rotate(179deg) brightness(98%) contrast(93%);
+}
+.footer > div > div a:nth-child(1) img {
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 16px;
+}
+.footer > div > div  a:nth-child(2) img {
+    position: relative;
+    top: 3px;
+    width: 18px;
+    height: 16px;
+}
+
+.FAQ .FaqAccodn h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 73px;
+    color: #ffd705;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.FAQ .FaqAccodn h1 a {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: #41494b;
+    text-decoration: none;
+    margin-left: 15px;
+    position: relative;
+}
+.FAQ .FaqAccodn h1 a:hover
+{
+    color: #FFFFFF;
+}
+.FAQ .FaqAccodn h1 a:hover img
+{
+    filter: brightness(0) invert(1);
+}
+.mobileDiscardpot {
+    display: none !important;
+}
+.tableControlls > div:last-child button.sm-btn {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 1023px) {
+    body {
+        padding-right: 0px !important;
+    }
+    .timer > div:nth-child(3) {
+        display: none;
+    }
+    a.yellowBtn
+    {
+        margin-left:0px;
+    }
+    .tableDiv .loaderRows td:first-child img
+    {
+        position:relative;
+        /* left:-35px; */
+    }
+    .tableDiv .loaderRows td img[alt="loading"] {
+        margin-left: -13px;
+    }
+    header {
+        background: transparent !important;
+        position: relative !important;
+        z-index: 9999;
+    }
+    nav.brand img {
+        width: 140px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div {
+        width: calc(100% - 50px) !important;
+        left: 0px !important;
+        top: auto !important;
+        bottom: 0px;
+        max-width: 100% !important;
+        margin: 0px !important;
+        border: none;
+        border-radius: 20px 20px 0px 0px;
+        background: #dadada;
+        padding: 25px;
+    }
+    #menu- > div[aria-hidden="true"] {
+        background: rgba(0, 0, 0, 0.65);
+    }
+
+    #menu- div[data-testid="sentinelStart"] + div ul li:last-child button {
+        background: #3e3e4e;
+        border-radius: 3px;
+        height: 45px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+        color: #ffffff;
+        font-family: "Chakra Petch";
+        top: -15px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul p + li
+    {
+        position: absolute;
+        top: -14px;
+        right: 0px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul p + li button
+    {
+        color: #3E3E4E;
+        text-transform:capitalize;
+        font-size: 12px;
+        padding:0px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul p + li + li
+    {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    .slider {
+        margin-top: 0px;
+    }
+    .timer > div:nth-child(2) {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        position: relative;
+        top: 20px;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .timer > div h5 {
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 5px;
+        max-width: 100%;
+    }
+    .timeCounter > div span p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .timeCounter > div span {
+        font-size: 28px;
+        line-height: 36px;
+        min-width: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .timer > div:first-child h5 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .timer > div:first-child h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .timeCounter > div span::after {
+        font-size: 35px;
+        right: -4px;
+        top: -3px;
+    }
+    .timer > div:nth-child(2) > img {
+        width: 47px !important;
+        height: auto !important;
+    }
+    .timer > div:nth-child(1) {
+        top: 175px;
+        max-width: 100% !important;
+    }
+    .timer > div:nth-child(1) > img {
+        width: 45px;
+    }
+    .tableContent > div h2 {
+        margin-top: 40px;
+        font-size: 26px;
+        line-height: 34px;
+        padding-left: 15px;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 0px;
+        text-transform:none;
+    }
+    .leaderBoard {
+        display: inline-block;
+        position: relative;
+        margin-top: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .leaderBoard button {
+        float: right;
+        position: relative;
+        top: 45px;
+        cursor: pointer;
+        right: 7px;
+    }
+    .tableControlls > div p {
+        line-height: 44px;
+        font-size: 12px;
+    }
+    .tableControlls > div p + span {
+        margin-top: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 45px;
+    }
+    .tableControlls > div p + span span[class*="thumb"] {
+        width: 19px;
+        height: 19px;
+    }
+    .leaderBoard button img[alt="gray"] {
+        opacity: 0.5;
+    }
+    .tableContent .tableDiv {
+        border: none;
+        border-top: 1px solid #fff;
+        box-shadow: none;
+        margin-top: 0px;
+    }
+    .tableContent .tableDiv thead tr div {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        min-width: 100%;
+        /* display: contents; */
+    }
+    .tableContent table td:first-child,
+    .tableContent table td {
+        padding-left: 0px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .slider.alpha .tableContent table td:first-child, .slider.alpha .tableContent table th:first-child
+    {
+        text-align: center;
+        position:relative;
+    }
+    .slider.alpha .tableContent table td:first-child span:first-child
+    {
+        left:20px;
+        position:absolute;
+        top: 33px;
+    }
+    .tableContent table td:last-child span {
+        position: relative;
+        top: 10px;
+    }
+    .tableContent table td div img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .tableContent .tableDiv div table tr td:first-child span:first-child {
+        padding: 0px;
+        margin-right: 5px;
+        padding: 0px;
+        margin-right: 5px;
+        top: 8px;
+        width: 10px;
+        position: relative;
+    }
+    .tableContent .tableDiv.alpha div table tr td:first-child span:last-child {
+        /* display:none; */
+    }
+    .tableContent::after {
+        background: rgba(0, 255, 255, 0.4);
+        opacity: 0.4;
+        filter: blur(150px);
+        transform: matrix(-0.25, 0.97, 0.97, 0.25, 0, 0);
+        width: 254.96px;
+        height: 198.23px;
+        position: absolute;
+        content: "";
+        left: 30%;
+        bottom: -1%;
+        z-index: -1;
+    }
+    .tableContent .tableDiv div table tr td:first-child span:first-child img {
+        width: 9px;
+    }
+    .tableContent .tableDiv div table tr td:first-child span:last-child {
+        width: auto;
+        height: auto;
+        font-size: 14px;
+        line-height: 43px;
+        position: relative;
+        top: 10px;
+    }
+    .tableContent table th:nth-child(2) {
+        min-width: 122px;
+        width: 45%;
+        /* overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; */
+        font-size: 14px;
+        padding-left: 10px;
+        white-space: nowrap;
+    }
+    .tableContent table td img[alt="ticket"] {
+        width: 16px;
+        left: 2px;
+        top: 0px;
+    }
+    .timer > div:nth-child(even)::after {
+        display: none;
+    }
+    #root {
+        overflow: hidden;
+    }
+    .timer::after {
+        position: absolute;
+        content: "";
+        width: 620.73px;
+        height: 370.87px;
+        background: rgba(254, 209, 6, 0.25);
+        opacity: 0.25;
+        filter: blur(100px);
+        transform: rotate(-3.84deg);
+        left: -14px;
+        top: -6px;
+        z-index: 0;
+    }
+    .tableContent .tableDiv tbody tr > div > div > div[class*="expandIcon"] {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        right: 15px;
+        top: 25px;
+        transition: none;
+    }
+    .tableContent .tableDiv tbody tr.loaderRows td:nth-child(4), .tableContent .tableDiv tbody tr.loaderRows td:nth-child(5), .tableContent .tableDiv tbody tr.loaderRows td:nth-child(6)
+    {
+        display:none;
+    }
+    .tableContent .tableDiv tbody tr > div > div > div {
+        margin: 0px 0px;
+    }
+    .tableContent table th:nth-child(3) {
+        padding-left: 23px;
+        /* width: 100%; */
+        font-size: 14px;
+        min-width: 35% !important;
+    }
+    .tableContent table th:first-child,
+    .tableContent table td:first-child {
+        min-width: 12%;
+    }
+    .tableContent .tableDiv tbody tr > div > div > div:last-child svg {
+        fill: #fff;
+        width: 16px;
+        height: 18px;
+        left: -1px;
+        position: relative;
+        top: -1px;
+    }
+    .tableContent .tableDiv tbody tr > div {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+        background: transparent;
+        position: relative;
+        /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    }
+    .tableContent table td {
+        background: transparent;
+    }
+    .tableContent table::after,
+    .tableContent table::before {
+        display: none;
+    }
+    .tableContent .tableDiv tbody tr div td:nth-child(2) {
+        padding-left: 10px;
+        font-size: 14px;
+        line-height: 18px;
+        min-width: 165px;
+        padding-right: 0px;
+        width: 40%;
+    }
+    .tableControlls > div p + span > span input {
+        top: -4px;
+        left: -30px !important;
+        width: 101px;
+        height: 29px;
+    }
+    .tableContent .tableDiv tbody tr > div[class*="expand"] {
+        background: linear-gradient(
+            180deg,
+            #3e3e4e 0%,
+            rgba(25, 40, 51, 0.74) 100%
+        );
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .tableContent table td span.user {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        position: relative;
+        top: 11px;
+        left: 0px;
+        margin-right: 0px;
+        width: 95px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+    }
+    .tableContent table th img {
+        display: none;
+    }
+    .tableContent table th:first-child {
+        padding-left: 15px;
+        text-align: left;
+        min-width: auto;
+        font-size: 14px;
+        min-width: 12% !important;
+        /* line-height: 18px; */
+    }
+    .tableControlls {
+        display: inline-block;
+        width: calc(100% - 30px);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tableControlls > div {
+        display: flex;
+        width: 100%;
+        padding: 0px;
+    }
+    .tableControlls > div:first-child {
+        height: 42px;
+        margin-bottom: 16px;
+        margin-top: 0px;
+        width: calc(100% - 3px);
+    }
+    .tableControlls > div:first-child img {
+        width: 18px;
+        margin-left: 16px;
+    }
+    .tableControlls > div:nth-child(2),
+    .tableControlls > div:nth-child(3) {
+        justify-content: center;
+        height: 46px;
+        margin-bottom: 16px;
+        margin-left: 0px;
+    }
+    .tableControlls > div:nth-child(4) {
+        width: calc(51% - 1px);
+        display: inline-block;
+        margin-right: 16px;
+    }
+    .tableControlls > div:nth-child(5) {
+        width: calc(49% - 19px);
+        display: inline-block;
+    }
+    .loaderRows {
+        height: 60px;
+    }
+    .communityList label[data-shrink="true"],
+    .badgeList label[data-shrink="true"] {
+        font-size: 12px;
+        line-height: 16px;
+        padding-left: 8px;
+        position: absolute;
+        overflow: visible;
+        left: 10px !important;
+        top: 14px;
+        transform: none;
+        /* left: auto !important; */
+    }
+    .timer
+    {
+        margin-bottom: 130px;
+    }
+    .communityList label + div > div {
+        font-size: 12px;
+        color: #737373;
+        padding-top: 0px !important;
+        padding-right: 19px !important;
+        top: -14px;
+        /* display:none !important; */
+        opacity: 0;
+        z-index: 999;
+    }
+    .badgeList label + div > div[aria-haspopup="listbox"] {
+        font-size: 12px;
+        color: #737373;
+        padding-top: 0px !important;
+        padding-right: 17px !important;
+        top: -16px;
+        /* display: none !important; */
+        opacity: 0;
+        z-index: 999;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul > button {
+        position: absolute;
+        padding: 0px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul > button + p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        font-family: "Chakra Petch", sans-serif !important;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul > button + p + button {
+        display: inline-block;
+        width: auto;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        cursor: pointer;
+        font-family: "Chakra Petch", sans-serif !important;
+        z-index: 999;
+        border:none;
+        color: #3E3E4E;
+        text-transform:capitalize;
+        padding:0px;
+        min-width: auto;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul div.scroll
+    {
+        max-height: 400px;
+        overflow-y: auto;
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 100%;
+        padding-right: 15px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul li {
+        padding-left: 0px;
+        padding-right: 0px;
+        position: relative;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        min-height: auto;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul li:last-child
+    {
+        height:50px;
+        margin-top:20px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul li > div {
+        min-width: 100%;
+        position: relative;
+        z-index: 99;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul li > span {
+        position: relative;
+        left: -16px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul li input[type="checkbox"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul > button + p + p + li {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #menu-
+        div[data-testid="sentinelStart"]
+        + div
+        ul
+        li[class*="selected"]
+        > div
+        span {
+        color: #3e3e4e;
+        font-weight: 700;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul input + img {
+        left: 0px;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul li > div span {
+        margin-left: 0px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #3e3e4e;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul input[name="select"] {
+        background: #b5b5b5;
+        border-radius: 3px;
+        height: 35px;
+        width: calc(100% - 32px);
+        left: 0px;
+        color: #6a6a6a !important;
+        outline: none;
+        box-shadow: none;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul input::placeholder {
+        color: #6a6a6a !important;
+    }
+    #menu- div[data-testid="sentinelStart"] + div ul > li > svg {
+        left: -3px;
+        fill: #6a6a6a;
+        top: 0px;
+    }
+    .tableControlls > div p + span span[class*="checked"] {
+        transform: translateX(22px);
+    }
+    .communityList label + div > div::after,
+    .badgeList label + div > div::after {
+        right:-50px;
+        top: 5px;
+    }
+    .communityList {
+        min-width: 100%;
+        display: inline-flex;
+        width: 100%;
+    }
+    .badgeList {
+        min-width: 100%;
+        display: inline-flex;
+        width: 100%;
+    }
+    .tableContent table td > div {
+        margin-right: 5px;
+    }
+    .tableContent .tableDiv tbody tr:first-child > div {
+        padding-top: 10px;
+        transition: 1s;
+    }
+    .tableContent
+        .tableDiv
+        tbody
+        tr
+        > div
+        div[aria-labelledby="panel1a-header"]
+        div {
+        padding: 0px;
+    }
+    .tableContent .tableDiv .dropdwn {
+        width: 47%;
+        display: inline-flex;
+        margin-left: 19%;
+        position: relative;
+        margin-bottom: 11px;
+        margin-top: 15px;
+        margin-right: 16%;
+        padding-left: 15px !important;
+        justify-content: space-between;
+        min-width: 270px;
+    }
+    .tableContent .tableDiv .dropdwn::before {
+        position: absolute;
+        content: "";
+        top: -16px;
+        border-top: 2px solid rgba(255, 255, 255, 0.02);
+        width: 98%;
+        height: 2px;
+        left: 10px;
+    }
+    .tableControlls > div.filterRow {
+        display: inline-block;
+        border: none;
+        background: transparent;
+        box-shadow: none;
+        max-width: 100%;
+        margin-bottom:0px;
+        height:auto;
+        width:100% !important;
+        margin-left:0px!important;
+    }
+    .tableControlls > div.filterRow > div {
+        display: inline-flex;
+        min-width: auto;
+        background: #3e3e4e;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        width: 100%;
+        justify-content: center;
+        margin-bottom:16px;
+    }
+    .tableControlls > div.filterRow.one > div:last-child {
+        /* width: 245px; */
+        /* margin-left: 10px; */
+    }
+    .tableControlls > div.filterRow.two > div:first-child {
+        width: calc(50% - 13px);
+        margin-right:8px;
+        margin-left: 0px !important;
+    }
+    .tableControlls > div.filterRow.two > div:last-child {
+        /* min-width: 173px; */
+        margin-left: 8px;
+         width: calc(50% - 7px);
+         vertical-align: top;
+         right: -2px;
+        position: relative;
+    }
+    .tableControlls > div p + span span[class*="track"] {
+        height: 25px;
+    }
+    .tableContent .tableDiv .dropdwn .stars {
+        float: left;
+        margin-top: 1px;
+        white-space: nowrap;
+    }
+    .tableContent .tableDiv .dropdwn .stars + div {
+        display: inline-flex;
+        width: auto;
+        height: 22px;
+        position: relative;
+        top: -10px;
+        white-space: nowrap;
+    }
+    .tableContent .tableDiv .dropdwn .stars + div > div {
+        margin: 0px;
+        display: inline-flex;
+    }
+    .tableContent .tableDiv > div {
+        overflow-x: hidden;
+    }
+    .tableContent .tableDiv .dropdwn .communityName {
+        float: none;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 13px;
+        color: #f8f8f8;
+        padding-left: 3px;
+        position: relative;
+        top: 5px;
+    }
+    .tableContent .tableDiv .dropdwn .communityImgName + img {
+        width: 22px;
+        margin-left: 15px;
+        height: 16px;
+        position: relative;
+        top: 3px;
+        float: right;
+    }
+    .tableContent .tableDiv .dropdwn .stars + div img {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+    }
+    .tableContent .tableDiv .dropdwn .stars img {
+        width: auto;
+        margin-right: 5px;
+        height: 17px;
+    }
+    .communityList div,
+    .badgeList div {
+        width: 100%;
+        padding: 0px;
+        height: 44px;
+        color: #fff3c8;
+        /* display: none; */
+    }
+    .communityList span.arrow {
+        background: #9a9da1;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        min-width: 49px;
+        height: 44px;
+        text-align: center;
+        line-height: 46px;
+        position: relative;
+        right: -1px;
+        top: 0px;
+        cursor: pointer;
+    }
+    .badgeList span.arrow {
+        background: #9a9da1;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        min-width: 49px;
+        height: 44px;
+        text-align: center;
+        line-height: 46px;
+        position: relative;
+        right: -1px;
+        top: 0px;
+        cursor: pointer;
+    }
+    .tableControlls > div:first-child input {
+        background: transparent;
+        border: none;
+        color: #fff !important;
+        font-family: "Chakra Petch", sans-serif !important;
+        font-size: 16px;
+        height: 39px;
+        outline: none;
+        padding-left: 10px;
+        width: 100%;
+    }
+    .tableControlls > div:first-child input:focus
+    {
+        border:none!important;
+        color:#fff!important;
+    }
+    .tableControlls > div:first-child button {
+        background: #9a9da1;
+        border: 1px solid #fff;
+        border-radius: 3px;
+        color: #1a1a20;
+        font-family: Chakra Petch, sans-serif !important;
+        font-size: 16px;
+        font-weight: 600;
+        height: 44px;
+        line-height: 21px;
+        margin-top: -2px;
+        min-width: 98px;
+        position: relative;
+        right: -3px;
+        top: 1px;
+    }
+    .tableContent br {
+        display: none;
+    }
+    .mobileDiscardpot {
+        display: block !important;
+        margin-bottom: 50px;
+    }
+    header > div ul,
+    .navBtns,
+    .sliderImage {
+        display: none;
+    }
+    header {
+        /* padding-left: 25px; */
+        position: relative;
+    }
+    header nav + button {
+        position: absolute !important;
+        right: 15px;
+        padding: 0px !important;
+        top: 0px;
+    }
+    header nav + button svg {
+        width: 40px;
+        height: 40px;
+    }
+    .textContainer {
+        width: calc(100% - 60px);
+        padding-left: 30px;
+    }
+    .slider h3 {
+        margin-top: 72px;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .slider h1,
+    .slider h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .slider h4 {
+        font-size: 16px !important;
+        line-height: 21px !important;
+    }
+    .slider h4 br {
+        display: none;
+    }
+    .slider {
+        padding-bottom: 10px !important;
+        /* overflow-x: hidden; */
+    }
+    .slider.demo {
+        margin-top: 0px;
+    }
+    .tableContent.demo
+    {
+        margin-top: 40px;
+    }
+    .XpContent h1 {
+        /* margin-top: 85px; */
+        font-size: 22px;
+        text-align: left;
+    }
+    .XpContent {
+        padding-left: 40px;
+        padding-right: 35px;
+    }
+    .titleContent,
+    .contentSection1 .title {
+        height: 99px;
+    }
+    .titleContent h1 {
+        font-size: 12px;
+        line-height: 16px;
+        top: -79px;
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+    .contentSection1 .title::after {
+        display: none;
+    }
+    .titleContent h1 span {
+        /* width: 100%; */
+        display: inline-block;
+    }
+    .titleContent h1::before {
+        font-size: 28px;
+        left: 10px;
+        top: 5px;
+    }
+    .titleContent h1::after {
+        font-size: 28px;
+        right: 10px;
+        top: 5px;
+    }
+    .XpContent p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: left;
+    }
+    .XpBox {
+        /* padding-right: 15px;
+    padding-left: 15px; */
+        padding-bottom: 75px;
+    }
+    .XpBox.alpha {
+        padding-bottom: 30px;
+    }
+    .XpBox > div {
+        /* width: calc(100% - 60px);
+    padding: 30px;
+    margin: 0px;
+    margin-bottom: 30px !important; */
+    }
+    .MoreXp > div {
+        width: 100%;
+    }
+    .MoreXp > div:first-child {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: calc(100% - 30px);
+    }
+    .MoreXp > div:first-child h1 {
+        font-size: 24px;
+        line-height: 31px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .MoreXp > div:first-child p {
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 15px;
+        width: 360px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .MoreXp > div:first-child img {
+        display: none;
+    }
+    .MoreXPbox {
+        padding-left: 50px;
+        padding-right: 50px;
+        display: inline-block;
+        width: calc(100% - 100px);
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .jackpotRaffle {
+        padding-bottom: 60px !important;
+    }
+    .jackpotRaffle h1 {
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .jackpotRaffle p {
+        font-size: 16px;
+        line-height: 21px;
+        text-align: left;
+        padding-left: 30px;
+        width: calc(100% - 60px);
+    }
+    .jackpotRaffle::after {
+        display: none;
+    }
+    .jackpotRaffle p br {
+        display: none;
+    }
+    .jackpotRaffle img {
+        width: 100%;
+    }
+    .DiscardBot > h1,
+    .DiscardBot > p {
+        /* display: none; */
+    }
+    .DiscardBot > div:last-child {
+        display: none;
+    }
+    .DiscardBot h1 {
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .DiscardBot {
+        padding-bottom: 100px !important;
+    }
+    .DiscardBot.alpha {
+        padding-bottom: 50px !important;
+    }
+    .mobileDiscardpot p {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: calc(100% - 30px);
+        text-align: left;
+    }
+    .mobileDiscardpot p br {
+        display: none;
+    }
+    .FAQ::after,
+    .FAQ .FaqAccodn::before,
+    .DiscardBot > h1::before,
+    .DiscardBot > h1::after,
+    .DiscardBot > div > div:first-child::before {
+        display: none;
+    }
+    .FAQ .FaqAccodn {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .FAQ.alpha .FaqAccodn {
+        padding-bottom: 100px;
+    }
+    .FAQ .FaqAccodn h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .FAQ .FaqAccodn > div > div:first-child div {
+        margin: 0px 0px;
+    }
+    .FAQ .FaqAccodn > div > div:first-child div > p
+    {
+        color: #D0D0D0 !important;
+    }
+    .FAQ .FaqAccodn > div > div:first-child div p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .FAQ .FaqAccodn > div > div:last-child > div:last-child p {
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+    .FAQ .FaqAccodn > div > div:first-child > div:last-child {
+        color: #ffd705;
+        font-size: 37px;
+        position: relative;
+        top: -10px;
+    }
+    .flipContent {
+        margin-top: 85px;
+        padding-top: 75px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: calc(100% - 30px);
+        padding-bottom: 80px;
+        margin-bottom: 149px;
+    }
+    .flipContent h1 {
+        font-size: 24px;
+        line-height: 31px;
+        margin-bottom: 40px;
+    }
+    .flipContent h3 {
+        display: none;
+    }
+    .flipContent::after {
+        display: none;
+    }
+    .flipContent h1 span {
+        width: 100%;
+        display: inline-block;
+    }
+    .flipContent button {
+        width: 325px;
+    }
+    .footer p {
+        font-size: 12px;
+        margin-top: 0px;
+        color: #b6b6b6;
+        margin-bottom: 35px;
+    }
+    .footer p img {
+        position: relative;
+        bottom: -15px;
+        margin-left: 25px;
+        width: 45px;
+    }
+    .footer {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div {
+        width: 100%;
+        top: 0px !important;
+        background: #0a101b;
+        left: 0px !important;
+        max-width: 100%;
+        height: 100%;
+        max-height: 100%;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div li {
+        color: #fff;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+        font-weight: 700;
+        font-size: 30px;
+        font-family: "Chakra Petch";
+        padding-top: 0px;
+        padding-bottom: 0px;
+        min-height: 45px;
+        line-height: 45px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        padding-left: 30px;
+        text-shadow: 0px 0px 12.1716px rgba(135, 135, 135, 0.6),
+            0px 0px 6.9552px rgba(135, 135, 135, 0.6),
+            0px 0px 4.0572px rgba(135, 135, 135, 0.6),
+            0px 0px 2.0286px rgba(135, 135, 135, 0.6),
+            0px 0px 0.5796px rgba(135, 135, 135, 0.6),
+            0px 0px 0.2898px rgba(135, 135, 135, 0.6);
+    }
+    .menuPop div[data-testid="sentinelStart"] + div li:hover {
+        background-color: transparent;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div li span {
+        display: none;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div li[value="Add to Discord"] {
+        background: #ffd705 !important;
+        border: 1px solid #ffffff;
+        box-shadow: 0px 0px 17.9432px rgb(255 150 5 / 40%),
+            0px 0px 10.2533px rgb(255 150 5 / 40%),
+            0px 0px 5.98106px rgb(255 150 5 / 40%),
+            0px 0px 2.99053px rgb(255 150 5 / 40%),
+            0px 0px 0.854437px rgb(255 150 5 / 40%),
+            0px 0px 0.427219px rgb(255 150 5 / 40%);
+        border-radius: 3px;
+        width: 175px;
+        height: 45px;
+        font-weight: 700 !important;
+        font-size: 18px !important;
+        line-height: 45px;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        color: #393939 !important;
+        margin-left: 30px;
+        padding: 0px;
+        text-transform: none;
+        text-shadow: none;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div > ul {
+        margin-top: 0px;
+        position: absolute;
+        height: calc(100% - 155px);
+        background: #0b111b;
+        padding-top: 135px;
+        padding-bottom: 0px;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div li + a,
+    .menuPop div[data-testid="sentinelStart"] + div li + a img,
+    .menuPop div[data-testid="sentinelStart"] + div li + a + a img {
+        width: 31px;
+        height: 24px;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div li + a {
+        position: absolute;
+        left: 30px;
+        bottom: 0px;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div li + a + a {
+        width: 30px;
+        position: absolute;
+        left: 90px;
+        bottom: -5px;
+    }
+    .MedalPopup
+    {
+        width: 90%;
+    }
+    .MedalPopup div[class*="medallion"], .MedalPopup div[class*="ribbon"]
+    {
+        padding: 30px;
+    }
+    .MedalPopup > div h5 img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .MedalPopup > div h5
+    {
+        font-size: 22px;
+    }
+    .MedalPopup > div p
+    {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .MedalPopup > div h6
+    {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .slider.home > div {
+        width: calc(50% - 32px);
+    }
+    .slider h2,
+    .slider h1 {
+        font-size: 40px;
+        padding-left: 0px;
+    }
+    .slider.home {
+        margin-top: 0px;
+        padding-bottom: 160px !important;
+        overflow: hidden;
+    }
+    .titleContent h1 {
+        font-size: 28px;
+    }
+    .XpBox {
+        display: inline-flex;
+        padding-bottom: 180px;
+    }
+    .XpContent h1 {
+        margin-top: 100px;
+        font-size: 36px;
+    }
+    .XpContent p {
+        font-size: 24px;
+    }
+    .XpBox > div {
+        padding: 20px;
+        margin-left: 8px;
+        margin-right: 8px;
+        max-width: 342px;
+        width: 100%;
+        height: auto;
+    }
+    .tableContenthome {
+        width: calc(50% - 2px) !important;
+        margin-right: 30px;
+    }
+    .slider h3 {
+        font-size: 24px;
+        padding-left: 30px;
+    }
+    .slider.home h4 {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .tableContenthome table td > span {
+        margin-right: 5px;
+    }
+    .tableContenthome table td:nth-child(2) {
+        min-width: auto;
+    }
+    .slider.home .whiteBtn {
+        margin-left: 30px;
+    }
+    .tableContenthome table td > span,
+    .tableContenthome table td {
+        font-size: 16px;
+    }
+    .MoreXp > div {
+        width: 720px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .MoreXp {
+        margin-top: 100px;
+    }
+    .MoreXp > div:first-child > img {
+        display: none;
+    }
+    .MoreXPbox {
+        top: 0px !important;
+        margin-top: 80px;
+        vertical-align: top;
+        padding-left: 0px;
+        width: calc(50% - 0px);
+        margin-bottom: 0px;
+    }
+    .MoreXp > div:first-child h1 {
+        font-size: 44px;
+        text-align: center;
+        line-height: 34px;
+    }
+    .MoreXPbox::before {
+        display: none;
+    }
+    .MoreXp > div:first-child p {
+        display: block;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 630px;
+    }
+    .MoreXp div:last-child .MoreXPbox p {
+        padding-left: 65px;
+        max-width: 240px;
+    }
+    .jackpotRaffle {
+        padding-bottom: 100px !important;
+    }
+    .jackpotRaffle h1 {
+        margin-top: 250px;
+    }
+    .jackpotRaffle p {
+        margin-bottom: 15px;
+    }
+    .jackpotRaffle img {
+        width: 796px;
+    }
+    .DiscardBot h1 {
+        margin-top: 120px;
+    }
+    .DiscardBot > h1::before {
+        display: none;
+    }
+    .DiscardBot > h1::after {
+        left: -20%;
+        background: rgba(0, 255, 255, 0.32);
+        opacity: 0.3;
+        filter: blur(150px);
+        transform: matrix(0, 1, 1, 0.04, 0, 0);
+    }
+    .FAQ {
+        padding-left: 0px !important;
+        padding-right: 30px !important;
+    }
+    .FAQ .FaqAccodn {
+        max-width: 960px;
+    }
+    .flipContent {
+        margin-bottom: 250px;
+        margin-top: 300px;
+        margin-left: 30px;
+        margin-right: 30px;
+        max-width: calc(100% - 60px);
+    }
+    .FAQ .FaqAccodn > div > div:last-child > div:last-child p {
+        width: 95%;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+    header > div,
+    .slider,
+    .contentSection1 .xp,
+    .MoreXp,
+    .jackpotRaffle,
+    .DiscardBot,
+    .backArrow
+    .FAQ,
+    .footer > div {
+        max-width: calc(100% - 0px) !important;
+    }
+    .backArrow
+    {
+        padding-left: 30px !important;
+    }
+    .timer > div:nth-child(1) img,
+    .timer > div:nth-child(3) img {
+        /* width: 65px;
+  height: 41px; */
+    }
+    /* .tableControlls {
+    display: inline-flex !important;
+    width: calc(100% - 30px);
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-around;
+} */
+    header > div ul li {
+        margin-left: 15px !important;
+        margin-right: 14px !important;
+    }
+    header > div ul {
+        margin-left: 30px !important;
+    }
+    .navBtns {
+        float: right;
+        /* margin-right: 30px; */
+    }
+    .timer > div:nth-child(1) {
+        max-width: 270px !important;
+        width: 100% !important;
+    }
+    .timer > div h5 {
+        /* margin-bottom: 15px; */
+    }
+    .timeCounter > div span {
+        font-size: 46px;
+        min-width:58px;
+    }
+    .timer > div:nth-child(2) img {
+        width: 133px;
+        height: 85px;
+    }
+    .timer > div:first-child h5,
+    .timer > div:last-child h5 {
+        font-size: 16px;
+    }
+    .timer > div:first-child h2,
+    .timer > div:last-child h2 {
+        font-size: 36px;
+    }
+    /* .tableControlls > div:last-child button.sm-btn {
+  min-width: 52px;
+  height: 46px;
+  display: block;
+}
+.tableControlls > div:last-child button.sm-btn img
+{
+  position: relative;
+  top: 3px;
+}
+.tableControlls > div {
+  margin-right: 15px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 44px;
+}
+.communityList span.arrow, .badgeList span.arrow
+{
+  right: -11px;
+  top: 2px;
+  height: 44px;
+} */
+    .tableContent .tableDiv {
+        margin-left: 25px;
+        max-width: calc(100% - 50px) !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .tableControlls {
+        margin-left: 25px;
+        max-width: calc(100% - 50px) !important;
+        position: relative;
+    }
+    .tableContent .tableDiv div table tr td:first-child span:first-child {
+        margin-right: 15px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .tableContent table th:first-child {
+        padding-left: 30px;
+    }
+    .tableContent table td span.user {
+        margin-right: 10px;
+    }
+    .tableContent table td img[alt="star"] {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .slider h4 {
+        padding-left: 25px;
+    }
+    .lg-btn {
+        display: none;
+    }
+    .tableControlls > div:last-child > img {
+        display: none;
+    }
+    .XpBox > div > div li {
+        width: 90%;
+    }
+    .tableContent table td:first-child,
+    .tableContent table th:first-child {
+        /* width: 20%;
+    min-width: 20% */
+        min-width: 60px !important;
+    }
+    .tableContent table th:nth-child(2) {
+        /* width: 30%; */
+    }
+    header {
+        padding-left: 30px;
+        position: relative;
+        background: #0b111b;
+    }
+    header nav + button {
+        position: absolute !important;
+        right: 20px;
+    }
+    .tableContent table tr td:last-child span {
+        display: none;
+    }
+    .tableContent table th:nth-child(4) {
+        padding-left: 27px;
+        min-width: 200px;
+    }
+    .footer {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: calc(100% - 30px);
+    }
+}
+@media screen and (max-width: 1600px) {
+    header > div,
+    .slider,
+    .contentSection1 .xp,
+    .MoreXp,
+    .jackpotRaffle,
+    .DiscardBot,
+    .FAQ,.backArrow,
+    .footer > div {
+        max-width: 1400px;
+    }
+    .tableContent .tableDiv {
+        max-width: 1400px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    header > div,
+    .contentSection1 .xp,
+    .MoreXp,
+    .jackpotRaffle,
+    .DiscardBot,.backArrow,
+    .FAQ,
+    .footer > div {
+        max-width: 1200px;
+    }
+    .tableContent .tableDiv {
+        max-width: 1200px;
+    }
+
+    .leaderBoard {
+        display: inline-block;
+        position: relative;
+        margin-top: 100px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .tableContent .tableDiv {
+        margin-left: 15px;
+        max-width: calc(100% - 30px) !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .tableContent > div h2 {
+        margin-top: 100px;
+        font-size: 26px;
+        line-height: 34px;
+        padding-left: 15px;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+    .leaderBoard button {
+        float: right;
+        position: relative;
+        top: 103px;
+        cursor: pointer;
+        right: 7px;
+    }
+    .tableControlls {
+        display: inline-flex !important;
+        width: calc(100% - 30px);
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: space-around;
+    }
+    .tableControlls + div {
+        display: none;
+    }
+    .tableControlls > div {
+        margin-right: 15px !important;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 44px;
+    }
+    .tableControlls > div:first-child img {
+        margin-left: 16px;
+        width: 18px;
+    }
+    .tableControlls > div:last-child button.sm-btn {
+        display: none;
+    }
+    .tableControlls > div:first-child input {
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-family: Chakra Petch, sans-serif !important;
+        font-size: 16px;
+        height: 39px;
+        outline: none;
+        padding-left: 10px;
+        width: 100%;
+    }
+    .tableControlls > div:first-child button {
+        background: #9a9da1;
+        border: 1px solid #fff;
+        border-radius: 3px;
+        color: #1a1a20;
+        font-family: Chakra Petch, sans-serif !important;
+        font-size: 16px;
+        font-weight: 600;
+        height: 44px;
+        line-height: 21px;
+        margin-top: -2px;
+        min-width: 98px;
+        position: relative;
+        right: -3px;
+        top: 1px;
+    }
+    .tableControlls > div {
+        display: flex;
+        width: 100%;
+        padding: 0px;
+    }
+    .tableControlls > div.filterRow {
+        display: flex;
+        border: none;
+        background: transparent;
+        box-shadow: none;
+        max-width: 100%;
+    }
+    .tableControlls > div.filterRow > div {
+        display: inline-flex;
+        min-width: auto;
+        background: #3e3e4e;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        width: 100%;
+        justify-content: center;
+    }
+    .tableControlls > div p {
+        line-height: 44px;
+        font-size: 12px;
+    }
+    .tableControlls > div p + span {
+        margin-top: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 45px;
+    }
+    .tableControlls > div:nth-child(2),
+    .tableControlls > div:nth-child(3) {
+        justify-content: center;
+        height: 44px;
+        /* margin-bottom: 16px; */
+        margin-left: 0px;
+    }
+    .tableControlls > div p + span {
+        margin-top: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 45px;
+    }
+    .tableControlls > div:last-child button.sm-btn {
+        display: block;
+        min-width: 52px;
+        height: 46px;
+        right: -3px;
+    }
+    .tableControlls > div:nth-child(1),
+    .tableControlls > div:nth-child(2) {
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+    }
+    .slider h4 {
+        padding-left: 15px;
+    }
+    .tableControlls > div:last-child button.lg-btn {
+        display: none;
+    }
+    .tableControlls > div p + span span[class*="thumb"] {
+        width: 19px;
+        height: 19px;
+    }
+    .tableControlls > div:last-child > img {
+        width: 20px;
+        display: none;
+    }
+    .leaderBoard button img[alt="gray"] {
+        opacity: 0.5;
+    }
+    .tableContent .tableDiv thead tr div {
+        margin: 0px;
+        padding: 0px;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div {
+        width: 100%;
+        top: 0px !important;
+        background: #0a101b;
+        left: 0px !important;
+        max-width: 100%;
+        height: calc(100% - 80px);
+        padding-top: 80px;
+        overflow: visible !important;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div > ul {
+        margin-top: 30px;
+        position: absolute;
+        height: calc(100% - 155px);
+        background: #0b111b;
+        overflow-y: auto;
+    }
+    .tableContent table td:first-child,
+    .tableContent table td {
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .tableContent table td:last-child span {
+        position: relative;
+        top: 10px;
+        display: none;
+    }
+    .tableContent table td div img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .tableControlls > div.filterRow.one > div:last-child {
+        width: 245px;
+        margin-left: 10px;
+    }
+    .tableControlls > div p + span > span input {
+        top: -4px;
+        left: -30px !important;
+        width: 101px !important;
+        height: 29px;
+    }
+    .tableControlls > div p + span span[class*="thumb"] {
+        width: 19px;
+        height: 19px;
+    }
+    .tableControlls > div p + span span[class*="track"] {
+        height: 25px;
+    }
+    .communityList span.arrow {
+        background: #9a9da1;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        min-width: 49px;
+        height: 44px;
+        text-align: center;
+        line-height: 46px;
+        position: relative;
+        right: -1px;
+        top: -16px;
+        cursor: pointer;
+    }
+    .badgeList span.arrow {
+        background: #9a9da1;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        min-width: 49px;
+        height: 44px;
+        text-align: center;
+        line-height: 46px;
+        position: relative;
+        right: -1px;
+        top: -16px;
+        cursor: pointer;
+    }
+    .tableControlls > div.filterRow.two > div:last-child {
+        width: 185px;
+        margin-left: 10px;
+    }
+    .badgeList {
+        min-width: 100%;
+        display: inline-flex;
+        width: 100%;
+    }
+    .communityList label + div > div {
+        font-size: 12px;
+        color: #737373;
+        padding-top: 0px !important;
+        padding-right: 19px !important;
+        top: -14px;
+        /* display: none !important; */
+        opacity: 0;
+        z-index: 999;
+    }
+    .badgeList label + div > div[aria-haspopup="listbox"] {
+        font-size: 12px;
+        color: #737373;
+        padding-top: 0px !important;
+        padding-right: 17px !important;
+        top: -16px;
+        /* display: none !important; */
+        opacity: 0;
+        z-index: 999;
+    }
+    .communityList {
+        min-width: 100%;
+        display: inline-flex;
+        width: 100%;
+    }
+    /* }
+#menu- div[data-testid="sentinelStart"] + div {
+  width: calc(100% - 50px)!important;
+  left: 0px !important;
+  top: auto !important;
+  bottom: 0px;
+  max-width: 100%!important;
+  margin: 0px !important;
+  border: none;
+  border-radius: 20px 20px 0px 0px;
+  background: #DADADA;
+  padding: 25px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul > button {
+  position: absolute;
+  padding: 0px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul > button + p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  font-family: "Chakra Petch",sans-serif!important;
+}
+#menu- div[data-testid="sentinelStart"] + div ul > button + p + p {
+  display: inline-block;
+  width: auto;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+  font-family: "Chakra Petch",sans-serif!important;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li {
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  min-height: 20px;
+  margin-bottom: 15px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul > button + p + p + li {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul > li > svg {
+  left: -3px;
+  fill: #6A6A6A;
+  top: 0px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul input[name="select"] {
+  background: #B5B5B5;
+  border-radius: 3px;
+  height: 35px;
+  width: calc(100% - 32px);
+  left: 0px;
+  color: #6A6A6A !important;
+  outline: none;
+  box-shadow: none;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li button {
+  background: #3E3E4E;
+  border-radius: 3px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: 'Chakra Petch';
+  margin-top: 20px;
+} */
+    .tableControlls > div p + span span[class*="checked"] {
+        transform: translateX(22px);
+    }
+    /* #menu- div[data-testid="sentinelStart"] + div ul li > div {
+  min-width: 100%;
+  position: relative;
+  z-index: 99;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li > span {
+    position: relative;
+    left: -16px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li input[type="checkbox"] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul input + img {
+  left: 0px;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li > div span {
+  margin-left: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3E3E4E;
+}
+#menu- div[data-testid="sentinelStart"] + div ul li > span {
+  position: relative;
+  left: -16px;
+} */
+    .communityList label[data-shrink="true"],
+    .badgeList label[data-shrink="true"] {
+        font-size: 12px;
+        line-height: 16px;
+        padding-left: 8px;
+        position: relative;
+        overflow: visible;
+        right: -7px !important;
+        top: 14px;
+        transform: none;
+        left: auto !important;
+    }
+    .communityList div,
+    .badgeList div {
+        width: 100%;
+        padding: 0px;
+        height: 44px;
+        color: #fff3c8;
+        /* display: none; */
+    }
+    .tableContent .tableDiv div table tr td:first-child span:first-child {
+        padding: 0px;
+        margin-right: 5px;
+        padding: 0px;
+        margin-right: 5px;
+        top: 8px;
+        width: 10px;
+        position: relative;
+    }
+    .tableControlls > div:last-child {
+        margin-left: 0px;
+    }
+    .tableContent table td {
+        font-size: 14px;
+    }
+    .tableContent table td span.user {
+        margin-right: 10px;
+    }
+    .tableContent table td img[alt="star"] {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .tableContent table td > div {
+        margin-right: 10px;
+    }
+    .tableContent table th:first-child {
+        min-width: 90px;
+        padding-left: 40px;
+    }
+    .tableContent table th:nth-child(2) {
+        padding-left: 5px;
+    }
+    .tableContent .tableDiv div table tr td:first-child span:first-child {
+        margin-right: 15px;
+        margin-left: 40px;
+        top: 0px;
+    }
+    .tableContent table th:nth-child(3) {
+        min-width: 170px;
+        padding-left: 0px;
+    }
+    .tableContent table th:nth-child(4) {
+        min-width: 200px;
+        padding-left: 0px;
+    }
+    .tableContent table th:nth-child(5) {
+        padding-left: 0px;
+    }
+    .tableContent table td img[alt="link"] {
+        /* margin-left: 10px; */
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    header > div,
+    .slider,
+    .contentSection1 .xp,
+    .MoreXp,
+    .jackpotRaffle,
+    .DiscardBot,
+    .FAQ,
+    .footer > div {
+        max-width: 1024px;
+        width: calc(100% - 48px);
+    }
+    .backArrow
+    {
+        padding-left:24px;
+    }
+    .tableContent .tableDiv.alpha div table tr td:first-child span:first-child img
+    {
+        position:static;
+    }
+    .tableContent table td span img{
+        /* display: none; */
+    }
+    .scrollBadge
+    {
+        display: none !important;
+    }
+    .tableContent table td img[alt="star"], .tableContent table td img[alt="star"] + svg
+    {
+        display: none;
+    }
+    .tableContent .tableDiv {
+        max-width: 1024px;
+    }
+    .tableContent table th:nth-child(3) {
+        min-width: 110px;
+    }
+    .tableContent table th:first-child {
+        /* min-width: 75px; */
+    }
+    .tableControlls.alpha
+    {
+        width:100%!important;
+        right: 0px;
+        top: -4px;
+    }
+    .tableControlls > div:last-child {
+        margin-left: 0px;
+        display: none;
+    }
+    header > div ul li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    header > div ul {
+        float: left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .timer > div:nth-child(1) {
+        max-width: fit-content;
+        width: auto;
+        display: inline-block;
+        text-align: center;
+    }
+    .timer > div:nth-child(2) {
+        max-width: fit-content;
+        width: auto;
+        white-space: nowrap;
+        margin-right: 20px;
+        margin-left: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .timer > div:first-child h2,
+    .timer > div:last-child h2 {
+        font-size: 30px;
+    }
+    .tableContent {
+        position: relative;
+    }
+    .tableContent table td span.user
+    {
+        float:none;
+    }
+    .tableContent table th:nth-child(2) {
+        min-width: 210px;
+    }
+    .tableControlls > div:last-child button.sm-btn
+    {
+        display:block;
+    }
+    .tableDiv > div
+    {
+        overflow:hidden;
+    }
+    .tableContent table th:nth-child(4)
+    {
+        min-width: 250px;
+    }
+    .tableContent table th:first-child
+    {
+        min-width: 90px;
+    }
+    .tableControlls > div:last-child button.lg-btn
+    {
+        display:none;
+    }
+    .tableControlls > div:last-child
+    {
+        display: flex;
+        position: absolute;
+        right: 2px;
+        max-width: 307px;
+        top: -10px;
+    }
+    .tableContent .tableDiv div table tr td:first-child span:first-child
+    {
+        margin-right: 20px;
+    }
+    .twittername
+    {
+        display:none;
+    }
+    .tableControlls + div {
+        /* position: absolute;
+        right: 25px;
+        top: -10px;
+        max-width: 341px;
+        width: 100%;
+        display: block; */
+    }
+    .tableControlls + div img {
+        /* position: absolute;
+        left: 20px;
+        width: 13px;
+        top: 15px; */
+    }
+    .tableControlls + div input {
+        background: #3e3e4e;
+        border: 1px solid #ffffff;
+        box-shadow: 0px 0px 17.0628px rgba(112, 112, 112, 0.2),
+            0px 0px 9.75015px rgba(112, 112, 112, 0.2),
+            0px 0px 5.68759px rgba(112, 112, 112, 0.2),
+            0px 0px 2.84379px rgba(112, 112, 112, 0.2),
+            0px 0px 0.812513px rgba(112, 112, 112, 0.2),
+            0px 0px 0.406256px rgba(112, 112, 112, 0.2);
+        border-radius: 3px;
+        height: 42px;
+        width: calc(100% - 32px);
+        padding: 0;
+        font-size: 22px;
+        padding-left: 30px;
+        font-family: "Chakra Petch", sans-serif;
+        color: #fff;
+    }
+    .tableControlls + div button {
+        position: absolute;
+        right: 0px;
+        background: #9a9da1;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        width: 99px;
+        height: 44px;
+        color: #1a1a20;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: "Chakra Petch", sans-serif;
+    }
+    .tableControlls > div {
+        margin-right: 25px;
+        justify-content: center;
+    }
+    .tableControlls > div:nth-child(1),
+    .tableControlls > div:nth-child(2) {
+        width: calc(50% - 200px);
+    }
+    .communityList span.arrow,
+    .badgeList span.arrow {
+        top: 2px;
+        height: 44px;
+    }
+    .tableControlls > div:nth-child(4) {
+        margin-right: 0px !important;
+    }
+    .communityList {
+        min-width: 145px;
+    }
+    .badgeList {
+        min-width: 105px;
+    }
+    .tableControlls > div:last-child button {
+        min-width: 75px;
+    }
+    .communityList label[data-shrink="true"],
+    .badgeList label[data-shrink="true"] {
+        left: -13px;
+    }
+     .myaccount
+    {
+        padding-left:24px !important;
+        padding-right:24px!important;
+    }
+    .myaccount header div
+    {
+        margin-left:0px !important;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    header > div, .slider, .contentSection1 .xp, .MoreXp, .jackpotRaffle, .DiscardBot, .FAQ, .backArrow, .footer > div {
+    max-width: 1400px;
+    width:calc(100% - 48px)
+    }
+    .plans {
+    display: inline-block;
+    max-width:500px;
+    }
+    .changePlanBox > div {
+    padding-left: 50px;
+    }
+    .tableContent table th:first-child,
+    .tableContent table td:first-child,
+    .tableContent table th:first-child, .loaderRows td:first-child {
+        min-width: 155px !important;
+    }
+    .tableContent table tr.loaderRows td
+    {
+         /* min-width: 33.33% !important; */
+    }
+    .tableContent table th:nth-child(2) {
+        min-width: 43%;
+    }
+    .tableContent .tableDiv tbody tr div td:nth-child(2), .loaderRows td:nth-child(2) {
+        min-width: 50%;
+    }
+    .tableContent table th:nth-child(3) {
+        /* min-width: 30%; */
+    }
+    .tableContent .tableDiv .dropdwn {
+        width: 62%;
+        margin-left: 23%;
+    }
+    .choosePayment, .paymentFailed, .SuccessPayBox
+    {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .footer > div div
+    {
+        display:none;
+    }
+    .choosePayment, .paymentFailed, .SuccessPayBox
+    {
+        margin-top:170px;
+    }
+    .myaccount
+    {
+        padding-left:24px !important;
+        padding-right:24px!important;
+    }
+    .myaccount header div
+    {
+        margin-left:0px !important;
+    }
+    .myaccount .DelAccount {
+    text-align: left;
+    }
+    .myaccount .DelAccount p {
+    justify-content: left;
+    }
+    .myaccount .planSelected {
+    width: 304px;
+    }
+    .myaccount {
+    margin-bottom: 400px;
+    }
+    .changePlanBox .yBtn
+    {
+    max-width: 329px;
+    min-width: auto !important;
+    }
+    .footer p img {
+    margin-left: 0px;
+    }
+    .YearSelection label:first-child + div {
+    margin-right: 25px;
+    }
+    .tableDiv .loaderRows td:first-child {
+    padding-left: 0px!important;
+    }
+}
+@media screen and (min-width: 1023px) and (max-height: 769px) {
+    .tableContent table th:first-child,
+    .tableContent table td:first-child,
+    .tableContent table th:first-child {
+        /* min-width: 20%!important; */
+    }
+    .tableContent table th:nth-child(2) {
+        /* min-width: 44%; */
+    }
+    .tableContent .tableDiv tbody tr div td:nth-child(2) {
+        /* min-width: 50%; */
+    }
+    .tableContent table th:nth-child(3) {
+        /* min-width: 30%; */
+    }
+    .tableContent .tableDiv .dropdwn {
+        width: 60%;
+        margin-left: 22%;
+    }
+    .tableDiv .loaderRows td:first-child {
+    padding-left: 40px;
+    }
+}
+@media screen and (max-height: 768px) {
+    .menuPop div[data-testid="sentinelStart"] + div > ul {
+        margin-top: 0px;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div li + a {
+        position: fixed;
+        bottom: 20px;
+    }
+    .menuPop div[data-testid="sentinelStart"] + div li + a + a {
+        position: fixed;
+        bottom: 14px;
+    }
+    .tableContent table th:first-child,
+    .tableContent table td:first-child {
+        /* min-width:50px; */
+    }
+    .tableContent .tableDiv .dropdwn {
+        margin-left: 25%;
+        /* min-width: 270px; */
+    }
+
+}
+@media screen and (max-width: 1023px) {
+    .backArrow {
+        font-weight: 500 !important;
+        font-size: 16px!important;
+        line-height: 26px;
+        margin-top: -19px;
+        position: relative;
+        z-index: 999;
+        padding-left: 16px !important;
+    }
+    .announcementTable > div
+    {
+        width:calc(100% - 30px);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .backArrow img
+    {
+        width: 13px!important;
+        top: 1px!important;
+        margin-right: 10px!important;
+    }
+    .sm-logo {
+        display: block;
+    }
+    .lg-logo {
+        display: none;
+    }
+    .slider.home > div {
+        width: calc(100% - 40px);
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .slider.home .whiteBtn {
+        margin-bottom: 100px;
+    }
+    .slider.home > div:first-child::before {
+        background: rgba(254, 209, 6, 0.6);
+        opacity: 0.3;
+        filter: blur(150px);
+        transform: rotate(-3.84deg);
+        left: 29%;
+        top: -5%;
+    }
+    .slider.home > div::after {
+        background-image: url("../images/headerCrown.png") !important;
+        background-color: transparent !important;
+        position: absolute;
+        content: "";
+        width: 260.02px !important;
+        height: 237.6px !important;
+        left: 130px !important;
+        top: -9% !important;
+        opacity: 0.1 !important;
+        filter: blur(4px) !important;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+    }
+    .XpContent p br {
+        display: none;
+    }
+    .tableContenthome {
+        display: none !important;
+    }
+    .MoreXp {
+        margin-top: 50px;
+    }
+    .MoreXp.alpha {
+        margin-top: 0px;
+    }
+    .XpBox > div {
+        display: block;
+        margin-bottom: 30px;
+        width: calc(100% - 75px);
+        max-width: 362px;
+        padding: 20px 25px;
+        height: auto;
+        position: relative;
+    }
+    .XpBox::after {
+        position: absolute;
+        content: "";
+        background: rgba(254, 209, 6, 0.3);
+        opacity: 0.28;
+        filter: blur(150px);
+        transform: rotate(-3.84deg);
+        width: 473.9px;
+        height: 1510.2px;
+        top: -2%;
+        z-index: -1;
+        left: 18%;
+    }
+    .XpBox > div::after {
+        display: none;
+    }
+    .MoreXPbox img {
+        width: 75px;
+    }
+    .jackpotRaffle h1 {
+        margin-top: 30px;
+    }
+    .jackpotRaffle {
+        padding-bottom: 75px !important;
+    }
+    .MoreXp > div:first-child > img {
+        display: none;
+    }
+    .MoreXp > div {
+        width: 100%;
+    }
+    .MoreXPbox {
+        width: 100%;
+        max-width: 280px;
+        display: block;
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+        top: 0px !important;
+        padding-right: 0px;
+        margin-top: 40px;
+    }
+    .XpContent h1 {
+        margin-top: 50px;
+    }
+    .FAQ .FaqAccodn > div div div#panel1a-content div p {
+        padding-left: 0px;
+    }
+    .DiscardBotToggle {
+        display: block !important;
+        width: 358px !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px !important;
+    }
+    .DiscardBotToggle
+        div[class*="gutters"]:last-child
+        div[aria-expanded="false"]
+        p {
+        margin-bottom: 20px !important;
+    }
+    .DiscardBotToggle div > div > p:first-child {
+        margin-top: 20px !important;
+    }
+    .DiscardBotToggle > div:last-child div:last-child {
+        padding-bottom: 0px !important;
+    }
+    .DiscardBot > div > div:first-child > div:last-child > div div > div {
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        padding: 0px;
+    }
+    .DiscardBotToggle > div:last-child div.disableDiv {
+        position: relative;
+        top: -15px;
+    }
+    .DiscardBot
+        > div
+        > div:first-child
+        > div:last-child
+        > div
+        div
+        > div[class*="entered"]
+        p
+        p,
+    .DiscardBot
+        > div
+        > div:first-child
+        > div:last-child
+        > div
+        div
+        > div[class*="vertical"]
+        p
+        p {
+        padding-left: 0px !important;
+        font-size: 16px !important;
+        margin-top: 25px !important;
+        color: #c8c8c8 !important;
+        line-height: 21px;
+        font-weight: 600 !important;
+        margin-bottom: 25px !important;
+        padding-right: 0px !important;
+        width: calc(100% - 30px) !important;
+    }
+    .DiscardBot
+        > div
+        > div:first-child
+        > div:last-child
+        > div
+        div
+        > div[class*="entered"]
+        p
+        p,
+    .DiscardBot
+        > div
+        > div:first-child
+        > div:last-child
+        > div
+        div
+        > div[class*="vertical"]
+        p
+        p:first-child {
+        margin-top: 0px !important;
+    }
+    .DiscardBot
+        > div
+        > div:first-child
+        > div:last-child
+        > div
+        div
+        > div::before {
+        display: none;
+    }
+    #panel1a-header p,
+    #panel1a-header[aria-expanded="false"] p span {
+        margin-bottom: 15px;
+        font-weight: 500;
+        color: #8f9296;
+        line-height: 21px;
+    }
+    #panel1a-header[aria-expanded="true"] p {
+        color:  #D0D0D0 !important;
+    }
+    #panel1a-header p span,
+    #panel1a-header[aria-expanded="true"] p span {
+        font-weight: 700;
+        color: #ffffff;
+    }
+    #panel1a-content > div > p {
+        margin-top: 10px !important;
+    }
+    .DiscardBot
+        > div
+        > div:first-child
+        > div:last-child
+        > div:last-child
+        p:last-child {
+        margin-bottom: 15px;
+        font-weight: 700;
+        /* font-size: 16px; */
+        width: calc(100% - 30px);
+        margin-top: 0px;
+    }
+    .DiscardBot > div > div:first-child > div:last-child > div > div div p {
+        margin-bottom: 25px;
+    }
+    .DiscardBot
+        > div
+        > div:first-child
+        > div:last-child
+        > div:last-child
+        p:last-child
+        br {
+        display: none;
+    }
+    .DiscardBotToggle div div[aria-expanded="true"] + div p > p br {
+        display: none;
+    }
+    .DiscardBot > div > div:first-child > div:last-child > div:last-child p p {
+        padding-left: 0px;
+        /* margin-left: -15px; */
+    }
+    .DiscardBot > div:last-child p {
+        margin-bottom: 0px;
+    }
+    .DiscardBot > div div[aria-expanded="true"] p {
+        position: relative;
+        color: #fff !important;
+    }
+    .DiscardBot
+        > div
+        > div:first-child
+        > div:last-child
+        > div
+        > div
+        div
+        p::after {
+        top: 0px;
+    }
+    .DiscardBot > p {
+        font-size: 16px;
+        display: block;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        line-height: 20px;
+    }
+    .DiscardBot
+        > div
+        > div:first-child
+        > div:last-child
+        > div
+        div:last-child
+        > div:last-child {
+        padding-bottom: 5px;
+    }
+    .DiscardBot > p br {
+        display: none;
+    }
+    .DiscardBot h1 {
+        margin-top: 60px;
+    }
+    .DiscardBot.alpha h1 {
+        margin-top: 30px;
+    }
+    .DiscardBot > div > div:first-child > div:last-child > div div > div > p {
+        /* padding-left: 0px !important; */
+    }
+    .MoreXp > div:first-child p {
+        line-height: 21px;
+    }
+    .MoreXp > div:first-child p br {
+        display: none;
+    }
+    .MoreXp > div:first-child p a {
+        font-size: 16px;
+        padding-left: 10px;
+        position: relative;
+        top: 0px;
+    }
+    .MoreXp.alpha > div:first-child p a
+    {
+        top: 2px;
+    }
+    .MoreXp > div:first-child p a img {
+        display: inline-block;
+        position: relative;
+        top: 2px;
+    }
+    .MoreXp div:last-child .MoreXPbox p {
+        padding-left: 15px;
+        width: 245px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .DiscardBotToggle div div[aria-expanded="true"] p::before {
+        position: absolute;
+        content: "";
+        background: #43464d;
+        border-radius: 5px;
+        height: 48px;
+        z-index: -1;
+        width: 272px;
+        left: 30px !important;
+        top: -11px !important;
+        display: block !important;
+    }
+    .DiscardBotToggle div div[aria-expanded="true"] + div p {
+        position: relative;
+        color: #fff !important;
+        padding-left: 30px !important;
+        font-size: 16px !important;
+    }
+    .DiscardBotToggle div div[aria-expanded="true"] + div p > p {
+        /* padding-left: 0px!important; */
+    }
+    .DiscardBotToggle div div[aria-expanded="true"] + div p::after {
+        display: none;
+    }
+    .DiscardBot > div:last-child p span {
+        color: #ffd705;
+    }
+    .jackpotRaffle {
+        max-width: 390px;
+        width: 100%;
+    }
+    .FAQ .FaqAccodn h1 {
+        padding-left: 0px;
+    }
+    .FAQ .FaqAccodn > div > div {
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .FAQ .FaqAccodn > div::before {
+        display: none;
+    }
+    .FAQ .FaqAccodn > div {
+        margin-bottom: 0px;
+    }
+    .FAQ .FaqAccodn h1 a {
+        font-size: 16px;
+    }
+    .FAQ .FaqAccodn h1 a img {
+        width: 12px;
+        position: relative;
+        top: 1px;
+        left: 2px;
+    }
+    .FAQ .FaqAccodn > div > div:first-child > div:last-child {
+        top: -10px;
+    }
+    nav.brand::after {
+        display: none;
+    }
+    header {
+        box-shadow: none !important;
+    }
+    .announcementVideo video
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .announcementTable .videoplay > div:last-child
+    {
+        padding: 0px;
+    }
+    .announcementTable .videoplay > div table td, .previousWinners > div table td, .announcementTable > div table tr td:last-child a, .previousWinners > div table tr td:last-child a
+    {
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .announcementTable > div table td img, .previousWinners > div table td img {
+        margin-right: 10px;
+        position: relative;
+        top: 0px;
+        width: 15px;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .tableDiv .loaderRows td:first-child {
+        padding-left: 20px;
+        min-width: 30px !important;
+        max-width: 30px!important;
+    }
+    .tableDiv.alpha .rank1, .tableDiv.alpha .rank2, .tableDiv.alpha .rank3
+    {
+        background-image: none;
+        width:auto;
+        height:auto;
+        color: #f8f8f8;
+        text-shadow: none;
+        font-size: 14px;
+    }
+    .tableDiv.alpha  table tr td:first-child span:first-child
+    {
+        margin-left: 15px !important;
+    }
+    .slider.alpha .tableContent table td:first-child span:first-child {
+    left: -3px;
+    }
+    .slider.alpha .tableDiv .loaderRows td:first-child {
+    padding-left: 0px;
+    }
+    .FAQ .FaqAccodn > div div div#panel1a-content div p br
+    {
+        display:none;
+    }
+    .titleContent h1::before {
+        font-size: 28px;
+        left: 10px !important;
+        top: 5px;
+    }
+    .titleContent h1::after {
+        font-size: 28px;
+        right: 10px !important;
+        top: 5px;
+    }
+    .FAQ.alpha .FaqAccodn::after
+    {
+        background: none;
+    }
+    }

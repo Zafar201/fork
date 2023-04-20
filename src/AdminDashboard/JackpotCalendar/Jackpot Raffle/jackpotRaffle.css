@@ -1,0 +1,328 @@
+.jackpotRaffleBox, .addWinnerBox
+{
+  padding: 73px;
+  max-width: 440px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background: linear-gradient(180deg, #FFFFFF 0%, #E3E3E3 100%)!important;
+  border: 1px solid #FFD705 !important;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2)!important;
+  border-radius: 10px !important;
+  text-align: left;
+  position: relative;
+  overflow: visible !important;
+  margin-top: 300px;
+  margin-bottom: 150px;
+}
+.addWinnerBox
+{
+  /* padding-bottom: 25px; */
+}
+.jackpotRaffleBox::after, .addWinnerBox::after
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../../assets/images/adminBg.svg") !important; */
+  width: 1303.66px;
+  height: 950.58px;
+  left: -55%;
+  top: -0%;
+  opacity: .35;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background: rgba(0, 255, 255, 0.4);
+  opacity: 0.4;
+  filter: blur(175px);
+   -webkit-filter: blur(175px);
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
+.jackpotRaffleBox h3,.addWinnerBox h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #0F1520;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.jackpotRaffleBox h6, .addWinnerBox h6
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: rgba(62, 62, 78, 0.43);
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.jackpotRaffleBox.alpha > div
+{
+  width: 100%;
+  padding-right: 0px;
+  position: relative;
+}
+.jackpotRaffleBox.alpha .yBtn
+{
+  margin-top:10px;
+}
+.jackpotRaffleBox.alpha > div > div
+{
+  display:inline-flex;
+  width: 100%;
+ 
+}
+.jackpotRaffleBox.alpha h6
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-bottom: 10px;
+}
+.jackpotRaffleBox > div > div,.jackpotRaffleBox > div > div > div
+{
+  width: 100%;
+  padding-right: 0px;
+  position: relative;
+}
+.jackpotRaffleBox > div > div > div input, .jackpotRaffleBox.alpha > div input
+{
+  width: 100%;
+  background: #FFFFFF;
+  border: 2px solid rgba(15, 21, 32, 0.32);
+  border-radius: 3px;
+  padding-left: 42px;
+  margin-bottom: 25px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Chakra Petch';
+  color: #3E4151;
+  display:block;
+  padding-right: 110px;
+}
+.no-margin
+{
+  margin:0px;
+}
+.jackpotRaffleBox > div > div > div input + div, .jackpotRaffleBox.alpha > div input + div
+{
+  position: absolute;
+  right: 16px;
+  top: 34px;
+  width: auto;
+}
+.jackpotRaffleBox > div > div > div input + div button, .jackpotRaffleBox.alpha > div input + div button
+{
+  background: #D9D9D9;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  height: 34px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 34px;
+  color: #3E4151;
+  box-shadow: none;
+  text-transform: none;
+  width:83px;
+}
+.jackpotRaffleBox > div > div > div input + div button:hover
+{
+  background: #D9D9D9;
+  box-shadow: none;
+}
+.jackpotRaffleBox > div > div fieldset,.addWinnerBox  > div > div fieldset, .jackpotRaffleBox.alpha > div fieldset
+{
+  display: none;
+}
+.jackpotRaffleBox > div > label, .addWinnerBox > div > div > div p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-bottom: 10px;
+}
+.jackpotRaffleBox > div > label + p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #C1C1C1;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.jackpotRaffleBox > div > label + p span
+{
+  max-width:150px;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  width:100%;
+  display:inline-block;
+}
+.jackpotRaffleBox > div > label + p label
+{
+  width: 131px;
+  height: 35px;
+  background: #D9D9D9;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  color: #3E4151;
+  text-transform: none;
+  
+}
+.jackpotRaffleBox > div > label + p label:hover
+{
+  /* background: none; */
+  border: none;
+}
+.jackpotRaffleBox .yBtn + div
+{
+  margin-top: 35px;
+}
+.jackpotRaffleBox .yBtn + div div
+{
+  text-align: center;
+  justify-content: center;
+}
+.jackpotRaffleBox .yBtn + div div a
+{
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+.addWinnerBox > div
+{
+  background: transparent;
+  box-shadow: none;
+  overflow:visible;
+}
+.addWinnerBox > div > div > div
+{
+  min-height: auto;
+  padding-left: 0px;
+  width: 100%;
+}
+.addWinnerBox > div > div
+{
+  margin: 0px;
+  padding: 0px;
+}
+.addWinnerBox h3 img
+{
+  margin-right: 10px;
+  cursor:pointer;
+}
+.addWinnerBox > div div[class*="TextField"] > div
+{
+  padding: 0px;
+  width:100%;
+}
+.addWinnerBox > div > div > div input
+{
+  width: 100%;
+  background: #FFFFFF;
+  border: 2px solid rgba(15, 21, 32, 0.32);
+  border-radius: 3px;
+  padding-left: 42px;
+  margin-bottom: 5px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Chakra Petch';
+  color: #3E4151;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.addWinnerBox > div > div > div input + div
+{
+  position: absolute;
+  right: 16px;
+  top: 17px;
+}
+.addWinnerBox > div > div > div input + div button
+{
+  background: #D9D9D9;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 51px;
+  height: 21px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+  color: #3E4151;
+  box-shadow: none;
+  text-transform: none;
+  padding: 0px;
+}
+.addWinnerBox > div > div > div input + div button:hover
+{
+  background: #D9D9D9;
+  border: 1px solid #FFFFFF;
+}
+.winnerLinks
+{
+  display:flex;
+  width:100%;
+  margin-top: 45px;
+}
+.winnerLinks div
+{
+   display:inline-flex;
+  justify-content: space-between;
+}
+.winnerLinks div p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #3E3E4E;
+  cursor:pointer;
+  margin:0px;
+}
+@media screen and (max-width:768px)
+{
+.jackpotRaffleBox, .addWinnerBox
+  {
+   padding:25px;
+   margin-top: 50px;
+   width:calc(100% - 90px);
+   margin-bottom: 400px;
+  }
+}

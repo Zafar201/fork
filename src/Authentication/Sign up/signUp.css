@@ -1,0 +1,658 @@
+header
+{
+  background: transparent;
+}
+.signUpBox
+{
+  background: linear-gradient(180deg, #FFFFFF 0%, #E3E3E3 100%);
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  padding: 55px;
+  max-width: 370px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 150px;
+  /* margin-bottom: 300px; */
+  position: absolute;
+  left: calc((100% - 458px)/2);
+}
+.signUpBox::after, .choosePayment::after,.paymentFailed::after,.refrralCode::after, .SuccessPayBox::after
+{
+  content: "";
+  position: absolute;
+  background: rgba(254, 209, 6, 0.27);
+  opacity: 0.3;
+  filter: blur(150px);
+  transform: matrix(1, -0.06, 0.08, 1, 0, 0);
+  width: 527.98px;
+  height: 616.28px;
+  left: 40%;
+  top: -70%;
+  z-index: -1;
+  
+}
+.signUpBox::before, .choosePayment::before,.paymentFailed::before,.refrralCode::before, .SuccessPayBox::before
+{
+  content: "";
+  position: absolute;
+  background: rgba(0, 255, 255, 0.4);
+  opacity: 0.3;
+  filter: blur(150px);
+  transform: matrix(0, 1, 1, 0, 0, 0);
+  width: 527.98px;
+  height: 616.28px;
+  left: -17%;
+  top: -22%;
+  z-index: -1;
+  
+}
+.signUpBox h6, .refrralCode h6, .choosePayment h6, .paymentFailed h6, .SuccessPayBox h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  color: #3E3E4E;
+}
+.SuccessPayBox hr + p
+{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.SuccessPayBox  p
+{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+}
+.SuccessPayBox  p span
+{
+  background: rgba(217, 217, 217, 0.42);
+  border-radius: 5px;
+  width: 35px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  display: inline-block;
+  color: #A4A4A4;
+}
+.signUpBox div,.refrralCode div, .choosePayment div, .paymentFailed div,.SuccessPayBox div
+{
+  box-shadow: none;
+  min-width: 100%;
+  overflow: visible;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  padding: 0px !important;
+}
+.signUpBox form > div input
+{
+  background: #FFFFFF;
+  border: 2px solid #EEEEEE;
+  /* border: 2px solid #000; */
+  border-radius: 3px;
+  display: block;
+  width: calc(100% - 21px);
+  height: 61px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0px;
+  padding-left: 17px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  color: #0F1520;
+}
+.signUpBox form > div input + button
+{
+  position: absolute;
+  top: 23px;
+  right: 17px;
+  padding: 0px;
+  height: 18px;
+  width: auto;
+  min-width: auto;
+  margin: 0px;
+  opacity: .5;
+}
+.signUpBox form div[class*="focused"] button
+{
+  opacity: 1;
+}
+.signUpBox form > div input +  button
+{
+  padding:0px;
+  margin: 0px;
+}
+.signUpBox form > div input[type="text"] + button
+{
+  top:24px;
+}
+.signUpBox form > div input + fieldset, .signUpBox form > div input + button + fieldset
+{
+  display: none;
+}
+.error {
+  margin-top: 10px;
+  margin-bottom: -20px;
+  font-style: italic;
+  color: #FF0000;
+  font-size: 14px;
+}
+.yBtn
+{
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 700!important;
+  font-size: 18px!important;
+  line-height: 23px;
+  font-family: 'Chakra Petch';
+  height: 55px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: all .25s;
+}
+.yBtn:hover
+{
+  background: linear-gradient(0deg, rgba(62, 62, 78, 0.35), rgba(62, 62, 78, 0.35)), #FFD705!important;
+  border: 1px solid #FFFFFF!important;
+  border-radius: 3px;
+}
+.refrralCode
+{
+  background: linear-gradient(180deg, #FFFFFF 0%, #E3E3E3 100%);
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  padding: 55px;
+  max-width: 370px;
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-top: 150px;
+  /* margin-bottom: 300px; */
+  position: absolute;
+  left: calc((100% - 458px)/2);
+}
+.refrralCode form.invalid input
+{
+  border: 2px solid #FF3566 !important;
+  color: #FF3566 !important;
+}
+.refrralCode form.invalid button.yBtn
+{
+  background: #D1D1D1;
+  color: rgba(62, 62, 78, 0.38);
+}
+.refrralCode form.invalid button.yBtn:hover{
+  background: #D1D1D1 !important;
+  color: rgba(62, 62, 78, 0.38);
+}
+.refrralCode .yBtn.loading, .yBtn:disabled
+{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)), #FFD705 !important;
+}
+.choosePayment,.paymentFailed, .SuccessPayBox
+{
+  background: linear-gradient(180deg, #FFFFFF 0%, #E3E3E3 100%);
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  padding: 30px 65px;
+  max-width: 465px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 400px;
+}
+.choosePayment p, .paymentFailed p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: rgba(62, 62, 78, 0.59);
+  margin-top: -10px;
+}
+.choosePayment p
+{
+  margin-bottom: 25px;
+}
+.paymentFailed p
+{
+  color: #3E3E4E !important;
+  margin-top: 40px;
+}
+.choosePayment hr + div
+{
+  max-width:226px;
+  background: #3E3E4E;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 9.66026px rgba(112, 112, 112, 0.2), 0px 0px 5.52015px rgba(112, 112, 112, 0.2), 0px 0px 3.22009px rgba(112, 112, 112, 0.2), 0px 0px 1.61004px rgba(112, 112, 112, 0.2), 0px 0px 0.460012px rgba(112, 112, 112, 0.2), 0px 0px 0.230006px rgba(112, 112, 112, 0.2);
+  border-radius: 3px;
+  min-width: auto;
+  height: 44px;
+}
+.choosePayment hr + div >label
+{
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  color: #fff !important;
+  font-weight: 600;
+  transform: translate(14px, 10px) scale(1);
+}
+.choosePayment hr + div >label[data-shrink="true"]
+{
+  display: none;
+}
+.refrralCode fieldset, .choosePayment fieldset
+{
+  display: none;
+}
+.choosePayment > div label + div
+{
+  height: 44px;
+}
+.choosePayment div div[aria-haspopup="listbox"] + input + svg
+  {
+    width: 52px;
+    height: 53px;
+    top: -4px;
+    right: 0px;
+    position: relative;
+    display: none;
+  }
+  .choosePayment div div[aria-haspopup="listbox"]
+  {
+    height: 44px;
+    padding-right: 0px !important;
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #fff !important;
+    line-height: 44px;
+    padding-left: 15px;
+  }
+  .choosePayment div div[aria-haspopup="listbox"] + input + svg::before
+  {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    top: 0px;
+    background: #fff;
+  }
+  .choosePayment div[aria-haspopup="listbox"]::after
+  {
+    position: absolute;
+    right: 14px;
+    top: -2px;
+    width: 52px;
+    height: 45px;
+    content: "";
+    background-image:url("../../assets/images/mobarrow.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #9A9DA1;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+  }
+ul[role="listbox"] .paymentdpdwn
+{
+  background-color: #CFCFCF !important;
+  margin-bottom: 0px !important;
+  padding-left: 22px!important;
+  padding-right: 22px!important;
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+  height: 33px !important;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Chakra Petch';
+}
+ul[role="listbox"] .paymentdpdwn:hover
+{
+  background: #3E3E4E !important;
+  color: #FFD705;
+  font-weight: 700;
+  font-size: 16px;
+}
+.refrralCode div[aria-haspopup="listbox"]
+{
+  opacity: 0;
+}
+.refrralCode  form div > label
+{
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  color: #BBBBBB;
+  transform: translate(14px, 25px) scale(1);
+}
+.refrralCode  form div > label[data-shrink="true"]
+{
+  display: none;
+}
+.refrralCode input
+{
+  background: #FFFFFF;
+  border: 2px solid #EEEEEE;
+  border-radius: 3px;
+  height: 65.97px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 65px;
+  color: #BBBBBB;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: calc(100% - 30px);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.paymentFailed
+{
+
+}
+.agree label span svg
+{
+  opacity: 0;
+}
+.agree label > span[class*="Checkbox"]
+{
+  background-image: url("../../assets/images/check.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0px;
+}
+.agree label > span[class*="checked"]
+{
+  background-image: url("../../assets/images/checked.svg") !important;
+}
+.agree label > span:last-child
+{
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Chakra Petch';
+  padding-left: 8px;
+}
+.agree
+{
+  display: flex !important; 
+  overflow: hidden!important;
+  margin-top: 25px !important;
+}
+.agree input{
+  height: 20px !important;
+  margin-bottom: 0px !important;
+  width: 125px !important;
+}
+.agree > label:first-child
+{
+  margin-left: -5px;
+  margin-right: 0px;
+}
+.agree > label:last-child
+{
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.agree >  label a
+{
+  text-decoration-line: underline;
+  text-decoration-color: #3E3E4E;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-family: 'Chakra Petch';
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.agree > div
+{
+  min-width: 50%;
+  display: inline-flex;
+}
+.agree > div:last-child
+{
+  justify-content: end;
+}
+.agree > div:last-child button
+{
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  text-decoration-color: #3E3E4E;
+}
+.signUpBox form + p
+{
+  font-family: 'Chakra Petch';
+  color: #3E3E4E !important;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 25px;
+}
+.signUpBox form + p a, .signUpBox form + p u
+{
+  color: #3E3E4E !important;
+  cursor: pointer;
+  font-weight: 700;
+}
+.choosePayment .ChoosePaymentDropdwn
+{
+  background: #3E3E4E;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 9.66026px rgba(112, 112, 112, 0.2), 0px 0px 5.52015px rgba(112, 112, 112, 0.2), 0px 0px 3.22009px rgba(112, 112, 112, 0.2), 0px 0px 1.61004px rgba(112, 112, 112, 0.2), 0px 0px 0.460012px rgba(112, 112, 112, 0.2), 0px 0px 0.230006px rgba(112, 112, 112, 0.2);
+  border-radius: 3px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.choosePayment .ChoosePaymentDropdwn input
+{
+  opacity: 0 !important;
+}
+.choosePayment .ChoosePaymentDropdwn > div
+{
+  position: relative;
+  border: none;
+}
+.choosePayment .ChoosePaymentDropdwn div[class*="placeholder"], .choosePayment .ChoosePaymentDropdwn div[class*="singleValue"]
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding-left: 20px !important;
+  top: 10px;
+  margin: 0px;
+}
+.choosePayment .ChoosePaymentDropdwn > span + div > div:last-child
+{
+  background: #9A9DA1;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  min-width: 52px;
+  height: 44px;
+  top: -1px;
+  right: -1px;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  cursor: pointer;
+
+}
+.choosePayment .ChoosePaymentDropdwn > span + div > div:last-child div svg
+{
+  position: relative;
+  top: 5px;
+  fill: #1A1A20;
+  transition:all .5s;
+}
+.choosePayment .ChoosePaymentDropdwn.open > span + div > div:last-child div svg
+{
+  transform:rotate(-180deg);
+}
+.choosePayment .ChoosePaymentDropdwn div[class*="menu"]
+{
+  background: #CFCFCF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 9.66026px rgba(112, 112, 112, 0.2), 0px 0px 5.52015px rgba(112, 112, 112, 0.2), 0px 0px 3.22009px rgba(112, 112, 112, 0.2), 0px 0px 1.61004px rgba(112, 112, 112, 0.2), 0px 0px 0.460012px rgba(112, 112, 112, 0.2), 0px 0px 0.230006px rgba(112, 112, 112, 0.2);
+  border-radius: 3px;
+  position: absolute;
+  top: 44px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px!important;
+  padding-bottom: 10px !important;
+
+}
+.choosePayment .ChoosePaymentDropdwn div[class*="menu"] > div
+{
+  max-height:450px;
+}
+.choosePayment .ChoosePaymentDropdwn div[class*="menu"] > div div
+{
+  padding-left: 22px !important;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #3E3E4E;
+  height: 30px;
+  cursor: pointer;
+  padding-right: 22px !important;
+}
+.choosePayment .ChoosePaymentDropdwn div[class*="menu"] > div div:hover
+{
+  background: #3E3E4E;
+  color: #FFD705;
+  font-weight: 700;
+}
+@media screen and (max-width:768px)
+{
+  .signUpBox
+  {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 80px;
+    margin-bottom: 230px;
+    position: relative;
+    left: 0px;
+    box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  }
+  .agree > label:last-child
+  {
+    font-size: 13px !important;
+  }
+  .signUpBox h6, .refrralCode h6,  .choosePayment h6, .paymentFailed h6
+  {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 25px;
+  }
+  .choosePayment:after, .paymentFailed:after, .refrralCode:after, .signUpBox:after
+  {
+    left: -200%;
+    top:-200%;
+  }
+  .refrralCode
+  {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    position: relative;
+    left: 0px;
+  }
+  .choosePayment, .paymentFailed, .SuccessPayBox 
+  {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 100px;
+    margin-bottom: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .SuccessPayBox hr + p
+  {
+    margin-top: 30px;
+  }
+  .SuccessPayBox p br
+  {
+    display: none;
+  }
+  .choosePayment p
+  {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .choosePayment hr + div
+  {
+    margin-top: 25px;
+  }
+  .paymentFailed p
+  {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .choosePayment p br, .paymentFailed p br
+  {
+    display: none
+  }
+  .choosePayment div[aria-haspopup="listbox"]::after
+  {
+    right: -1px;
+  }
+}

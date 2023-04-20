@@ -1,0 +1,122 @@
+.adminSignIn
+{
+background: linear-gradient(180deg, #FFFFFF 0%, #E3E3E3 100%);
+border: 1px solid #FFD705;
+box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+border-radius: 10px;
+max-width: 481px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 55px;
+margin-top: 300px;
+margin-bottom: 500px;
+position: relative;
+}
+.adminSignIn::after
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../assets/images/adminBg.svg") !important; */
+  background: rgba(0, 255, 255, 0.4);
+  opacity: 0.4; 
+  width: 592.83px;
+  height: 633.95px;
+  left: 0%;
+  transform: matrix(-0.25, 0.97, 0.97, 0.25, 0, 0);
+  top: -91px;
+  z-index: -1;
+  filter: blur(150px);
+  
+}
+.adminSignIn div
+{
+  box-shadow: none;
+  background: transparent;
+  min-width: 100%;
+  padding: 0px;
+}
+.adminSignIn form > div input
+{
+  background: #FFFFFF;
+  border: 2px solid #EEEEEE;
+  /* border: 2px solid #000; */
+  border-radius: 3px;
+  display: block;
+  width: calc(100% - 21px);
+  height: 61px;
+  /* font-family:'Noto Sans', sans-serif; */
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0px;
+  padding-left: 17px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  color: #0F1520;
+}
+.adminSignIn form > div fieldset
+{
+  display: none;
+}
+.adminSignIn h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  color: #3E3E4E;
+}
+.adminSignIn form > div input + button
+{
+  position: absolute;
+  top: 23px;
+  right: 17px;
+  padding: 0px;
+  height: 18px;
+  width: auto;
+  min-width: auto;
+  margin: 0px;
+  opacity: .5;
+}
+.adminSignIn form div[class*="focused"] button
+{
+  opacity: 1;
+}
+.adminSignIn form > div input +  button
+{
+  padding:0px;
+  margin: 0px;
+}
+.adminSignIn form > div input[type="text"] + button
+{
+  top:24px;
+}
+.adminSignIn .yBtn
+{
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Chakra Petch';
+  height: 55px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.adminSignIn .error
+{
+   margin-bottom: 0px!important;
+}

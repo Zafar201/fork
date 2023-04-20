@@ -1,0 +1,207 @@
+.gradeBox
+{
+  display: block;
+  padding: 50px;
+  max-width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(180deg, #FFFFFF 0%, #E3E3E3 100%);
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  position: relative;
+  overflow: visible !important;
+  
+}
+.gradeBox::after, .DenyBox::after
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../assets/images/gradeBG.svg") !important; */
+  background: rgba(0, 255, 255, 0.4);
+  opacity: 0.3;
+  filter: blur(175px);
+  -webkit-filter: blur(175px);
+  transform: matrix(-0.25, 0.97, 0.97, 0.25, 0, 0);
+  width: 896.08px;
+  height: 950.58px;
+  left: -35%;
+  top: -150px;
+  z-index: -1;
+  
+}
+.DenyBox
+{
+  background: #FFFFFF;
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  padding: 40px 65px;
+  max-width: 468px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 300px;
+  margin-top: 150px;
+  position: relative;
+  overflow: visible !important;
+}
+.DenyBox div
+{
+  background: transparent;
+  box-shadow: none;
+  padding: 0px;
+  margin: 0px;
+}
+.DenyBox p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+}
+.DenyBox div + p
+{
+  margin-bottom:20px;
+}
+.DenyBox p + div
+{
+  width: 100%;
+}
+.DenyBox p + div fieldset
+{
+  display: none;
+}
+.DenyBox p + div label
+{
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 40px;
+  font-family: 'Chakra Petch';
+  color: #C1C1C1;
+  margin-top: 15px;
+  display: none;
+}
+.DenyBox p + div label[class*="focused"]
+{
+  display: none;
+}
+.DenyBox p + div textarea[name="details"]
+{
+  background: #FFFFFF;
+  border: 2px solid rgba(15, 21, 32, 0.32);
+  border-radius: 3px;
+  padding: 30px 40px;
+  height: 125px!important;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3E3E4E;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.gradeBox h4, .DenyBox h4
+{
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  color: #3E3E4E;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.gradeBox h6
+{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #B0B0B0;
+  font-family: 'Chakra Petch';
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.gradeBox p
+{
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.gradeBox p img
+{
+  display: inline-block;
+  margin-left: 10px;
+}
+.gradeBox div[class*="gutters"]
+{
+  padding: 0px;
+}
+.gradeBox div[class*="gutters"] p
+{
+  margin-bottom: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gradeBox div[class*="Avatar"]
+{
+  margin-right: 5px;
+  width: 38px;
+  height: 38px; 
+  border-radius: 50%;  
+}
+.AwardBtn
+{
+  background: #5FE1A2;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  height: 56px;
+  width: 100%;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3E3E4E;
+  margin-bottom: 10px;
+}
+.AwardBtn img
+{
+  margin-left: 8px;
+}
+.DenyBtn
+{
+  width: 100%;
+  background: #FF3566;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px; 
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  height: 56px;
+}
+@media screen and (max-width:768px)
+{
+  .gradeBox, .DenyBox
+  {
+   padding:25px;
+   margin-top: 50px;
+   width:calc(100% - 90px);
+   margin-bottom: 400px;
+  }
+}

@@ -1,0 +1,26 @@
+/* My account */
+.my-account-row {
+  display: flex;
+  margin-top: 40px;
+}
+.my-account header {
+  background: rgba(255, 255, 255, 0.21) !important;
+  border: 2px solid #a4a4a4;
+  border-radius: 6px;
+  padding-top: 0px;
+  box-shadow: none !important;
+  height: auto !important;
+  width: fit-content !important;
+}
+.my-account .css-1ujnqem-MuiTabs-root {
+  display: contents !important;
+}
+.my-account .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  color: white !important;
+}
+.my-account .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background-color: black;
+}
+.my-account .css-1aquho2-MuiTabs-indicator {
+  background: #a4a4a4 !important;
+}

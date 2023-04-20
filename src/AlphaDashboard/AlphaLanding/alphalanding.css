@@ -1,0 +1,279 @@
+.landingPageBox
+{
+  padding:55px;
+  background: rgba(205, 203, 190, 0.06) !important;
+  border-radius: 5px;
+  margin-top:150px;
+  margin-bottom:160px;
+  position:relative;
+  overflow:visible !important;
+}
+.AlphalandingPage
+{
+  position:relative;
+}
+.AlphalandingPage + .footer
+{
+  margin-top: 160px;
+}
+.AlphalandingPage::after
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../assets/images/gradeBG.svg") !important; */
+  background: rgba(0, 255, 255, 0.4);
+  opacity: 0.4;
+  filter: blur(175px);
+  transform: matrix(-0.25, 0.97, 0.97, 0.25, 0, 0);
+  width: 254.96px;
+  height: 198.23px;
+  left: 0;
+  top: 20%;
+  z-index: -1;
+}
+.landingPageBox::after
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../assets/images/gradeBG.svg") !important; */
+  background: rgba(254, 209, 6, 0.3);
+  opacity: 0.2;
+  filter: blur(150px);
+  width: 557.16px;
+  height: 396.19px;
+  left: 0;
+  top: 20%;
+  z-index: -1;
+}
+.landingPageBox::before
+{
+  content: "";
+  position: absolute;
+  /* background-image: url("../../assets/images/gradeBG.svg") !important; */
+  background: rgba(0, 255, 255, 0.4);
+  opacity: 0.15;
+  filter: blur(100px);
+  width: 557.16px;
+  height: 396.19px;
+  left: 35%;
+  top: -0px;
+  z-index: -1;
+}
+.landingPageBox h1
+{
+  margin-top:0px;
+  margin-bottom:25px;
+  color: #FFEA88;
+  text-shadow: 0px 0px 13.4633px rgba(255, 154, 6, 0.6), 0px 0px 7.69331px rgba(255, 154, 6, 0.6), 0px 0px 4.48777px rgba(255, 154, 6, 0.6), 0px 0px 2.24388px rgba(255, 154, 6, 0.6), 0px 0px 0.641109px rgba(255, 154, 6, 0.6), 0px 0px 0.320555px rgba(255, 154, 6, 0.6);
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 55px;
+  letter-spacing: 0.1px;
+}
+.landingPageBox p
+{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.1px;
+  color: #D1D1D1;
+  margin-bottom:30px;
+  margin-top:0px;
+}
+.landingPageBox .whiteBtn
+{
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 17.9432px rgba(255, 150, 5, 0.4), 0px 0px 10.2533px rgba(255, 150, 5, 0.4), 0px 0px 5.98106px rgba(255, 150, 5, 0.4), 0px 0px 2.99053px rgba(255, 150, 5, 0.4), 0px 0px 0.854437px rgba(255, 150, 5, 0.4), 0px 0px 0.427219px rgba(255, 150, 5, 0.4);
+  border-radius: 3px;
+  width: 197px;
+  height: 45px;
+  margin-right:10px;
+}
+.landingPageBox .greyBtn
+{
+  background: #AFAFAF;
+  border: 1px solid #BCBCBC;
+  border-radius: 3px;
+  width: 171px;
+  height: 45px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #393939;
+
+}
+.landingPageBox h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #FAFAFA;
+  margin-top:30px;
+  margin-bottom:5px;
+}
+.landingPageBox h4
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #FFEA88;
+  text-shadow: 0px 0px 13.4633px rgba(255, 154, 6, 0.6), 0px 0px 7.69331px rgba(255, 154, 6, 0.6), 0px 0px 4.48777px rgba(255, 154, 6, 0.6), 0px 0px 2.24388px rgba(255, 154, 6, 0.6), 0px 0px 0.641109px rgba(255, 154, 6, 0.6), 0px 0px 0.320555px rgba(255, 154, 6, 0.6);
+  margin-top:30px;
+  margin-bottom:5px;
+  padding-left:100px;
+}
+
+@media screen and (max-width:768px)
+{
+  .landingPageBox
+  {
+    padding:28px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+  }
+  .landingPageBox > div > div
+  {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .landingPageBox h1
+  {
+    font-size: 36px;
+  }
+  .landingPagesboxsection
+  {
+    flex-basis: 50% !important;
+  }
+  .landingPageBox .greyBtn
+  {
+    width: 48%;
+  }
+  .landingPageBox .whiteBtn
+  {
+    width:48%;
+  }
+  .landingPageBox h3
+  {
+    font-size: 22px;
+  }
+  .landingPageBox h4
+  {
+    padding-left: 0px;
+    font-size: 22px;
+  }
+   .landingPageBox p
+  {
+    font-size:22px;
+  }
+  .tableControlls.alphamob > div
+  {
+    margin-left:0px !important;
+  }
+}
+@media screen and (max-width:1024px)
+{
+  .landingPageBox
+  {
+    padding:28px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+  }
+  .landingPageBox h3 {
+    font-size: 18px !important;
+    white-space: nowrap;
+  }
+  .landingPageBox h4 {
+    font-size: 18px !important;
+  }
+  .landingPageBox > div > div
+  {
+    /* max-width: 100%;
+    flex-basis: 100%; */
+  }
+  .landingPageBox h1
+  {
+    font-size: 36px;
+    padding-right:30px;
+  }
+  .landingPageBox .greyBtn
+  {
+    /* width: 100%; */
+  }
+  .landingPageBox .whiteBtn
+  {
+    /* width:100%; */
+  }
+  .landingPageBox h3
+  {
+    font-size: 22px;
+  }
+  .landingPageBox h4
+  {
+    padding-left: 0px;
+    font-size: 22px;
+  }
+  .landingPageBox p
+  {
+    font-size:18px;
+    padding-right:40px;
+  }
+  .landingPageBox p br
+  {
+    display:none;
+  }
+  .tableControlls.alpha + div
+  {
+    position: static;
+  }
+}
+@media screen and (max-width:480px)
+{
+  .landingPageBox .greyBtn
+  {
+    width: 48%!important;
+    font-size: 12px!important;
+  }
+  .landingPageBox .whiteBtn
+  {
+    width:48% !important;
+    font-size: 12px!important;
+  }
+  .landingPageBox h3 {
+    font-size: 14px !important;
+    white-space: nowrap;
+    margin-top: 10px;
+  }
+  .landingPageBox h4 {
+    font-size: 14px !important;
+    margin-top: 10px;
+    padding-left: 15px;
+  }
+  .landingPagesboxsection {
+    flex-basis: auto!important;
+    margin-right: 0px !important;
+  }
+  .landingPageBox p {
+    font-size: 14px;
+    padding-right: 0px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+  .AlphalandingPage::after, .landingPageBox::after
+  {
+    display: none;
+  }
+}

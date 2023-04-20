@@ -1,0 +1,1250 @@
+.myaccount, .warning div
+{
+  padding: 0px !important;
+  max-width: 1548px;
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.myaccount
+{
+  margin-bottom: 400px;
+}
+.myaccount header
+{
+  margin-top: 20px;
+  box-shadow: none !important;
+  z-index: 9;
+}
+.warning
+{
+  background: #5A2339;
+  height: 42px;
+}
+.warning div
+{
+  text-align: center;
+  line-height: 42px;
+  position: relative;
+}
+.warning div::after
+{
+  content: "";
+  position: absolute;
+  right: 0px;
+  background-image:url("../../assets/images/warning.svg") !important;
+  width: 40px;
+  height: 40px;
+  top: 0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.warning div::before
+{
+  content: "";
+  position: absolute;
+  left: 0px;
+  background-image:url("../../assets/images/warning.svg") !important;
+  width: 40px;
+  height: 40px;
+  top: 2px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.warning div span
+{
+  color: #FFFFFF;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+.warning div button
+{
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 106px;
+  height: 31px;
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 35px;
+}
+.my-account-row
+{
+  display: flex;
+}
+.my-account-row > div
+{
+  display: inline-flex;
+}
+.my-account-row > div img
+{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.my-account-row > div h1, .my-account-row > div h2
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.my-account-row > div h1 span
+{
+  color:#FFD705;
+}
+.my-account-row > div h2
+{
+  color: #C8C8C8 !important;
+  padding-left: 15px;
+}
+.myaccount header div[aria-label="simple tabs example"] button:first-child
+{
+  /* background: #0F1520; */
+  border-radius: 6px 0px 0px 6px;
+  border-right: 0px;
+}
+.myaccount header div[aria-label="simple tabs example"] button:last-child
+{
+  border-radius: 0px 6px 6px 0px;
+}
+.myaccount header div[aria-label="simple tabs example"] button
+{
+  background: #0F1520;
+  border: 2px solid #A4A4A4;
+  border-radius: 0px 6px 6px 0px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 59px;
+}
+.myaccount header div[aria-label="simple tabs example"] button[class*="selected"]
+{
+  background: rgba(255, 255, 255, 0.21);
+}
+.myaccount header div[aria-label="simple tabs example"] + span[class*="indicator"]
+{
+  height: 59px;
+  z-index: -1;
+  background: #0F1520;
+  display: none
+}
+.myaccount header > div > div
+{
+  width: auto;
+  /* background: rgba(255, 255, 255, 0.21); */
+}
+.myaccount div[role="tabpanel"]
+{
+  margin-top: 60px;
+}
+.myaccount div[role="tabpanel"] > div
+{
+  margin: 0px;
+  padding: 0px;
+}
+.myaccount .TabPanel > div
+{
+  background: transparent;
+  overflow: visible;
+  box-shadow: none;
+}
+.myaccount .TabPanel > div label, .myaccount .emailId label, .myaccount .mobdropdwn .passwordEnter label, .myaccount .mobdropdwn .nameField label
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.myaccount .emailId,.myaccount .passwordEnter
+{
+  max-width: 405px;
+  width:100%;
+}
+.myaccount .TabPanel > div > form div
+{
+  outline: none;
+}
+.myaccount .TabPanel > div > form > div
+{
+  position: relative;
+}
+.myaccount .TabPanel > div label + div, .myaccount .emailId div, .myaccount .mobdropdwn .passwordEnter div, .myaccount .mobdropdwn .nameField div
+{
+  width: 100%;
+}
+.myaccount .TabPanel > div > form > div.confrimEmail > div > div, .myaccount .TabPanel > div > form > div.confrimPass > div > div, 
+.myaccount .TabPanel > div > form > div.confrimEmail > div , .myaccount .TabPanel > div > form > div.confrimPass > div,
+{
+  max-width: 312px;
+  width: 100%;
+  margin-right: 23px;
+  display: inline-flex;
+  position: relative;
+}
+.myaccount .TabPanel > div fieldset
+{
+  display: none;
+}
+input::-moz-placeholder, input::placeholder
+{
+  color: #C1C1C1;
+}
+.myaccount .TabPanel > div label + div div input,.myaccount .emailId div input, .myaccount .TabPanel > div > form > div.confrimEmail > div input, 
+.myaccount .TabPanel > div > form > div.confrimPass > div input,.myaccount .mobdropdwn .passwordEnter > div input, .myaccount .mobdropdwn .nameField >div input,
+.myaccount .confrimEmail input, .myaccount .confrimPass input
+{
+  background: #FFFFFF;
+  border: 2px solid #EEEEEE;
+  border-radius: 3px;
+  height: 66.48px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #C1C1C1;
+  /* color: #3E4151; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 42px;
+  width: 100%;  
+  margin-bottom: 35px;
+  outline: none;
+  box-shadow: none;
+}
+.myaccount .TabPanel > div > form > div.confrimEmail.invalid > div input, .myaccount div.confrimPass.invalid > div input, .myaccount .confrimEmail.invalid input, .myaccount .confrimPass.invalid input
+{
+  border: 2px solid #FF3566 !important;
+  color: #FF3566 !important;
+}
+/* .myaccount  div > form > div.confrimPass > div input:focus, .myaccount  div > form > div.confrimEmail > div input:focus, .myaccount  div label + div div input:focus
+{
+  border: 2px solid #FFD705;
+  color: #3E4151;
+} */
+.mobdropdwn .MyaccountDropdwn input
+{
+  opacity: 0!important;
+}
+input:focus, input:focus-visible  
+{
+  border: 2px solid #FFD705 !important;
+  color: #3E4151!important;
+  outline-color: #ffd705;
+}
+.myaccount .TabPanel > div .editBtn, .myaccount .emailId .editBtn, .myaccount .mobdropdwn .passwordEnter .editBtn, 
+.myaccount .mobdropdwn .nameField .editBtn 
+{
+  position: absolute;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #3E4151;
+  width: 83.1px;
+  height: 34.52px;
+  right: 21px;
+  top: 53px;
+  background: #D9D9D9;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .25s;
+}
+.myaccount .TabPanel > div .editBtn:hover, .myaccount .emailId .editBtn:hover, .myaccount .mobdropdwn .passwordEnter .editBtn:hover, 
+.myaccount .mobdropdwn .nameField .editBtn:hover 
+{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #D9D9D9;
+  border: 1px solid #FFFFFF;
+}
+.myaccount .TabPanel > div > form > div.confrimEmail > div, .myaccount .TabPanel > div > form > div.confrimPass > div
+{
+  width:312px;
+  display: inline-flex;
+  margin-right: 23px;
+  position: relative;
+}
+.myaccount .TabPanel > div > form > div.confrimEmail > div div, .myaccount .TabPanel > div > form > div.confrimPass > div div
+{
+  min-width: 100%;
+  padding-right: 0px;
+}
+.myaccount .TabPanel > div > form > div.confrimPass > div div button img
+{
+  height: 17px;
+  width: 20px;
+}
+.myaccount .TabPanel > div > form > div.confrimPass > div div button
+{
+  position: absolute;
+  right: 29px;
+  top: 25px;
+  padding: 0px;
+
+}
+.myaccount form > div.confrimPass > div div button img
+{
+  height: 17px;
+  width: 20px;
+}
+.myaccount  form > div.confrimPass input[type="text"] + button
+{
+  top:26px !important;
+}
+.myaccount  form > div.confrimPass input + button
+{
+  opacity: .5
+}
+.myaccount  form > div.confrimPass div[class*="focused"] input + button
+{
+  opacity: 1;
+}
+.myaccount .saveBtn
+{
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 83.1px;
+  height: 34.52px;
+  color: #0F1520;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 15px;
+  transition: all .25s;
+  cursor: pointer;
+}
+.myaccount .saveBtn:hover
+{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FFD705;
+  border: 1px solid #FFFFFF;
+}
+.myaccount div.confrimEmail.invalid .saveBtn,.myaccount div.confrimPass.invalid .saveBtn
+{
+  background: #FF3566;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+.myaccount div.confrimEmail.invalid .saveBtn:hover,.myaccount div.confrimPass.invalid .saveBtn:hover
+{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), #FF3566 !important;
+  border: 1px solid #FFFFFF !important;
+}
+.myaccount .myAccError
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FF3566;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  white-space: nowrap;
+}
+.myaccount .RenewWarning
+{
+  background: linear-gradient(0deg, rgba(255, 53, 102, 0.14), rgba(255, 53, 102, 0.14)), linear-gradient(180deg, rgba(255, 255, 255, 0.044) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #141A25, #141A25), #FFFFFF;
+  border: 3px solid #FF3566;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 496px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  width:100%;
+}
+.myaccount .RenewWarning img
+{
+  margin-right: 30px;
+}
+.myaccount .RenewWarning > div
+{
+  display: flex;
+  min-width: 100%;
+}
+.myaccount .RenewWarning div > span, .myaccount .RenewWarning > span
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+.myaccount .RenewWarning div p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: #FF3566;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.myaccount .subscribtion h3,.myaccount .Makpayment h3, .myaccount .AddCard h3, .myaccount .DelAccount h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.1px;
+   color: #FFFFFF;
+   margin-top: 0px;
+   margin-bottom: 30px;
+}
+.myaccount .planSelected
+{
+  background: #FFFFFF;
+  border: 3px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  padding-left: 33px;
+  padding-right: 23px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  width: 304px;
+  margin-bottom: 70px;
+}
+.myaccount .planSelected h4, .myaccount .planSelected h5
+{
+  display: inline-flex;
+  min-width: 50%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.myaccount .planSelected h4
+{
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+}
+.myaccount .planSelected h5
+{
+  text-align: right;
+  justify-content: right;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  color: #AAAAAA;
+}
+.myaccount .planSelected > span
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #B1B1B1;
+}
+.myaccount .planSelected > p
+{
+  margin-top: 15px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-bottom: 20px;
+}
+.myaccount .planSelected p > span
+{
+  font-weight: 700;
+}
+.myaccount .planSelected > p + span
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-bottom: 10px;
+}
+.myaccount .planSelected span[role="progressbar"]
+{
+  height: 9px;
+  border-radius: 10px;
+  background: rgba(190, 190, 190, 0.37);
+}
+.myaccount .planSelected span[role="progressbar"] span
+{
+  background: #FFD705;
+  border-radius: 10px;
+  height: 9px;
+}
+.myaccount .planSelected span[role="progressbar"] + div 
+{
+  border-radius: 5px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  letter-spacing: 0.1px;
+  color: #A4A4A4;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.myaccount .planSelected span[role="progressbar"] + div span
+{
+  background: rgba(217, 217, 217, 0.42);
+  width: 25px;
+  height: 17px;
+  display: inline-block;
+  text-align: center;
+  line-height: 17px;
+  border-radius: 5px;
+}
+.myaccount .planSelected span[role="progressbar"] + div + div 
+{
+  display: flex;
+  justify-content: space-between;
+}
+.myaccount .planSelected span[role="progressbar"] + div + div  button
+{
+  background: #3E3E4E;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 122px;
+  height: 35px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all .25s;
+}
+.myaccount .planSelected span[role="progressbar"] + div + div  button:hover
+{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), #3E3E4E;
+  border: 1px solid #FFFFFF;
+}
+.myaccount .planSelected span[role="progressbar"] + div + div span
+{
+  font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 35px;
+letter-spacing: 0.1px;
+color: #B1B1B1;
+}
+.myaccount .Makpayment > div 
+{
+  display: flex;
+  gap:15px;
+}
+.myaccount .Makpayment > div button, .myaccount .AddCard  button
+{
+  display: inline-flex;
+  background: #3E4151;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 65px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 68px;
+  min-width: 182px;
+  justify-content: center;
+  margin-top: -5px;
+  cursor: pointer;
+  transition: all .25s;
+  white-space:nowrap;
+}
+.myaccount .Makpayment > div button:hover, .myaccount .AddCard  button:hover
+{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), #3E4151;
+  border: 1px solid #FFFFFF;
+}
+.myaccount .DelAccount button
+{
+  display: inline-flex;
+  background: #3E4151;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 35px;
+  width: 163px;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .25s;
+}
+.myaccount .DelAccount button:hover
+{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), #3E4151;
+  border: 1px solid #FFFFFF;
+}
+.myaccount .Makpayment > div + span
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  text-decoration-line: underline;
+  color: #FF3566;
+  padding-top: 15px;
+  display: flex;
+  padding-bottom: 50px;
+}
+.DelAccountPop
+{
+  background: linear-gradient(0deg, rgba(255, 53, 102, 0.14), rgba(255, 53, 102, 0.14)), linear-gradient(180deg, rgba(255, 255, 255, 0.044) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #141A25, #141A25), #FFFFFF;
+  border: 3px solid #FF3566;
+  border-radius: 10px;
+  padding: 40px 60px;
+  max-width: 462px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 15%;
+}
+.DelAccountPop > button
+{
+  position: absolute;
+  padding: 0px;
+  width: 15px;
+  min-width: 15px;
+  right: 15px;
+  top: 15px;
+  z-index: 9999;
+}
+.DelAccountPop .RenewWarning div img
+{
+  display:none
+}
+.DelAccountPop .RenewWarning div span
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+.DelAccountPop .RenewWarning div p
+{
+  margin:0px;
+}
+.DelAccountPop .RenewWarning div p p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: #FF3566;
+  margin-top:16px;
+  margin-bottom:15px;
+}
+.MyacCancelBtn
+{
+  background: #525566;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 163px;
+  height: 35px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-right:10px;
+}
+.MyacDelBtn
+{
+  background: rgba(62, 65, 81, 0.21);
+  border: 1px solid #FF3566;
+  border-radius: 5px;
+  width: 163px;
+  height: 35px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #FF3566;
+}
+.myaccount .DelAccount
+{
+  margin-top: 75px;
+}
+.myaccount .DelAccount p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #C9CACC;
+  margin-top: -25px;
+  margin-bottom: 15px;
+}
+.addCardPop
+{
+  width: 100%;
+}
+.addCardPop h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-top: 0px;
+}
+.addCardPop h3 svg
+{
+  width: 22px;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+}
+.addCardPop div >label
+{
+  color: #A8A8A8 !important;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Chakra Petch';
+  transform: translate(14px,-9px);
+  background:linear-gradient(180deg, #FFFFFF 0%, #E3E3E3 100%);
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 8px;
+}
+.addCardPop form > div input
+{
+  background: #FFFFFF;
+  border: 2px solid #A8A8A8;
+  border-radius: 3px;
+  /* border: 2px solid #000; */
+  display: block;
+  width: calc(100% - 33px);
+  height: 61px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  padding: 0px;
+  padding-left: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  color: #A8A8A8;
+}
+.addCardPop form > div input + fieldset, .addCardPop form > div input + button + fieldset
+{
+  display: none
+}
+.mobdropdwn .MyaccountDropdwn
+{
+  background: #3E3E4E;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 9.66026px rgba(112, 112, 112, 0.2), 0px 0px 5.52015px rgba(112, 112, 112, 0.2), 0px 0px 3.22009px rgba(112, 112, 112, 0.2), 0px 0px 1.61004px rgba(112, 112, 112, 0.2), 0px 0px 0.460012px rgba(112, 112, 112, 0.2), 0px 0px 0.230006px rgba(112, 112, 112, 0.2);
+  border-radius: 3px;
+  margin-top: 20px;
+  cursor: pointer;
+  height: 53px;
+}
+.mobdropdwn .MyaccountDropdwn > div
+{
+  position: relative;
+  border: none;
+  background: transparent;
+}
+.mobdropdwn .MyaccountDropdwn div[class*="singleValue"], .mobdropdwn .MyaccountDropdwn div[class*="placeholder"]
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 53px;
+  color: #FFF3C8;
+  padding-left: 20px !important;
+  top: 10px;
+  margin: 0px;
+}
+.mobdropdwn .MyaccountDropdwn > span + div
+{
+  height: 53px;
+  box-shadow: none;
+}
+.mobdropdwn .MyaccountDropdwn > span + div > div
+{
+  padding: 0px;
+  margin: 0px;
+}
+.mobdropdwn .MyaccountDropdwn > span + div > div div
+{
+  margin:0px;
+  padding: 0px;
+  min-width: 52px;
+  height: 53px;
+  display: block;
+}
+.mobdropdwn .MyaccountDropdwn > span + div > div:last-child
+{
+  background: #9A9DA1;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  min-width: 52px;
+  height: 53px;
+  top: -1px;
+  right: -1px;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  cursor: pointer;
+}
+.mobdropdwn .MyaccountDropdwn > span + div > div:last-child > span
+{
+  display: none;
+}
+.mobdropdwn .MyaccountDropdwn > span + div > div:last-child div svg
+{
+  position: relative;
+  top: 10px;
+  fill: #1A1A20;
+  transition:all .25s;
+}
+.mobdropdwn .MyaccountDropdwn.open > span + div > div:last-child div svg
+{
+  transform: rotate(180deg);
+}
+.mobdropdwn .MyaccountDropdwn div[class*="menu"]
+{
+  background: #CFCFCF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 9.66026px rgba(112, 112, 112, 0.2), 0px 0px 5.52015px rgba(112, 112, 112, 0.2), 0px 0px 3.22009px rgba(112, 112, 112, 0.2), 0px 0px 1.61004px rgba(112, 112, 112, 0.2), 0px 0px 0.460012px rgba(112, 112, 112, 0.2), 0px 0px 0.230006px rgba(112, 112, 112, 0.2);
+  border-radius: 3px;
+  position: absolute;
+  top: 53px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px!important;
+  padding-bottom: 10px !important;
+
+}
+.mobdropdwn .MyaccountDropdwn div[class*="menu"] > div
+{
+  max-height:450px;
+}
+.mobdropdwn .MyaccountDropdwn div[class*="menu"] > div div
+{
+  padding-left: 22px !important;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #3E3E4E;
+  height:auto;
+  cursor: pointer;
+  background: transparent;
+}
+.mobdropdwn .MyaccountDropdwn div[class*="menu"] > div div:hover
+{
+  background: #3E3E4E;
+  color: #FFD705;
+  font-weight: 700;
+}
+.myaccount .RenewWarning > span
+{
+  display: none;
+}
+.AddCard
+  {
+    margin-top:60px;
+  }
+@media screen and (max-width:767px)
+{
+  .myaccount
+  {
+    padding-left: 15px !important;
+    padding-right: 15px!important;
+    width: calc(100% - 30px) !important;
+    margin-bottom: 180px;
+  }
+  .myaccount > div
+  {
+    display: inline-block;
+    width: 100%;
+  }
+  .my-account-row
+  {
+    margin-top: 10px;
+  }
+  .myaccount .subscribtion h3, .myaccount .Makpayment h3, .myaccount .AddCard h3, .myaccount .DelAccount h3
+  {
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 26px;
+  }
+  .myaccount .Makpayment > div + span
+  {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .mobdropdwn .subscribtion
+  {
+    margin-top:60px;
+  }
+  .mobdropdwn .AddCard
+  {
+    margin-top:60px;
+  }
+  .warning
+  {
+    height: 32px;
+    margin-top: -15px;
+  }
+  .warning div
+  {
+    line-height: 29px;
+  }
+  .warning div::before
+  {
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    top: 7px;
+    background-size: 18px;
+  }
+  .warning div button
+  {
+    font-size: 8px!important;
+    line-height: 10px;
+    width: 74px;
+    margin-left: 15px;
+    height: 22px;
+    border-radius: 3px;
+  }
+  .warning div::after
+  {
+    display: none
+  }
+  .warning div span
+  {
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 500;
+    zoom: .85;
+    padding-left: 30px;
+  }
+  .myaccount .mobdropdwn
+  {
+    margin-top: 30px;
+  }
+  .myaccount .mobdropdwn > div > div
+  {
+    /* background: transparent; */
+  }
+  .myaccount .mobdropdwn > div > div fieldset
+  {
+    display: none;
+  }
+  .myaccount .RenewWarning
+  {
+    width: calc(100% - 61px);
+    display: inline-block;
+    padding-right: 25px;
+    margin-top: 75px;
+  }
+  .myaccount .RenewWarning div p
+  {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .myaccount .RenewWarning div p br, .myaccount .RenewWarning div > span
+  {
+    display: none;
+  }
+  .myaccount .RenewWarning > span
+  {
+    display: block;
+  }
+  .myaccount .RenewWarning img
+  {
+    width: 80px;
+  }
+  .myaccount .planSelected
+  {
+    width: calc(100% - 62px);
+  }
+  #root
+  {
+    /* overflow-y: auto !important; */
+  }
+  .my-account-row > div img
+  {
+    width: 40px;
+    height: 40px;
+  }
+  .mobdropdwn > div > div > div
+  {
+    width:100%;
+  }
+  .mobdropdwn > div div[aria-haspopup="listbox"]
+  {
+    color: #FFF3C8;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    padding-left: 20px;
+    position: relative;
+  }
+  .mobdropdwn > div div[aria-haspopup="listbox"]::after
+  {
+    position: absolute;
+    right: -1px;
+    top:-1px;
+    width: 52px;
+    height: 53px;
+    content: "";
+    background-image:url("../../assets/images/mobarrow.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #9A9DA1;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+  }
+  .myaccount .mobdropdwn .nameField >div input, .myaccount .emailId div input, .myaccount .mobdropdwn .passwordEnter > div input
+  {
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  #menu- div[data-testid="sentinelStart"] + div ul li
+  {
+    font-family: 'Chakra Petch';
+  }
+  .mobdropdwn > div div[aria-haspopup="listbox"] + input + svg
+  {
+    width: 52px;
+    height: 53px;
+    top: -4px;
+    right: 0px;
+    position: relative;
+    display: none;
+  }
+  .myaccount .TabPanel > div .editBtn, .myaccount .emailId .editBtn, .myaccount .mobdropdwn .passwordEnter .editBtn, .myaccount .mobdropdwn .nameField .editBtn
+  {
+    right: 15px;
+  }
+  .mobdropdwn > div div[aria-haspopup="listbox"] + input + svg::before
+  {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    top: 0px;
+    background: #fff;
+  }
+  .mobdropdwn > div div[aria-haspopup="listbox"] + input + svg path
+  {
+    display: none;
+  }
+  .my-account-row > div h1, .my-account-row > div h2
+  {
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 8px;
+  }
+  .myaccount .mobdropdwn .nameField
+  {
+    margin-top: 64px;
+  }
+  .myaccount .mobdropdwn .emailId,  .myaccount .mobdropdwn .passwordEnter, .myaccount .mobdropdwn .nameField
+  {
+    position: relative;
+  }
+  .myaccount .TabPanel > div label, .myaccount .emailId label, .myaccount .mobdropdwn .passwordEnter label, .myaccount .mobdropdwn .nameField label
+  {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .myaccount .Makpayment > div + span br
+  {
+    display: none;
+  }
+  .myaccount .DelAccount
+  {
+    text-align: center;
+  }
+  .myaccount .DelAccount p
+  {
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .myaccount .confrimEmail
+  {
+    position: relative;
+    margin-bottom: 250px;
+    margin-top: 40px;
+  }
+  .myaccount .confrimPass
+  {
+    margin-top: 40px;
+    margin-bottom: 250px;
+  }
+  .myaccount .confrimEmail > div, .myaccount .confrimEmail > div div, .myaccount .confrimPass div 
+  {
+    width:100%;
+    padding-right: 0px;
+  }
+  .myaccount .confrimEmail label, .myaccount .confrimPass label
+  {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  .myaccount .confrimEmail input, .myaccount .confrimPass input
+  {
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  .myaccount .confrimEmail fieldset, .myaccount .confrimPass fieldset
+  { 
+    display: none;
+  }
+ .myaccount .confrimPass input + button
+  {
+    position: absolute;
+    right: 30px;
+    padding: 0px;
+    top: 25px;
+    opacity: .5;
+  }
+  .myaccount .TabPanel > div .editBtn, .myaccount .emailId .editBtn, .myaccount .mobdropdwn .passwordEnter .editBtn, .myaccount .mobdropdwn .nameField .editBtn
+  {
+    top:48px;
+   
+  }
+  .myaccount .saveBtn
+  {
+    width:100%;
+    height: 50px;
+    margin-top: 0px;
+    background: #EBEBEB !important;
+    border: 1px solid #FFFFFF!important;
+    border-radius: 5px;
+    color: #0F1520!important;
+    font-size: 20px!important;
+  }
+  .myaccount .myAccError
+  {
+    position: relative;
+  }
+  .myaccount div[class*="Card"]
+  {
+    box-shadow: none;
+    background: transparent;
+  }
+  .DelAccountPop
+  {
+    padding: 15px;
+    width: 80%;
+  }
+  .DelAccountPop .RenewWarning div p p
+  {
+    font-size: 14px;
+  }
+  .DelAccountPop .RenewWarning div p p br
+  {
+    display:none;
+  }
+  .MyacCancelBtn
+  {
+    width: 122px;
+  }
+  .yellowBtn
+  {
+    margin-left:0px !important;
+  }
+}

@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap');
+.Popups
+{
+  z-index: 99999 !important;
+}
+.Popups > div[aria-hidden="true"]
+{
+  background: rgba(12, 17, 27, 0.87);
+}
+.Popups > div[aria-hidden="true"]:focus, .Popups > div[aria-hidden="true"]:focus-visible
+{
+  outline: none;
+}
+.Popups div[data-testid="sentinelStart"] + div
+{
+  width: 100%;
+  height: 100%;
+  /* top: 0px;
+  left:0px;
+  position: absolute; */
+  outline: none;
+  overflow-y: auto;
+}
+.Popups div[data-testid="sentinelStart"] + div div
+{
+  position: relative;
+}
+.signBox
+{
+  background: linear-gradient(180deg, #FFFFFF 0%, #E3E3E3 100%);
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  padding: 55px;
+  max-width: 370px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 230px;
+  margin-bottom: 300px;
+}
+.signBox div
+{
+  box-shadow: none;
+  min-width: 100%;
+  overflow: visible;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  padding: 0px;
+}
+.signBox > button
+{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 20px;
+  display: block;
+  min-width: auto;
+  padding: 0px;
+  height: 20px;
+  cursor: pointer;
+}
+.signBox form h2
+{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+}
+.signBox h3
+{
+  margin-top: 0px;
+  margin-bottom: 12px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+}
+.signBox h3 + p
+{
+  margin: 0px;
+  letter-spacing: 0.1px;
+  color: #8C8C8C;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Chakra Petch';
+  margin-bottom: 30px;
+}
+.signBox h4
+{
+  color: #8C8C8C;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Chakra Petch';
+  margin-top: 8px;
+  margin-bottom: 17px;
+}
+.signBox h4 + div p
+{
+  margin: 0px;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Chakra Petch';
+}
+.signBox h4 + div p + a
+{
+  text-decoration-line: underline;
+  text-decoration-color: #3E3E4E;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Chakra Petch';
+  padding-left: 5px;
+  cursor: pointer;
+}
+.signBox form > div input + fieldset, .signBox form > div input + button + fieldset
+{
+  display: none;
+}
+.signBox form > div input
+{
+  background: #FFFFFF;
+  border: 2px solid #EEEEEE;
+  /* border: 2px solid #000; */
+  border-radius: 3px;
+  display: block;
+  width: calc(100% - 21px);
+  height: 61px;
+  /* font-family:'Noto Sans', sans-serif; */
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0px;
+  padding-left: 17px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  color: #0F1520;
+}
+.signBox form > div input + button
+{
+  position: absolute;
+  top: 23px;
+  right: 17px;
+  padding: 0px;
+  height: 18px;
+  opacity: .5;
+}
+.signBox form div[class*="focused"] button
+{
+  opacity: 1;
+}
+.signBox form > div input[type="text"] + button
+{
+  top:24px;
+}
+.rember label span svg
+{
+  opacity: 0;
+}
+.rember label > span[class*="Checkbox"]
+{
+  background-image: url("../../assets/images/check.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0px;
+}
+.rember label > span[class*="checked"]
+{
+  background-image: url("../../assets/images/checked.svg") !important;
+}
+.rember label > span:last-child
+{
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Chakra Petch';
+  padding-left: 8px;
+}
+.rember
+{
+  display: flex !important; 
+}
+.rember label
+{
+  margin-left: 3px;
+}
+.rember > div
+{
+  min-width: 50%;
+  display: inline-flex;
+}
+.rember > div:last-child
+{
+  justify-content: end;
+}
+.rember > div:last-child a
+{
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  text-decoration-color: #3E3E4E;
+  padding-right: 4px;
+  cursor: pointer;
+}
+.yBtn
+{
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  font-family:'Noto Sans', sans-serif;
+  height: 55px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.yBtn-2
+{
+  margin-top: 20px;
+}
+.yBtn + div p
+{
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+.yBtn + div a
+{
+  color: #3E3E4E;
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  font-weight: 700; 
+  text-decoration-line: underline;
+  text-decoration-color: #3E3E4E;
+  padding-left: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.back
+{
+  margin-top: 35px;
+}
+.back p
+{
+  margin: 0px;
+  color: #8C8C8C;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Chakra Petch';
+  letter-spacing: 0.1px;
+  cursor: pointer;  
+}
+.signBox .error
+{
+  margin-top: 5px !important;
+  margin-bottom: 3px;
+  font-style: italic;
+  color: #FF0000;
+  font-size: 14px;
+}
+.back p img
+{
+  margin-right: 8px;
+  position: relative;
+  top: -2px;
+}
+.signBox .setPass h4
+{
+  margin-bottom: 25px;
+}
+.signBox .setPass form > div input
+{
+  margin-bottom: 10px;
+}
+.signBox .setPass form .yBtn
+{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: inline-block;
+  font-size: 18px!important;
+}
+.signBox .setPass .back {
+  margin-top: 24px;
+}
+.success
+{
+  text-align: center;
+}
+.success p
+{
+  width: 303px;
+  display: block;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  margin-top: 8px !important;
+  margin-bottom: 0px !important;
+}
+.success button
+{
+  width: 203px;
+  min-width: 203px;
+  display: block;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  margin-bottom: 0px !important;
+}
+@media screen and (max-width:768px)
+{
+  .signBox h4, .signBox h3 + p
+  {
+    font-size: 14px;
+    text-align: center;
+  }
+  .signBox h3 + p
+  {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
+  .signBox form h2
+  {
+    font-size: 24px;
+  }
+  .signBox h3
+  {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 22px;
+  }
+  .signBox h4
+  {
+    margin-top: -16px;
+    margin-bottom: 30px;
+  }
+  .signBox h4 + div
+  {
+    justify-content: center;
+  }
+  .back
+  {
+    justify-content: center;
+  }
+  .signBox
+  {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .setPass h3
+  {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .signBox .setPass h4
+  {
+    margin-top: -6px;
+    text-align: left;
+    width: 275px;
+    padding-left: 15px;
+  }
+  .success h3
+  {
+    font-size: 32px;
+  }
+  .success p {
+    width:303px !important;
+    font-size: 16px!important;
+  }
+  .success button
+  {
+    margin-top: 20px;
+  }
+}

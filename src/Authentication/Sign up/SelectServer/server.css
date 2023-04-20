@@ -1,0 +1,348 @@
+
+.serverBox::after, .serverBox1::after
+{
+  content: "";
+  position: absolute;
+  background-image: url("../../../assets/images/signupBG.svg") !important;
+  width:1756px;
+  height:1210px;
+  left: -200%;
+  top: -63%;
+  opacity: .5;
+  z-index: -1;
+}
+.serverBox, .serverBox1
+{
+  position: relative;
+}
+.serverBox
+{
+  margin-bottom: 350px;
+  margin-top: 65px;
+}
+.serverBox1
+{
+  margin-top: 90px;
+  margin-bottom: 300px;
+}
+.serverBox > div
+{
+  display: flex;
+  justify-content: center;
+}
+.serverBox1 > div
+{
+  display: inline;
+  text-align: center;
+}
+.serverBox h5, .serverBox1 h5{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  margin-bottom: 80px;
+  margin-top: 0px;
+  color: #FFFFFF;
+  display: inline-flex;
+    justify-content: center;
+    min-width: 100%;
+}
+header {
+  background: transparent !important;
+}
+.serverBox1 h5
+{
+  margin-bottom: 10px;
+}
+.serverBox1 h5 + p
+{
+  font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 34px;
+text-align: center;
+letter-spacing: 0.1px;
+color: #AEAEAE;
+display: inline-flex;
+justify-content: center;
+min-width: 100%;
+margin-bottom: 45px;
+}
+.serverBox1 h5 + p + div
+{
+  width: 285px;
+  height: 285px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 285px;
+  margin-bottom: 35px;
+}
+.serverBox1 h5 + p + div + p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1px;
+   color: #FFFFFF;
+}
+.serverBox1 h5 + p + div + p + p
+{
+  font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.1px;
+margin-bottom: 20px;
+color: #999999;
+}
+.serverBox1 h5 + p + div + p + p + button
+{
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Chakra Petch';
+  width: 179px;
+  height: 42px;
+  text-transform: none;
+  padding: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.serverBox1 h5 + p + div + p + p + button:hover
+{
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  color: #3E3E4E;
+}
+.serverList
+{
+  width: 285px;
+  margin-left: 61px;
+  margin-right: 61px;
+}
+.serverList div[class*="Avatar"]
+{
+  width: 285px;
+  height: 285px;
+  margin-bottom: 35px;
+}
+.serverList div
+{
+  justify-content: center;
+  padding: 0px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+.serverList div h6
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+.serverList div p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  color: #999999;
+}
+.serverList div button
+{
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Chakra Petch';
+  width: 133px;
+height: 42px;
+text-transform: none;
+}
+.serverList div button:hover
+{
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  color: #3E3E4E;
+}
+.serverSlider
+{
+  background-color: transparent !important;
+  display: block !important;
+  max-width: 390px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.serverSlider div[class*="Avatar"]
+{
+  border: 5px solid #FFFFFF;
+  width: 198px;
+  height: 198px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.serverSlider div[class*="Avatar"] + p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.serverSlider div[class*="Avatar"] + p + p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #999999;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.serverSlider .yBtn
+{
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Chakra Petch' !important;
+  width: 127px;
+  min-width: 127px;
+  cursor: pointer;
+  height: 42px;
+  text-transform: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.serverSlider > div[class*="MobileStepper"]
+{
+  background: transparent;
+  justify-content: center;
+  margin-top: 15px;
+}
+.serverSlider > div[class*="MobileStepper"] > button
+{
+  position: absolute;
+  top: 100px;
+  padding: 0px;
+  margin: 0px;
+  min-width: 25px;
+}
+.serverSlider > div[class*="MobileStepper"] > button svg
+{
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+.serverSlider > div[class*="MobileStepper"] button:first-child
+{
+  left: 30px;
+}
+.serverSlider > div[class*="MobileStepper"] > div + button
+{
+  right: 30px;
+}
+.serverSlider > div[class*="MobileStepper"] > div > div[class*="Active"]
+{
+  background: #FFD705;
+}
+.serverSlider > div[class*="MobileStepper"] > div > div
+{
+  border: 1px solid #FFFFFF;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  margin-right: 4px;
+}
+@media screen and (max-width:768px)
+{
+  .serverBox1
+  {
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+  }
+  .serverBox1
+  {
+    margin-top: 80px;
+    margin-bottom: 144px;
+  }
+  .serverBox h5
+  {
+    font-size: 32px;
+    line-height: 26px;
+    margin-bottom: 45px;
+    margin-top: 60px;
+  }
+  .serverBox1 h5 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+  }
+  .serverBox1 h5 + p
+  {
+    font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  }
+  .serverBox1 h5 + p + div
+  {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+  }
+}

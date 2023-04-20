@@ -1,0 +1,463 @@
+.backArrow {
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px!important;
+  line-height: 21px!important;
+  text-align: left;
+  letter-spacing: 0.1px;
+  margin-top: 70px!important;
+  color: #ffffff;
+  margin-bottom: 121px;
+}
+.backArrow a
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+.backArrow img {
+  position: relative;
+  top: 1px!important;
+  margin-right: 5px!important;
+  width: 13px;
+}
+.completeOrder
+{
+  background: #FFFFFF;
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 468px;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 180px;
+}
+.completeOrder h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-top: 0px;
+  margin-bottom:5px;
+  display: inline-block;
+  width: 100%;
+}
+.completeOrder div
+{
+  box-shadow: none;
+  justify-content: space-between;
+  gap: 17px;
+
+}
+.completeOrder div hr + div 
+{
+  padding-top: 10px;
+}
+.completeOrder div hr + div h5
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  display: inline-flex;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.completeOrder div hr + div p
+{
+  margin-bottom: 20px;
+  color: #3E3E4E;
+  letter-spacing: 0.1px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 0px;
+}
+.leftLine
+{
+  border-left: 2px solid #BFBFBF;
+  margin-left: 8px;
+  padding-left: 12px;
+  margin-bottom: 30px;
+}
+.leftLine h4
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: rgba(62, 62, 78, 0.81);
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.leftLine + p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #3E3E4E;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.leftLine + p a
+{
+  color: #3E3E4E;
+  text-decoration: underline;
+}
+.leftLine > p, .leftLine div > p, .leftLine div >  a
+{
+  font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1px;
+color: #A0A0A0;
+margin-bottom: 3px;
+margin-top: 0px;
+}
+.completeOrder .yBtn
+{
+  display: block;
+  max-width: 100%;
+  min-width: auto !important;
+  width: 100%;
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 600!important;
+  font-size: 22px!important;
+  line-height: 23px;
+  font-family: 'Chakra Petch' !important;
+  height: 64px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.secure
+{
+  display: inline-flex;
+  justify-content: center !important;
+  min-width: 100%;
+}
+.secure img
+{
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+}
+.secure p
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 11px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3E3E4E;
+}
+.SuccessBox, .changeMethod
+{
+  background: #FFFFFF;
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 468px;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 180px;
+}
+.SuccessBox
+{
+  margin-top: 350px;
+  margin-bottom: 450px;
+}
+.changeMethod
+{
+  margin-top: 360px;
+  margin-bottom: 380px;
+}
+.SuccessBox div, .changeMethod div
+{
+  box-shadow: none;
+}
+.SuccessBox h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width:100%;
+}
+.SuccessBox p
+{
+  margin-bottom: 25px;
+}
+.changeMethod h4, .addCard h3,.editAddress h3, .billingAddress h3
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-top: 0px;
+}
+.changeMethod h4 svg, .addCard h3 svg, .editAddress h3 svg, .billingAddress h3 svg
+{
+  width: 22px;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+}
+.addCard, .editAddress, .billingAddress
+{
+  background: #FFFFFF;
+  border: 1px solid #FFD705;
+  box-shadow: 0px 0px 37.9004px rgba(255, 160, 5, 0.2), 0px 0px 21.6574px rgba(255, 160, 5, 0.2), 0px 0px 12.6335px rgba(255, 160, 5, 0.2), 0px 0px 6.31673px rgba(255, 160, 5, 0.2), 0px 0px 1.80478px rgba(255, 160, 5, 0.2), 0px 0px 0.902391px rgba(255, 160, 5, 0.2);
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 468px;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 180px;
+  margin-top: 250px;
+}
+.addCard div, .editAddress > div, .billingAddress > div
+{
+  box-shadow: none;
+  min-width: 100%;
+  overflow: visible;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  padding: 0px;
+}
+.addCard div >label
+{
+  color: #A8A8A8 !important;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Chakra Petch';
+  transform: translate(14px,-9px);
+  background: #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 8px;
+}
+.addCard form > div input
+{
+  background: #FFFFFF;
+  border: 2px solid #A8A8A8;
+  border-radius: 3px;
+  /* border: 2px solid #000; */
+  display: block;
+  width: calc(100% - 33px);
+  height: 61px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  padding: 0px;
+  padding-left: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  color: #A8A8A8;
+}
+.addCard form > div input + fieldset, .addCard form > div input + button + fieldset, .editAddress form > div fieldset, .billingAddress form > div fieldset
+{
+  display: none;
+}
+.cardDetailsRow > div:first-child input
+{
+  background-image:url("../../../assets/images/cardCalender.svg") !important;
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 18px);
+  background-position-y: 16px;
+}
+.cardDetailsRow > div:last-child input
+{
+  background-image:url("../../../assets/images/ccv.svg") !important;
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 17px);
+  background-position-y: 16px;
+}
+.cardDetailsRow > div:last-child
+{
+  margin-right: 0px;
+}
+.cardDetailsRow div input
+{
+  width: calc(100% - 46px)!important;
+}
+.addCard .yBtn, .editAddress .yBtn, .billingAddress .yBtn, .SuccessBox .yBtn
+{
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  background: #FFD705;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #3E3E4E;
+  font-weight: 600 !important;
+  font-size: 22px;
+  line-height: 29px;
+  font-family: 'Chakra Petch' !important;
+  height: 55px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.editAddress form > div label {
+  font-family: 'Chakra Petch';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #BBBBBB;
+  margin-bottom: 7px;
+}
+.editAddress form > div
+{
+  display: block;
+  margin-right: auto;
+  width: 295px;
+}
+.editAddress form > div input {
+  background: #FFFFFF;
+  border: 2px solid #EEEEEE;
+  /* border: 2px solid #000; */
+  border-radius: 3px;
+  display: block;
+  width: calc(100% - 21px);
+  height: 62px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0px;
+  padding-left: 17px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  color: #3E3E4E;
+}
+.editAddress .names
+{
+  display: flex;
+  gap:18px;
+}
+.editAddress .names + div > div
+{
+  min-width: 100%;
+}
+.editAddress h4, .billingAddress h4
+{
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #3E3E4E;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.billingAddress div
+{
+  min-width: 100%;
+  overflow: visible;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  padding: 0px;
+}
+.billingAddress form > div label {
+  font-family: 'Chakra Petch';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #BBBBBB;
+  margin-bottom: 7px;
+}
+.billingAddress form > div input {
+  background: #FFFFFF;
+  border: 2px solid #EEEEEE;
+  /* border: 2px solid #000; */
+  border-radius: 3px;
+  display: block;
+  width: calc(100% - 21px);
+  height: 62px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0px;
+  padding-left: 17px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  color: #3E3E4E;
+}
+.billingAddress form > div {
+  max-width: 296px;
+  min-width: 296px;
+  box-shadow: none;
+  overflow: visible;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  padding: 0px;
+}
+.citystate div {
+  min-width: calc(50% - 17px);
+}
